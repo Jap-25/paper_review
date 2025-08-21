@@ -1,0 +1,35 @@
+{
+  "index.qmd": {
+    "index.html": "c7ce6bca"
+  },
+  "references.qmd": {
+    "references.html": "46f963d5"
+  },
+  "intro.qmd": {
+    "intro.html": "456840b0"
+  },
+  "remote_sensing.qmd": {
+    "remote_sensing.html": "61abdfec"
+  },
+  "urban.qmd": {
+    "urban.html": "c210acc9"
+  },
+  "presentaciones.qmd": {
+    "presentaciones.html": "fc9108d6"
+  },
+  "template_paper.qmd": {
+    "template_paper.html": "402f7f8d"
+  },
+  "han-2018.qmd": {
+    "han-2018.html": "49003550"
+  },
+  "reza-2025.qmd": {
+    "reza-2025.html": "d2cfb964"
+  },
+  "brown-2025.qmd": {
+    "brown-2025.html": "960f4a4f"
+  },
+  "agarwal-2025.qmd": {
+    "agarwal-2025.html": "57c69b1b"
+  }
+}

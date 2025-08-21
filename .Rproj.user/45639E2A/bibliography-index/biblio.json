@@ -1,0 +1,203 @@
+{
+    "sources": [
+        {
+            "author": [
+                {
+                    "family": "Han",
+                    "given": "Jindong"
+                },
+                {
+                    "family": "Ning",
+                    "given": "Yansong"
+                },
+                {
+                    "family": "Yuan",
+                    "given": "Zirui"
+                },
+                {
+                    "family": "Ni",
+                    "given": "Hang"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Fan"
+                },
+                {
+                    "family": "Lyu",
+                    "given": "Tengfei"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Hao"
+                }
+            ],
+            "container-title": "arXiv preprint arXiv:2507.00914",
+            "id": "han2025large",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "title": "Large language model powered intelligent urban agents: Concepts, capabilities, and applications",
+            "title-short": "Large language model powered intelligent urban agents",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Reza",
+                    "given": "Muhammad Ashar"
+                },
+                {
+                    "family": "Bisaria",
+                    "given": "Aaditya"
+                },
+                {
+                    "family": "Advaitha",
+                    "given": "S"
+                },
+                {
+                    "family": "Ponnekanti",
+                    "given": "Alekhya"
+                },
+                {
+                    "family": "Arya",
+                    "given": "Arti"
+                }
+            ],
+            "id": "rezacrix",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "title": "CriX: Intersection of crime, demographics and explainable AI",
+            "title-short": "CriX",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Brown",
+                    "given": "Christopher F"
+                },
+                {
+                    "family": "Kazmierski",
+                    "given": "Michal R"
+                },
+                {
+                    "family": "Pasquarella",
+                    "given": "Valerie J"
+                },
+                {
+                    "family": "Rucklidge",
+                    "given": "William J"
+                },
+                {
+                    "family": "Samsikova",
+                    "given": "Masha"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Chenhui"
+                },
+                {
+                    "family": "Shelhamer",
+                    "given": "Evan"
+                },
+                {
+                    "family": "Lahera",
+                    "given": "Estefania"
+                },
+                {
+                    "family": "Wiles",
+                    "given": "Olivia"
+                },
+                {
+                    "family": "Ilyushchenko",
+                    "given": "Simon"
+                },
+                {
+                    "literal": "others"
+                }
+            ],
+            "container-title": "arXiv preprint arXiv:2507.22291",
+            "id": "brown2025alphaearth",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "title": "AlphaEarth foundations: An embedding field model for accurate and efficient global mapping from sparse label data",
+            "title-short": "AlphaEarth foundations",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Agarwal",
+                    "given": "Mohit"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Mimi"
+                },
+                {
+                    "family": "Kamath",
+                    "given": "Chaitanya"
+                },
+                {
+                    "family": "Muslim",
+                    "given": "Arbaaz"
+                },
+                {
+                    "family": "Sarker",
+                    "given": "Prithul"
+                },
+                {
+                    "family": "Paul",
+                    "given": "Joydeep"
+                },
+                {
+                    "family": "Yee",
+                    "given": "Hector"
+                },
+                {
+                    "family": "Sieniek",
+                    "given": "Marcin"
+                },
+                {
+                    "family": "Jablonski",
+                    "given": "Kim"
+                },
+                {
+                    "family": "Mayer",
+                    "given": "Yael"
+                },
+                {
+                    "literal": "others"
+                }
+            ],
+            "container-title": "arXiv preprint arXiv:2411.07207",
+            "id": "agarwal2024pdfm",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "title": "General geospatial inference with a population dynamics foundation model",
+            "type": "article-journal"
+        }
+    ],
+    "project_biblios": [
+        "references.bib"
+    ]
+}

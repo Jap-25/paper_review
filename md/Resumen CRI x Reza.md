@@ -1,0 +1,96 @@
+“””””
+## Información Básica  
+| Elemento | Detalle |
+|---|---|
+| **Referencia corta** | Reza et al. (2025) |
+| **Título completo** | CriX: Intersection of Crime, Demographics and Explainable AI |
+| **Revista / Volumen / DOI** | Proceedings of the 17th International Conference on Agents and Artificial Intelligence (ICAART 2025) – Volume 2, pp. 714–725 / 10.5220/0013316200003890 |
+| **Temática** | Predicción de hotspots delictivos mediante factores demográficos y Explainable AI |
+| **Contexto / Problema** | Modelos clásicos de predicción de crimen ignoran la influencia de indicadores demográficos y las particularidades locales de cada distrito, limitando la eficacia de intervenciones policiales y sociales. |
+
+## Abstract  
+> **Original:**  
+> Crime prediction and analysis often rely on crime statistics but neglect the potential influences of demographic factors. Each locality possesses unique characteristics indicating that a ’one-size-fits-all’ methodology is inadequate. This research presents a framework CriX that incorporates demographic factors to help understand and address localised crime. At the root level, identifying and predicting crime hotspots is essential for providing context in training the language model; therefore, ST-DBSCAN and LSTM models are respectively used on a custom-made dataset. InLegalBERT (Paul et al., 2023), which is pre-trained on Indian legal data, helps generate embeddings for the large corpus of crime hotspot, demographic and legal data. These embeddings are stored in a FAISS vector store, allowing for dynamic retrieval using RAG techniques. The generated embeddings are then fed into MistralAI offering a textual solution. These outputs are further refined using zero shot learning increasing model performance. The proposed framework achieved a validation accuracy of over 82% for crime hotspot predictions. The LLM also showcased substantial scores for Compactness, Fidelity and Completeness, giving an average score of 4.18 out of 5, outperforming baseline models. This approach enhances the interpretability of legal models by incorporating the concepts of Explainable AI (XAI).  
+> **Traducción al español:**  
+> La predicción y análisis delictivo suelen basarse en estadísticas de criminalidad, pero pasan por alto las posibles influencias de los factores demográficos. Cada localidad presenta características únicas, lo que indica que una metodología “talla única” es inadecuada. Esta investigación presenta el marco CriX, que incorpora factores demográficos para ayudar a comprender y abordar el crimen localizado. En la fase inicial, identificar y predecir hotspots delictivos es esencial para contextualizar el entrenamiento del modelo de lenguaje; por ello, en un conjunto de datos desarrollado ad hoc se emplean respectivamente ST-DBSCAN y LSTM. InLegalBERT (Paul et al., 2023), preentrenado en datos legales indios, genera embeddings para el amplio corpus de datos de hotspots, demografía y legislación. Estos embeddings se almacenan en un vector store FAISS, permitiendo su recuperación dinámica mediante técnicas RAG. A continuación, los embeddings se procesan con MistralAI para generar soluciones textuales, que se refinan mediante zero-shot learning, mejorando el rendimiento. El marco propuesto logró una exactitud de validación superior al 82% en la predicción de hotspots delictivos. El LLM también obtuvo puntuaciones sustanciales en Compactness, Fidelity y Completeness, con un promedio de 4.18/5, superando a los modelos base. Este enfoque mejora la interpretabilidad de los modelos legales al incorporar los conceptos de Explainable AI (XAI).
+
+## Preguntas de Investigación / Hipótesis  
+> - ¿Cómo pueden los factores demográficos mejorar la predicción de hotspots delictivos en Karnataka? *(inferida)*  
+> - ¿Qué grado de interpretabilidad aporta la integración de XAI en los modelos de predicción de crimen? *(inferida)*
+
+## Metodología  
+
+### Flujo de trabajo  
+1. Recolección y preprocesamiento de datos de FIR (2020–2022) y de indicadores demográficos (GDDP, NDDP, PCI, HDI, tasa de alfabetización, índice de salud).  
+2. Clustering espacial-temporal con ST-DBSCAN para identificar hotspots actuales.  
+3. Predicción de hotspots futuros mediante un modelo LSTM entrenado con secuencias de datos demográficos y de crimen.  
+4. Generación de embeddings con InLegalBERT, almacenamiento en FAISS y recuperación dinámica vía RAG.  
+5. Generación de explicaciones textuales con Mixtral-8x22B-Instruct-v0.1 y refinamiento por zero-shot learning.
+
+### Modelos / Algoritmos  
+> - **ST-DBSCAN:** Clustering de datos espaciales y temporales, ajustando eps1 (distancia espacial), eps2 (distancia temporal) y min_samples.  
+> - **LSTM:** Red de memoria a largo plazo con 2 capas, hidden_dim=128, dropout=0.3, optimizada con Adam (lr=0.001), pérdida CrossEntropy.  
+> - **InLegalBERT + FAISS + RAG:** Embeddings legales especializados y recuperación basada en similitud de coseno.  
+> - **Mixtral-8x22B-Instruct-v0.1:** Generación de explicaciones en cero disparos.
+
+### Datos  
+Se utilizaron dos conjuntos JSON: uno con datos de FIR (2020–2022) para 31 distritos y 1.060 comisarías de Karnataka, y otro con indicadores demográficos (GDDP, NDDP, PCI, alfabetización, salud, HDI) obtenidos de data.opencity.in. Ambos se normalizaron, codificaron y completaron mediante interpolación y promedios distritales.
+
+| Tipo | Fuente | Cobertura temporal |
+|---|---|---|
+| Crime data (FIR) | Karnataka State Police (scraping Selenium) | 2020–2022 |
+| Indicadores demográficos | Government of Karnataka (data.opencity.in) | 2020–2022 |
+
+### Validación & Uncertainties  
+Se empleó una validación por hold-out a partir de la partición entrenamiento/validación, con early stopping tras 42 épocas al no mejorar la métrica. El mejor punto se alcanzó en la época 35 (accuracy 0.8211, loss 0.4928). La evaluación de explicaciones LLM se realizó con puntuaciones humanas en Compactness, Fidelity y Completeness.
+
+| Métrica       | Valor  | Alcance     | Notas                               |
+|---------------|--------|-------------|-------------------------------------|
+| Accuracy LSTM | 0.8211 | Validación  | Máx. en época 35                    |
+| Loss LSTM     | 0.4928 | Validación  | Mín. en época 33                    |
+| Compactness   | 4.03   | LLM CriX    | vs. 3.73 (BERT), 2.55 (InLegalBERT) |
+| Fidelity      | 3.51   | LLM CriX    | vs. 2.45 (BERT), 2.47 (InLegalBERT) |
+| Completeness  | 5.00   | LLM CriX    | vs. 0.62 (BERT), 5.00 (InLegalBERT) |
+
+### Replicabilidad & Recursos  
+| Ítem                    | Sí/No | Detalle                                                            |
+|-------------------------|-------|--------------------------------------------------------------------|
+| Código fuente           | No    | N/A                                                                |
+| Conjuntos de datos      | Sí    | JSON FIR scraping + JSON demográficos                              |
+| Modelos preentrenados   | Sí    | InLegalBERT; Mixtral-8x22B-Instruct-v0.1                           |
+| Librerías / Frameworks  | Sí    | Selenium, PyTorch, FAISS, Gemini                                    |
+| Notebook / Plataforma   | No    | N/A                                                                |
+
+## Resultados Clave  
+- ST-DBSCAN + LSTM alcanzó una exactitud de validación > 82% en la predicción de hotspots delictivos.  
+- El marco CriX obtuvo una puntuación media de 4.18/5 en métricas XAI, superando a los baselines (2.27 y 2.67).  
+- CriX mejoró Compactness (+8%), Fidelity (+30%) y mantuvo Completeness máxima respecto a modelos previos.  
+- Se identificaron clusters con perfiles demográficos específicos que explican variaciones regionales de criminalidad.  
+- El análisis XAI resaltó como factores críticos la tasa de alfabetización, el ingreso per cápita y el HDI.
+
+## Discusión  
+- **Contribuciones:** Integración de factores demográficos en predicción de crimen; framework XAI que mejora la interpretabilidad y la precisión.  
+- **Limitaciones:** Dependencia de la calidad de datos; generalizabilidad limitada fuera de Karnataka; indicadores socioeconómicos adicionales no incluidos; sin predicción en tiempo real.  
+- **Futuro:** Incluir más variables socioeconómicas; extender a streaming de datos en tiempo real; aplicar a otras regiones de India; explorar Graph-RAG para mejorar recuperación.
+
+## Aplicabilidad en Chile  
+| Aspecto                   | Evaluación                                                                                 |
+|---------------------------|--------------------------------------------------------------------------------------------|
+| Datos disponibles         | Existen bases de victimización y demografía, pero requiere scraping y limpieza similares.   |
+| Infraestructura técnica   | Necesaria capacidad de cómputo para clustering y LLM; FAISS y PyTorch disponibles localmente. |
+| Capacidad de interpretación | Enfoque XAI facilita la adopción por organismos policiales y municipales.                    |
+| Escalabilidad             | Adaptable a nivel regional chileno, con recalibración de parámetros por comuna o región.    |
+
+## Madurez & Evidencia  
+| Eje                        | Nivel       |
+|----------------------------|-------------|
+| Predicción espacial-temporal | Moderado    |
+| Interpretabilidad (XAI)    | Moderado    |
+| Uso de datos demográficos  | Inicial     |
+| Replicabilidad             | Inicial     |
+
+## Impacto en Políticas Públicas / ODS  
+> La integración de análisis delictivo con factores demográficos y XAI fortalece la ODS 11 (Ciudades y comunidades sostenibles) y ODS 16 (Paz, justicia e instituciones sólidas), al proporcionar evidencia para diseñar políticas de prevención focalizadas y transparentes.  
+
+“””””
+

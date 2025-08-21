@@ -1,0 +1,84 @@
+---
+title: "Template"
+subtitle: "Plantilla para Análisis ejecutivo del Paper"
+---
+
+
+## Información Básica
+
+| Elemento | Detalle |
+|---|---|
+| **Referencia corta** | González *et al.* (2024) |
+| **Título completo** | ... |
+| **Revista / Volumen / DOI** | Remote Sensing 16(7), https://doi.org/... |
+| **Temática** | Urban • Remote Sensing |
+| **Contexto / Problema** | *¿Qué reto territorial/ambiental aborda?* |
+
+## Abstract
+
+> _En caso de estar en inglés, puede incluir traducción debajo si es necesario._
+
+## Preguntas de Investigación / Hipótesis
+> - **PI1:** ...  
+> - **PI2:** ...
+
+## Metodología
+
+### Flujo de trabajo  
+1. Ingesta de imágenes Sentinel-2 (2015-2023)  
+2. Preprocesamiento atmosférico con Sen2Cor  
+3. ...  
+
+### Modelos / Algoritmos  
+> Random Forest (200 árboles, mtry = √p) • U-Net • VFM-SAM
+
+###  Datos
+
+| Tipo | Fuente | Resolución | Cobertura temporal |
+|---|---|---|---|
+| Imágenes ópticas | Sentinel-2 L2A | 10 m | 2015-2023 |
+| Censo | INE 2017 | Comuna | – |
+
+### Validación & Uncertainties
+| Métrica | Valor | k-fold / AOI | Intervalo 95 % |
+|---|---|---|---|
+| F1-score | 0.88 | 5-fold | ± 0.03 |
+| IoU | 0.75 | Zona centro | ± 0.04 |
+
+*Sensibilidad a nubes evaluada con ± 5 % de cobertura.*
+
+### Replicabilidad & Recursos
+| Ítem | Sí/No | Detalle |
+|---|---|---|
+| Código abierto | Sí | GitHub : user/repo |
+| Datos abiertos | Parcial | Imágenes libres; etiquetas no públicas |
+| Licencia | MIT | – |
+| HW/Costos | 2× A100 16 h | ~USD 40 |
+
+## Resultados Clave
+- **Cobertura nativa ↓ 12 %** en periferia sur (2015-2020).  
+- **Modelo VFM** ↑ 6 pp en F1 respecto a U-Net base.  
+- **Mapa de transiciones** publicado como GeoTIFF (link).
+
+## Discusión
+- **Contribuciones:** primera integración de VFM + socio-económicos en Chile central.  
+- **Limitaciones:** sin datos SAR; validación en terreno limitada (n = 45 puntos).  
+- **Futuro:** incorporar Sentinel-1, probar transferencia en zonas áridas.
+
+## Aplicabilidad en Chile
+| Aspecto | Evaluación |
+|---|---|
+| **Transferencia** | Alta a monitoreo regional SINIA |
+| **Condiciones** | Acceso continuo a Sentinel-2; etiquetas comunales |
+| **Áreas prioritarias** | Bosque esclerófilo, periurbano RM |
+
+## Madurez & Evidencia
+| Eje | Nivel |
+|---|---|
+| **Innovación** | 4/5 |
+| **Rigor metodológico** | 3.5/5 |
+| **Transferibilidad** | 4/5 |
+| **Estado TRL** | Validado (TRL-5) |
+
+## Impacto en Políticas Públicas / ODS
+> Ej: Contribuye al ODS 15 (*Vida de ecosistemas terrestres*) y al Plan Nacional de Adaptación al Cambio Climático, proporcionando evidencia para priorizar restauración en áreas con pérdida acelerada de bosque nativo.

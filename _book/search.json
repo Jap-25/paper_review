@@ -1,0 +1,974 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Paper Review: IA y Territorio",
+    "section": "",
+    "text": "1 Prefacio",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#autor-denis-berroeta-denis.berroetauai.cl",
+    "href": "index.html#autor-denis-berroeta-denis.berroetauai.cl",
+    "title": "Paper Review: IA y Territorio",
+    "section": "1.1 Autor: Denis Berroeta (denis.berroeta@uai.cl)",
+    "text": "1.1 Autor: Denis Berroeta (denis.berroeta@uai.cl)\nMaster y PhD (cursando) in Data Science, Magister en Inteligencia Artificial, Universidad Adolfo Ibáñez. Coordinador de Investigación Centro Inteligencia Territorial, UAI. Tiene experiencia en modelamiento y análisis de datos espaciales, trabajando en diferentes proyectos de investigación públicos y privados en el Centro de Inteligencia Territorial de la Universidad Adolfo Ibáñez, diseñando y gestionando la implementación de metodologías de análisis de datos territoriales. Posee experiencia como profesor en Geoestadística; Análisis Criminal, Análisis de imágenes satelitales para el monitoreo ambiental y gestión de desastres naturales; y Data Science.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introducción",
+    "section": "",
+    "text": "2.1 Objetivos del libro\nEl presente libro digital, denominado book_general dentro del proyecto general, tiene como propósito central sistematizar y comunicar de manera ejecutiva los principales hallazgos y aportes de una selección de investigaciones científicas relevantes para el análisis territorial, la planificación y la toma de decisiones en contextos complejos como el chileno.\nEste repositorio estructurado forma parte de un sistema progresivo de análisis en cuatro etapas, y corresponde al Stage-1: el nivel de síntesis ejecutiva. Cada hoja de este libro representa la revisión condensada de un paper, con un enfoque en sus componentes más relevantes para el análisis aplicado y su potencial de transferencia al contexto territorial de Chile.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#objetivos",
+    "href": "intro.html#objetivos",
+    "title": "2  Introducción",
+    "section": "",
+    "text": "Objetivo General\nConstruir una plataforma escalable de revisión y análisis aplicado de investigaciones científicas en IA orientadas al territorio, promoviendo la difusión de conocimiento científico actualizado, aplicado y didáctico.\n\n\nObjetivos Específicos\n\nRecopilar, organizar y clasificar investigaciones recientes en Urban AI y Remote Sensing AI.\nGenerar resúmenes ejecutivos claros y concisos que faciliten la comprensión y aplicación práctica de cada investigación.\nCrear presentaciones visuales y didácticas que permitan difundir rápidamente los aportes de cada investigación.\nDiseñar un sistema de clasificación progresiva para investigaciones, que permita su escalabilidad según el nivel de análisis y aplicabilidad práctica.\nMotivar la participación de investigadores y estudiantes, fomentando un entorno colaborativo y entretenido para la exploración de innovaciones científicas.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#autor-denis-berroeta",
+    "href": "index.html#autor-denis-berroeta",
+    "title": "Paper Review: IA y Territorio",
+    "section": "Autor: Denis Berroeta",
+    "text": "Autor: Denis Berroeta\n(denis.berroeta@uai.cl)\nMaster y PhD (cursando) in Data Science, Magister en Inteligencia Artificial, Universidad Adolfo Ibáñez. Coordinador de Investigación Centro Inteligencia Territorial, UAI. Tiene experiencia en modelamiento y análisis de datos espaciales, trabajando en diferentes proyectos de investigación públicos y privados en el Centro de Inteligencia Territorial de la Universidad Adolfo Ibáñez, diseñando y gestionando la implementación de metodologías de análisis de datos territoriales. Posee experiencia como profesor en Geoestadística; Análisis Criminal, Análisis de imágenes satelitales para el monitoreo ambiental y gestión de desastres naturales; y Data Science.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Proyecto Paper Review</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#metodología",
+    "href": "intro.html#metodología",
+    "title": "2  Introducción",
+    "section": "2.2 Metodología",
+    "text": "2.2 Metodología\nLa metodología implica la descomposición de cada investigación en niveles progresivos de análisis, generando productos específicos en cada etapa. En un primer nivel se realiza un análisis general ejecutivo, luego se profundiza en secciones clave, y finalmente, en casos destacados, se procede a una experimentación práctica para validar resultados en terreno. Esta estructura metodológica facilita la gestión del conocimiento, la difusión eficiente y la aplicación práctica de hallazgos.\n\nNiveles de Análisis\n\nStage-0: Investigaciones recopiladas pendientes de análisis (“Congelador”).\nStage-1: Análisis ejecutivo, comunicado mediante un libro digital llamado en su temática correspondiente y una presentación ejecutiva complemetaria a este libro llamado keynote-general1.\nStage-2: Análisis específico, detallado por secciones del estudio y presentaciones individuales.\nStage-3: Investigación aplicada con experimentación o implementación práctica, desarrollando libros específicos profundos y completos.\n\n\n\n2.2.1 Productos",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#footnotes",
+    "href": "intro.html#footnotes",
+    "title": "2  Introducción",
+    "section": "",
+    "text": "keynote-general: Presentación complementaria a este libro que contendrá un análisis ejecutivo de los papers ordenado por temática↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#objetivos",
+    "href": "index.html#objetivos",
+    "title": "Paper Review: IA y Territorio",
+    "section": "1.2 Objetivos",
+    "text": "1.2 Objetivos\n\nObjetivo General\nConstruir una plataforma escalable de revisión y análisis aplicado de investigaciones científicas en IA orientadas al territorio, promoviendo la difusión de conocimiento científico actualizado, aplicado y didáctico.\n\n\n\nObjetivos Específicos\n\nRecopilar, organizar y clasificar investigaciones recientes en Urban AI y Remote Sensing AI.\nGenerar resúmenes ejecutivos claros y concisos que faciliten la comprensión y aplicación práctica de cada investigación.\nCrear presentaciones visuales y didácticas que permitan difundir rápidamente los aportes de cada investigación.\nDiseñar un sistema de clasificación progresiva para investigaciones, que permita su escalabilidad según el nivel de análisis y aplicabilidad práctica.\nMotivar la participación de investigadores y estudiantes, fomentando un entorno colaborativo y entretenido para la exploración de innovaciones científicas.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#metodología",
+    "href": "index.html#metodología",
+    "title": "Paper Review: IA y Territorio",
+    "section": "1.3 Metodología",
+    "text": "1.3 Metodología\nLa metodología implica la descomposición de cada investigación en niveles progresivos de análisis, generando productos específicos en cada etapa. En un primer nivel se realiza un análisis general ejecutivo, luego se profundiza en secciones clave, y finalmente, en casos destacados, se procede a una experimentación práctica para validar resultados en terreno. Esta estructura metodológica facilita la gestión del conocimiento, la difusión eficiente y la aplicación práctica de hallazgos.\n\n\n\nRoadmap flujo de análisis de los Peppers por cada uno de los niveles y sus productos\n\n\n\nNiveles de Análisis\n\n\nStage-0 – Congelador:\n\nRepositorio de investigaciones recopiladas que aún no han sido analizadas. Esta etapa agrupa los documentos en espera de revisión o priorización.\n\n\n\nStage-1 – Análisis ejecutivo:\n\nEvaluación inicial de los estudios seleccionados, enfocada en identificar su relevancia estratégica. Los resultados se sistematizan en un libro digital denominado book-general1. Además, se elabora una presentación ejecutiva complementaria llamada keynote-general2.\n\n\n\nStage-2 – Análisis específico:\n\nRevisión detallada de los estudios más relevantes, desglosando sus secciones clave (introducción, metodología, resultados, discusión, etc.). Cada análisis profundo se documenta mediante una presentación individual llamada keynote-específico3, donde se decidirá si el estudio avanza a la siguiente etapa.\n\n\n\nStage-3 – Investigación aplicada:\n\nImplementación práctica del conocimiento adquirido a través de experimentación, pruebas o desarrollos pilotos. Esta etapa se formaliza en un libro digital denominado book-específico4.\n\n\n\n\n\n\nProductos\n\nLibros Digitales (Quarto): Documentos interactivos con resúmenes ejecutivos o análisis detallados según etapa.\nPresentaciones (Markdown con Reveal.js): Slides concisas, claras y visualmente atractivas para facilitar difusión y comprensión.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Paper Review: IA y Territorio",
+    "section": "",
+    "text": "book-general: Este libro digital contiene los resúmenes ejecutivos de todos los estudios analizados, así como enlaces a análisis más profundos para aquellos documentos que avanzan al Stage-2, organizados por temática↩︎\nkeynote-general: Presentación asociada al book-general, que resume los hallazgos principales clasificados por temática↩︎\nkeynote-específico: Presentación detallada de un estudio particular, abordando sus contenidos en profundidad y evaluando su potencial para una fase de aplicación↩︎\nbook-específico: Documento técnico que recoge el análisis detallado del estudio aplicado, incluyendo resultados experimentales y aspectos metodológicos clave. Constituye la base para futuras publicaciones científicas↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#temáticas",
+    "href": "index.html#temáticas",
+    "title": "Paper Review: IA y Territorio",
+    "section": "1.3 Temáticas",
+    "text": "1.3 Temáticas\n\n1.3.1 Urban AI\n\n\n1.3.2 Remote Sensing AI",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Proyecto Paper Review</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Paper Review: IA y Territorio",
+    "section": "1.4 ",
+    "text": "1.4",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Proyecto Paper Review</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#autor-principal-denis-berroeta",
+    "href": "index.html#autor-principal-denis-berroeta",
+    "title": "Paper Review: IA y Territorio",
+    "section": "Autor Principal: Denis Berroeta",
+    "text": "Autor Principal: Denis Berroeta\n(denis.berroeta@uai.cl)\nMaster y PhD (cursando) in Data Science, Magister en Inteligencia Artificial, Universidad Adolfo Ibáñez. Coordinador de Investigación Centro Inteligencia Territorial, UAI. Tiene experiencia en modelamiento y análisis de datos espaciales, trabajando en diferentes proyectos de investigación públicos y privados en el Centro de Inteligencia Territorial de la Universidad Adolfo Ibáñez, diseñando y gestionando la implementación de metodologías de análisis de datos territoriales. Posee experiencia como profesor en Geoestadística; Análisis Criminal, Análisis de imágenes satelitales para el monitoreo ambiental y gestión de desastres naturales; y Data Science.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#estrategia-de-participación",
+    "href": "index.html#estrategia-de-participación",
+    "title": "Paper Review: IA y Territorio",
+    "section": "1.4 Estrategia de Participación",
+    "text": "1.4 Estrategia de Participación\n\n1.4.1 Motivación y Didáctica\n\nEventos regulares (reuniones Review, webinars, workshops) para presentar investigaciones destacadas.\nEspacios interactivos para debate, discusión y preguntas.\nIntegración de elementos visuales, storytelling y ejemplos prácticos locales para mayor atractivo.\n\n\n\n1.4.2 Rol de los participantes\n\nOyentes: Recibirán información sintetizada y visualmente atractiva que estimule el interés y curiosidad por la IA aplicada.\nAnalistas: Investigadores o estudiantes que realizarán análisis profundos, generarán contenidos y experimentaciones prácticas.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#conclusiones",
+    "href": "index.html#conclusiones",
+    "title": "Paper Review: IA y Territorio",
+    "section": "1.5 Conclusiones",
+    "text": "1.5 Conclusiones\nEste proyecto se plantea como un entorno dinámico y atractivo para explorar y entender cómo la inteligencia artificial puede impactar positivamente en nuestro territorio y sociedad, proporcionando herramientas que faciliten la transición del conocimiento científico hacia acciones prácticas, informadas y sostenibles.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "presentaciones.html",
+    "href": "presentaciones.html",
+    "title": "Appendix A — Presentaciones",
+    "section": "",
+    "text": "A.1 Reuniones Review",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Presentaciones</span>"
+    ]
+  },
+  {
+    "objectID": "presentaciones.html#webinar",
+    "href": "presentaciones.html#webinar",
+    "title": "Appendix A — Presentaciones",
+    "section": "A.2 Webinar",
+    "text": "A.2 Webinar",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Presentaciones</span>"
+    ]
+  },
+  {
+    "objectID": "presentaciones.html#workshops",
+    "href": "presentaciones.html#workshops",
+    "title": "Appendix A — Presentaciones",
+    "section": "A.3 Workshops",
+    "text": "A.3 Workshops",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Presentaciones</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#descripción-del-proyecto",
+    "href": "index.html#descripción-del-proyecto",
+    "title": "Paper Review: IA y Territorio",
+    "section": "1.1 Descripción del Proyecto",
+    "text": "1.1 Descripción del Proyecto\nEste proyecto tiene como propósito central la revisión, análisis, documentación y difusión de investigaciones científicas recientes en inteligencia artificial (IA), con énfasis en aplicaciones prácticas y potencial impacto territorial en Chile. Se orienta a facilitar el acceso y comprensión de avances significativos en dos líneas principales:\n\nUrban AI: Aplicaciones de IA en contextos urbanos (movilidad, planificación urbana, gestión pública, seguridad ciudadana).\nRemote Sensing AI: Aplicaciones de IA en percepción remota (monitoreo ambiental, gestión de recursos naturales, prevención de riesgos).\n\n\n\n\n\n\nEl proyecto se estructura para ser escalable, dinámico, interactivo y didáctico, favoreciendo la colaboración interdisciplinaria.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#objetivos-del-libro",
+    "href": "intro.html#objetivos-del-libro",
+    "title": "2  Introducción",
+    "section": "",
+    "text": "Sintetizar el contenido de investigaciones clave mediante resúmenes ejecutivos estructurados, comprensibles y comparables entre sí.\nFacilitar la identificación de metodologías, datos, y conclusiones con potencial de aplicación práctica en el territorio chileno.\nApoyar la toma de decisiones estratégicas mediante el análisis transversal de investigaciones clasificadas por temática.\nOrientar la priorización de papers que pasarán a etapas más profundas de análisis (Stage-2 y Stage-3).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#estructura-general-de-cada-análisis",
+    "href": "intro.html#estructura-general-de-cada-análisis",
+    "title": "2  Introducción",
+    "section": "2.2 Estructura general de cada análisis",
+    "text": "2.2 Estructura general de cada análisis\nCada resumen ejecutivo seguirá una estructura común, diseñada para ofrecer una lectura rápida, precisa y orientada a la aplicabilidad territorial. La estructura de cada hoja será la siguiente:\n1. Identificación del paper\n\n\n\n\n\n\n\nElemento\nDetalle\n\n\n\n\nTítulo\nTítulo completo del paper\n\n\nAutores\nAutor1, Autor2, Año\n\n\nAño\nAño\n\n\nRevista / Volumen\nNombre de la revista, volumen, número\n\n\nDOI / URL\nhttps://doi.org/…\n\n\nTemática principal\nUrban, Remote Sensing\n\n\nKeywords\nLLM,, Change Detection\n\n\n\n2. 📌 Abstract (resumen original)\nTexto original del resumen, traducido si corresponde, para conservar la intención del autor.\n3. ⚙️ Metodología\nEsta sección describe de forma sintética pero precisa cómo se construyó el estudio. Se estructura en los siguientes bloques:\n\n\nEnfoque metodológico:\n\nTipo de estudio (exploratorio, experimental, predictivo, comparativo, etc.) y diseño general (supervisado, no supervisado, basado en reglas, etc.).\n\n\nTécnica(s) utilizada(s): Algoritmos, modelos o técnicas específicas empleadas (e.g., Random Forest, LSTM, GANs, redes convolucionales, VFM, etc.).\n\n\nNivel de modelamiento: Detalle del alcance del modelo: local, regional, nacional o global; uniescala o multiescala.\n\n\nReplicabilidad: Grado de apertura metodológica (¿se publica el código? ¿hay acceso a datos? ¿están disponibles scripts reproducibles?).\n\n\n\nDatos de entrada:\n\nTipo, fuente, resolución y periodo temporal de los datos utilizados. Ejemplos: imágenes Sentinel-2 (10m, 2020–2023), encuestas censales, bases geoespaciales, etc.\n\n\n\nDatos de salida / resultados esperados:\n\nProducto(s) final(es) del estudio: mapas temáticos, índices de cambio, clasificaciones, modelos entrenados, etc.\n\n\n\nRegión o contexto geográfico del estudio:\n\nDescripción del área de aplicación, incluyendo país, región o escala (local, nacional, global).\n\n\n\n4. Discusión y conclusiones\n\nPrincipales hallazgos\nLimitaciones reconocidas\nRecomendaciones del estudio original\n\n5. Aplicabilidad territorial en Chile\n\n¿Puede esta metodología aplicarse al contexto chileno?\nRecomendaciones para adaptación\nEscenarios prioritarios (e.g., zonas urbanas, ecosistemas sensibles)\n\n6. Nivel de madurez\n\nExploratorio, operativo o aplicado\nNivel de evidencia empírica\nRelevancia temática y territorial\nStage en que se encuentra dentro loos niveles de este proyecto",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#cierre",
+    "href": "intro.html#cierre",
+    "title": "2  Introducción",
+    "section": "2.3 Cierre",
+    "text": "2.3 Cierre\nEste libro ha sido diseñado para facilitar una lectura flexible, orientada tanto a la exploración temática como al análisis profundo. Cada resumen ejecutivo ofrece una entrada clara y estructurada a investigaciones clave, permitiendo al lector identificar rápidamente su relevancia metodológica, territorial y aplicada.\nInvitamos a recorrer las distintas hojas del book_general, explorando cómo cada paper puede aportar conocimiento estratégico al análisis territorial y a la toma de decisiones en el contexto chileno. Ya sea como fuente de inspiración, insumo técnico o base para una implementación futura, cada análisis aquí presentado constituye un eslabón en la cadena de transferencia de conocimiento hacia la acción",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html",
+    "href": "template_paper.html",
+    "title": "Appendix B — Template",
+    "section": "",
+    "text": "B.1 Información Básica",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#abstract",
+    "href": "template_paper.html#abstract",
+    "title": "Appendix B — Template",
+    "section": "B.2 Abstract",
+    "text": "B.2 Abstract\n\nEn caso de estar en inglés, puede incluir traducción debajo si es necesario.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#metodología",
+    "href": "template_paper.html#metodología",
+    "title": "Appendix B — Template",
+    "section": "B.4 Metodología",
+    "text": "B.4 Metodología\n\nB.4.1 Flujo de trabajo\n\nIngesta de imágenes Sentinel-2 (2015-2023)\n\nPreprocesamiento atmosférico con Sen2Cor\n\n…\n\n\n\nB.4.2 Modelos / Algoritmos\n\nRandom Forest (200 árboles, mtry = √p) • U-Net • VFM-SAM\n\n\n\nB.4.3 Datos\n\n\n\nTipo\nFuente\nResolución\nCobertura temporal\n\n\n\n\nImágenes ópticas\nSentinel-2 L2A\n10 m\n2015-2023\n\n\nCenso\nINE 2017\nComuna\n–\n\n\n\n\n\nB.4.4 Validación & Uncertainties\n\n\n\nMétrica\nValor\nk-fold / AOI\nIntervalo 95 %\n\n\n\n\nF1-score\n0.88\n5-fold\n± 0.03\n\n\nIoU\n0.75\nZona centro\n± 0.04\n\n\n\nSensibilidad a nubes evaluada con ± 5 % de cobertura.\n\n\nB.4.5 Replicabilidad & Recursos\n\n\n\nÍtem\nSí/No\nDetalle\n\n\n\n\nCódigo abierto\nSí\nGitHub : user/repo\n\n\nDatos abiertos\nParcial\nImágenes libres; etiquetas no públicas\n\n\nLicencia\nMIT\n–\n\n\nHW/Costos\n2× A100 16 h\n~USD 40",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#resultados-y-conclusión",
+    "href": "template_paper.html#resultados-y-conclusión",
+    "title": "Appendix B — Template",
+    "section": "B.4 Resultados y Conclusión",
+    "text": "B.4 Resultados y Conclusión",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#aplicabilidad-territorial",
+    "href": "template_paper.html#aplicabilidad-territorial",
+    "title": "Appendix B — Template",
+    "section": "B.6 Aplicabilidad territorial",
+    "text": "B.6 Aplicabilidad territorial",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#información-del-estudio",
+    "href": "template_paper.html#información-del-estudio",
+    "title": "Appendix B — Template",
+    "section": "",
+    "text": "Elemento\nDetalle\n\n\n\n\nTítulo\nTítulo completo del paper\n\n\nAutores\nAutor1, Autor2, Año\n\n\nAño\nAño\n\n\nRevista / Volumen\nNombre de la revista, volumen, número\n\n\nDOI / URL\nhttps://doi.org/…\n\n\nTemática principal\nUrban, Remote Sensing\n\n\nKeywords\nLLM,, Change Detection",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#abstract-original",
+    "href": "template_paper.html#abstract-original",
+    "title": "Appendix B — Template",
+    "section": "B.2 Abstract Original",
+    "text": "B.2 Abstract Original\n\nPegar aquí el abstract original del paper.\nEn caso de estar en inglés, puede incluir traducción debajo si es necesario.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#metodología-y-diseño-de-estudio",
+    "href": "template_paper.html#metodología-y-diseño-de-estudio",
+    "title": "Appendix B — Template",
+    "section": "B.3 Metodología y Diseño de Estudio",
+    "text": "B.3 Metodología y Diseño de Estudio\n\nEj: Random Forest, CNN, U-Net, Vision Foundation Model (VFM), etc.\n\n\nB.3.1 Datos de entrada\n\n\nTipo: (imágenes satelitales, datos censales, etc.)\n\nFuente: (Sentinel-2, Landsat, INE, OSM, etc.)\n\nResolución: (espacial, temporal, espectral)\n\nPeriodo temporal: (Ej: 2015–2023)\n\n\n\n\nB.3.2 Datos de salida / productos esperados\n\nEj: Mapa de cobertura de uso de suelo, índices de cambio, clasificación de objetos, segmentaciones.\n\n\n\nB.3.3 Región o contexto geográfico del estudio\n\nEj: Cuenca del Río Maipo, Región Metropolitana, Chile / Área costera del sudeste asiático.\n\n\n\nB.3.4 Replicabilidad\n\nEj: Código disponible en GitHub / Datos accesibles / Scripts reproducibles.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#resultados-principales",
+    "href": "template_paper.html#resultados-principales",
+    "title": "Appendix B — Template",
+    "section": "B.4 Resultados Principales",
+    "text": "B.4 Resultados Principales\n\n\nMétricas de desempeño: Ej: Accuracy = 0.91; IoU = 0.75; F1-score = 0.88\nProductos generados: Ej: Mapa de transición forestal 2015–2020, modelo preentrenado.\n\nHallazgos cuantitativos clave: Ej: Reducción de cobertura nativa en 12% en zonas periurbanas.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#discusión-y-conclusiones",
+    "href": "template_paper.html#discusión-y-conclusiones",
+    "title": "Appendix B — Template",
+    "section": "B.5 Discusión y conclusiones",
+    "text": "B.5 Discusión y conclusiones\n\n\nHallazgos principales:\nEj: La metodología demostró ser robusta en escenarios con datos incompletos…\nContribuciones del estudio:\nEj: Primera aplicación de modelos VFM en contextos de humedales patagónicos…\nLimitaciones reconocidas:\nEj: Dificultad de acceso a datos SAR en ciertas regiones; validación limitada.\nRecomendaciones futuras:\nEj: Expandir análisis a zonas áridas del norte de Chile; incluir sensores térmicos.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#aplicabilidad-territorial-en-chile",
+    "href": "template_paper.html#aplicabilidad-territorial-en-chile",
+    "title": "Appendix B — Template",
+    "section": "B.6 Aplicabilidad territorial en Chile",
+    "text": "B.6 Aplicabilidad territorial en Chile\n\n\nPotencial de transferencia:\nEj: Alta aplicabilidad en sistemas de monitoreo de cambio de cobertura a nivel regional.\nCondiciones necesarias para adaptación:\nEj: Disponibilidad de datos Sentinel-2 y etiquetas locales.\n\nÁreas prioritarias:\nEj: Bosques esclerófilos, zonas agrícolas en transición, expansión urbana.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#nivel-de-madurez-tecnológica-operativa",
+    "href": "template_paper.html#nivel-de-madurez-tecnológica-operativa",
+    "title": "Appendix B — Template",
+    "section": "B.7 Nivel de madurez tecnológica / operativa",
+    "text": "B.7 Nivel de madurez tecnológica / operativa\n\n\nNivel: Ej:Exploratorio / Operacional / Validado / Aplicado\n\nRelevancia temática: Ej:Alta para planificación territorial y monitoreo ambiental.\n\nNivel de evidencia empírica: Ej:Validación cruzada con datos de terreno.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#información-básica",
+    "href": "template_paper.html#información-básica",
+    "title": "Appendix B — Template",
+    "section": "",
+    "text": "Elemento\nDetalle\n\n\n\n\nReferencia corta\nGonzález et al. (2024)\n\n\nTítulo completo\n…\n\n\nRevista / Volumen / DOI\nRemote Sensing 16(7), https://doi.org/…\n\n\nTemática\nUrban • Remote Sensing\n\n\nContexto / Problema\n¿Qué reto territorial/ambiental aborda?",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#preguntas-de-investigación-hipótesis",
+    "href": "template_paper.html#preguntas-de-investigación-hipótesis",
+    "title": "Appendix B — Template",
+    "section": "B.3 Preguntas de Investigación / Hipótesis",
+    "text": "B.3 Preguntas de Investigación / Hipótesis\n\n\nPI1: …\n\nPI2: …",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#resultados-clave",
+    "href": "template_paper.html#resultados-clave",
+    "title": "Appendix B — Template",
+    "section": "B.5 Resultados Clave",
+    "text": "B.5 Resultados Clave\n\nCobertura nativa ↓ 12 % en periferia sur (2015-2020).\n\nModelo VFM ↑ 6 pp en F1 respecto a U-Net base.\n\nMapa de transiciones publicado como GeoTIFF (link).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#discusión",
+    "href": "template_paper.html#discusión",
+    "title": "Appendix B — Template",
+    "section": "B.6 Discusión",
+    "text": "B.6 Discusión\n\nContribuciones: primera integración de VFM + socio-económicos en Chile central.\n\nLimitaciones: sin datos SAR; validación en terreno limitada (n = 45 puntos).\n\nFuturo: incorporar Sentinel-1, probar transferencia en zonas áridas.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#aplicabilidad-en-chile",
+    "href": "template_paper.html#aplicabilidad-en-chile",
+    "title": "Appendix B — Template",
+    "section": "B.7 Aplicabilidad en Chile",
+    "text": "B.7 Aplicabilidad en Chile\n\n\n\nAspecto\nEvaluación\n\n\n\n\nTransferencia\nAlta a monitoreo regional SINIA\n\n\nCondiciones\nAcceso continuo a Sentinel-2; etiquetas comunales\n\n\nÁreas prioritarias\nBosque esclerófilo, periurbano RM",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#madurez-evidencia",
+    "href": "template_paper.html#madurez-evidencia",
+    "title": "Appendix B — Template",
+    "section": "B.8 Madurez & Evidencia",
+    "text": "B.8 Madurez & Evidencia\n\n\n\nEje\nNivel\n\n\n\n\nInnovación\n4/5\n\n\nRigor metodológico\n3.5/5\n\n\nTransferibilidad\n4/5\n\n\nEstado TRL\nValidado (TRL-5)",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#impacto-en-políticas-públicas-ods",
+    "href": "template_paper.html#impacto-en-políticas-públicas-ods",
+    "title": "Appendix B — Template",
+    "section": "B.9 Impacto en Políticas Públicas / ODS",
+    "text": "B.9 Impacto en Políticas Públicas / ODS\n\nEj: Contribuye al ODS 15 (Vida de ecosistemas terrestres) y al Plan Nacional de Adaptación al Cambio Climático, proporcionando evidencia para priorizar restauración en áreas con pérdida acelerada de bosque nativo.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "han-2018.html",
+    "href": "han-2018.html",
+    "title": "4  LLM - Urban Agents",
+    "section": "",
+    "text": "4.1 Información Básica",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>LLM - Urban Agents</span>"
+    ]
+  },
+  {
+    "objectID": "han-2018.html#información-básica",
+    "href": "han-2018.html#información-básica",
+    "title": "4  LLM - Urban Agents",
+    "section": "",
+    "text": "Elemento\nDetalle\n\n\n\n\nReferencia corta\nHan et al. (2025)\n\n\nTítulo completo\nLarge Language Model Powered Intelligent Urban Agents: Concepts, Capabilities, and Applications\n\n\nRevista / Volumen / DOI\nhttps://doi.org/10.48550/arXiv.2507.00914\n\n\nTemática\nAgentes urbanos potenciados por LLM; integración de IA y datos espaciales en la toma de decisiones urbanas\n\n\nContexto / Problema\nLos sistemas urbanos inteligentes previos carecen de flexibilidad y generalización espacial-temporal. Los LLM ofrecen razonamiento multimodal y capacidades de ejecución autónoma para mejorar la eficiencia y escalabilidad en la gestión de ciudades",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>LLM - Urban Agents</span>"
+    ]
+  },
+  {
+    "objectID": "han-2018.html#abstract",
+    "href": "han-2018.html#abstract",
+    "title": "4  LLM - Urban Agents",
+    "section": "4.2 Abstract",
+    "text": "4.2 Abstract\n\nOriginal:\nThe long-standing vision of intelligent cities is to create efficient, livable, and sustainable urban environments using big data and artificial intelligence technologies. Recently, the advent of Large Language Models (LLMs) has opened new ways toward realizing this vision. With powerful semantic understanding and reasoning capabilities, LLMs can be deployed as intelligent agents capable of autonomously solving complex problems across domains. In this article, we focus on Urban LLM Agents, which are LLM-powered agents that are semi-embodied within the hybrid cyber-physical-social space of cities and used for system-level urban decision-making. First, we introduce the concept of urban LLM agents, discussing their unique capabilities and features. Second, we survey the current research landscape from the perspective of agent workflows, encompassing urban sensing, memory management, reasoning, execution, and learning. Third, we categorize the application domains of urban LLM agents into five groups: urban planning, transportation, environment, public safety, and urban society, presenting representative works in each group. Finally, we discuss trustworthiness and evaluation issues that are critical for real-world deployment, and identify several open problems for future research.\n\n\nTraducción al español:\nLa visión de ciudades inteligentes busca entornos urbanos eficientes, habitables y sostenibles mediante big data y tecnologías de IA. Recientemente, la aparición de los Modelos de Lenguaje de Gran Tamaño (LLM) ha abierto nuevas vías para alcanzar esta visión. Con una profunda comprensión semántica y razonamiento, los LLM pueden funcionar como agentes inteligentes capaces de resolver autónomamente problemas complejos. En este artículo nos centramos en los Agentes Urbanos LLM, agentes potenciados por LLM que operan de forma semiembodida en el espacio ciber-físico-social de las ciudades para la toma de decisiones a nivel de sistema. Primero, introducimos el concepto y capacidades de estos agentes. Segundo, revisamos el estado del arte en cuanto a flujos de trabajo (percepción urbana, gestión de memoria, razonamiento, ejecución y aprendizaje). Tercero, clasificamos sus aplicaciones en cinco dominios: planificación urbana, transporte, medio ambiente, seguridad pública y sociedad urbana, ejemplificando resultados en cada dominio. Finalmente, discutimos la confiabilidad y evaluación para despliegue real e identificamos problemas abiertos para investigación futura.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>LLM - Urban Agents</span>"
+    ]
+  },
+  {
+    "objectID": "han-2018.html#preguntas-de-investigación-hipótesis",
+    "href": "han-2018.html#preguntas-de-investigación-hipótesis",
+    "title": "3  LLM - Urban Agents",
+    "section": "3.3 Preguntas de Investigación / Hipótesis",
+    "text": "3.3 Preguntas de Investigación / Hipótesis\n\n(el artículo es una revisión sistemática; sección eliminada)",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>LLM - Urban Agents</span>"
+    ]
+  },
+  {
+    "objectID": "han-2018.html#metodología",
+    "href": "han-2018.html#metodología",
+    "title": "4  LLM - Urban Agents",
+    "section": "4.3 Metodología",
+    "text": "4.3 Metodología\n\n4.3.1 Flujo de trabajo\n\nDefinición conceptual de Agentes Urbanos LLM.\n\nRevisión sistemática de la literatura según cinco módulos de agente: percepción urbana, gestión de memoria, razonamiento, ejecución y aprendizaje.\n\nClasificación de aplicaciones en cinco dominios urbanos.\n\nAnálisis de confiabilidad, evaluación y retos futuros.\n\n\n\n\n\nEsquema de cinco módulos de agente: percepción urbana, gestión de memoria, razonamiento, ejecución y aprendizaje.\n\n\n\n\n4.3.2 Modelos / Algoritmos\n\nSurvey de técnicas generales de LLM (Transformer pre-entrenado, afinamiento por instrucciones, RLHF, RAG, Chain-of-Thought) y su integración con herramientas externas: simuladores, APIs urbanas, bases de datos espaciales.\n\n\n\n4.3.3 Datos\nSe describen insumos heterogéneos en la literatura: sensores urbanos (tráfico, calidad del aire), datos geovectoriales (POI, redes viales), series temporales, trayectorias GPS, imágenes satelitales y texto no estructurado (políticas, redes sociales). Estos datos se utilizan para ilustrar casos de uso y métodos de integración multimodal.\n\n\n\n\n\n\n\n\nTipo\nFuente\nCobertura temporal\n\n\n\n\nGeovector\nPOI, redes viales (PostGIS, OSM)\nVariable según estudio\n\n\nSeries temporales\nSensores de tráfico, calidad del aire\nFrecuencias horarias/diarias\n\n\nTrayectorias GPS\nRegistros de movilidad\nEstudios de caso puntuales\n\n\nImágenes\nSatélite, cámaras urbanas\nDesde 2000 en adelante\n\n\nTexto\nDocumentos de planificación, social media\nN/A\n\n\n\n\n\n\n\nDiagrama de interacción de Agentes urbanos y ejemplops de aplicaciones en una ciudad.\n\n\n\n\n4.3.4 Validación & Uncertainties\nLas evaluaciones en los trabajos revisados varían: simulaciones de tráfico (métricas de demora y congestión), benchmarks temporales y espaciales (precisión en razonamiento), validación cualitativa por expertos urbanos.\n\n\n\n\n\n\n\n\n\nMétrica\nValor\nAlcance\nNotas\n\n\n\n\nDemora promedio (s)\nSegún simulador\nIntersecciones urbanas\nLLMLight, CoLLMLight\n\n\nExactitud temporo-espacial\n% de aciertos\nBenchmarks CoTempQA, SpaRC\nVaría por tarea; se utiliza Chain-of-Thought\n\n\nPrecisión de RAG\n% documentos relevantes\nPlanGPT, Spatial-RAG\nDepende de calidad de embeddings\n\n\n\n\n\n4.3.5 Replicabilidad & Recursos\n\n\n\n\n\n\n\n\nÍtem\nSí/No\nDetalle\n\n\n\n\nCódigo abierto\nSí\nRepositorio “Awesome-Urban-LLM-Agents” en GitHub\n\n\nDatos públicos\nParcialmente\nAlgunas bases (OSM, benchmarks públicos), otras fuentes no compartidas\n\n\nDocker/Scripts\nN/A\nNo se especifica\n\n\nInstrucciones RAG\nSí\nPlantillas y ejemplos en repositorio Github",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>LLM - Urban Agents</span>"
+    ]
+  },
+  {
+    "objectID": "han-2018.html#resultados-clave",
+    "href": "han-2018.html#resultados-clave",
+    "title": "4  LLM - Urban Agents",
+    "section": "4.4 Resultados Clave",
+    "text": "4.4 Resultados Clave\n\nUrban LLM agents unifican cinco módulos (percepción, memoria, razonamiento, ejecución, aprendizaje).\n\nIdentificadas 5 áreas de aplicación: planificación urbana, transporte, medio ambiente, seguridad pública y sociedad urbana.\n\nHerramientas de RAG y acceso a APIs potencian razonamiento multimodal y precisión.\n\nModelos de control de tráfico basados en LLM reducen tiempos de espera en simulaciones (e.g., LLMLight).\n\nDesafíos en confiabilidad, interpretabilidad y adaptabilidad a datos reales.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>LLM - Urban Agents</span>"
+    ]
+  },
+  {
+    "objectID": "han-2018.html#discusión",
+    "href": "han-2018.html#discusión",
+    "title": "4  LLM - Urban Agents",
+    "section": "4.5 Discusión",
+    "text": "4.5 Discusión\n\nContribuciones:\n\nMarco conceptual y taxonomía de Urban LLM Agents.\n\nRevisión sistemática de flujos de trabajo y aplicaciones.\n\nIdentificación de retos de confiabilidad y evaluación.\n\n\nLimitaciones:\n\nPredominio de simulaciones y datos sintéticos; escasa validación en despliegues reales.\n\nHeterogeneidad de fuentes de datos y falta de benchmarks estándar.\n\n\nFuturo:\n\nIntegración de razonamiento causal y física de sistemas urbanos.\n\nDesarrollo de frameworks híbridos de coordinación multiagente.\n\nValidación en ambientes urbanos reales y escalabilidad a nivel de ciudad.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>LLM - Urban Agents</span>"
+    ]
+  },
+  {
+    "objectID": "han-2018.html#aplicabilidad-en-chile",
+    "href": "han-2018.html#aplicabilidad-en-chile",
+    "title": "4  LLM - Urban Agents",
+    "section": "4.6 Aplicabilidad en Chile",
+    "text": "4.6 Aplicabilidad en Chile\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nPlanificación Urbana\nAdaptable para modelar políticas locales y regulación territorial chilena; requiere datos locales.\n\n\nTransporte\nSimuladores como SUMO pueden integrarse con LLM para control de semáforos en Santiago u otras ciudades.\n\n\nMedio Ambiente\nMonitoreo de calidad del aire y gestión hídrica mediante RAG con datos de sensores nacionales.\n\n\nSeguridad Pública\nProcesamiento de reportes policiales textuales para análisis de hotspots delictivos.\n\n\nSociedad Urbana\nAnálisis de sentimiento en redes sociales chilenas para percepción ciudadana.\n\n\n\n\n\n\n\nEsquema de aplicaciones según los autores de los agentes urbanos.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>LLM - Urban Agents</span>"
+    ]
+  },
+  {
+    "objectID": "han-2018.html#madurez-evidencia",
+    "href": "han-2018.html#madurez-evidencia",
+    "title": "4  LLM - Urban Agents",
+    "section": "4.7 Madurez & Evidencia",
+    "text": "4.7 Madurez & Evidencia\n\n\n\nEje\nNivel\n\n\n\n\nConceptualización\nAvanzado\n\n\nImplementación\nPrototipo (simulación)\n\n\nValidación real-world\nBajo\n\n\nDisponibilidad recursos\nMedia",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>LLM - Urban Agents</span>"
+    ]
+  },
+  {
+    "objectID": "han-2018.html#impacto-en-políticas-públicas-ods",
+    "href": "han-2018.html#impacto-en-políticas-públicas-ods",
+    "title": "4  LLM - Urban Agents",
+    "section": "4.8 Impacto en Políticas Públicas / ODS",
+    "text": "4.8 Impacto en Políticas Públicas / ODS\n\nLos Urban LLM Agents pueden contribuir a ODS 11 (Ciudades y comunidades sostenibles) al optimizar la planificación urbana y el transporte; ODS 13 (Acción por el clima) a través de monitoreo ambiental y gestión de recursos; y ODS 16 (Paz, justicia e instituciones sólidas) mediante la mejora de la seguridad pública y transparencia en la toma de decisiones urbanas.\n\n\n\n\n\nHan, Jindong, Yansong Ning, Zirui Yuan, Hang Ni, Fan Liu, Tengfei Lyu, and Hao Liu. 2025. “Large Language Model Powered Intelligent Urban Agents: Concepts, Capabilities, and Applications.” arXiv Preprint arXiv:2507.00914.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>LLM - Urban Agents</span>"
+    ]
+  },
+  {
+    "objectID": "reza-2025.html",
+    "href": "reza-2025.html",
+    "title": "5  Crix - Crime and Demographics",
+    "section": "",
+    "text": "5.1 Información Básica",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Crix - Crime and Demographics</span>"
+    ]
+  },
+  {
+    "objectID": "reza-2025.html#información-básica",
+    "href": "reza-2025.html#información-básica",
+    "title": "5  Crix - Crime and Demographics",
+    "section": "",
+    "text": "Elemento\nDetalle\n\n\n\n\nReferencia\nReza et al. (2025)\n\n\nTítulo completo\nCriX: Intersection of Crime, Demographics and Explainable AI\n\n\nRevista / Volumen / DOI\nProceedings of the 17th International Conference on Agents and Artificial Intelligence (ICAART 2025) – Volume 2, pp. 714–725 / 10.5220/0013316200003890\n\n\nTemática\nPredicción de hotspots delictivos mediante factores demográficos y Explainable AI\n\n\nContexto / Problema\nModelos clásicos de predicción de crimen ignoran la influencia de indicadores demográficos y las particularidades locales de cada distrito, limitando la eficacia de intervenciones policiales y sociales.\n\n\nAcceso Web\nhttps://www.scitepress.org/Papers/2025/133162/133162.pdf\n\n\nKeywords\nCrime, Demographic Factors, Large Language Model, RAG, Zero-Shot Learning, Explainable AI",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Crix - Crime and Demographics</span>"
+    ]
+  },
+  {
+    "objectID": "reza-2025.html#abstract",
+    "href": "reza-2025.html#abstract",
+    "title": "5  Crix - Crime and Demographics",
+    "section": "5.2 Abstract",
+    "text": "5.2 Abstract\n\nOriginal:\nCrime prediction and analysis often rely on crime statistics but neglect the potential influences of demographic factors. Each locality possesses unique characteristics indicating that a ’one-size-fits-all’ methodology is inadequate. This research presents a framework CriX that incorporates demographic factors to help understand and address localised crime. At the root level, identifying and predicting crime hotspots is essential for providing context in training the language model; therefore, ST-DBSCAN and LSTM models are respectively used on a custom-made dataset. InLegalBERT (Paul et al., 2023), which is pre-trained on Indian legal data, helps generate embeddings for the large corpus of crime hotspot, demographic and legal data. These embeddings are stored in a FAISS vector store, allowing for dynamic retrieval using RAG techniques. The generated embeddings are then fed into MistralAI offering a textual solution. These outputs are further refined using zero shot learning increasing model performance. The proposed framework achieved a validation accuracy of over 82% for crime hotspot predictions. The LLM also showcased substantial scores for Compactness, Fidelity and Completeness, giving an average score of 4.18 out of 5, outperforming baseline models. This approach enhances the interpretability of legal models by incorporating the concepts of Explainable AI (XAI).\n\n\n\nTraducción al español:\nLa predicción y análisis delictivo suelen basarse en estadísticas de criminalidad, pero pasan por alto las posibles influencias de los factores demográficos. Cada localidad presenta características únicas, lo que indica que una metodología “talla única” es inadecuada. Esta investigación presenta el marco CriX, que incorpora factores demográficos para ayudar a comprender y abordar el crimen localizado. En la fase inicial, identificar y predecir hotspots delictivos es esencial para contextualizar el entrenamiento del modelo de lenguaje; por ello, en un conjunto de datos desarrollado ad hoc se emplean respectivamente ST-DBSCAN y LSTM. InLegalBERT (Paul et al., 2023), preentrenado en datos legales indios, genera embeddings para el amplio corpus de datos de hotspots, demografía y legislación. Estos embeddings se almacenan en un vector store FAISS, permitiendo su recuperación dinámica mediante técnicas RAG. A continuación, los embeddings se procesan con MistralAI para generar soluciones textuales, que se refinan mediante zero-shot learning, mejorando el rendimiento. El marco propuesto logró una exactitud de validación superior al 82% en la predicción de hotspots delictivos. El LLM también obtuvo puntuaciones sustanciales en Compactness, Fidelity y Completeness, con un promedio de 4.18/5, superando a los modelos base. Este enfoque mejora la interpretabilidad de los modelos legales al incorporar los conceptos de Explainable AI (XAI).",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Crix - Crime and Demographics</span>"
+    ]
+  },
+  {
+    "objectID": "reza-2025.html#preguntas-de-investigación-hipótesis",
+    "href": "reza-2025.html#preguntas-de-investigación-hipótesis",
+    "title": "5  Crix - Crime and Demographics",
+    "section": "5.3 Preguntas de Investigación / Hipótesis",
+    "text": "5.3 Preguntas de Investigación / Hipótesis\n\n\n¿Cómo pueden los factores demográficos mejorar la predicción de hotspots delictivos en Karnataka? (inferida)\n\n¿Qué grado de interpretabilidad aporta la integración de XAI en los modelos de predicción de crimen? (inferida)",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Crix - Crime and Demographics</span>"
+    ]
+  },
+  {
+    "objectID": "reza-2025.html#metodología",
+    "href": "reza-2025.html#metodología",
+    "title": "5  Crix - Crime and Demographics",
+    "section": "5.4 Metodología",
+    "text": "5.4 Metodología\n\n5.4.1 Flujo de trabajo\n\nRecolección y preprocesamiento de datos de FIR (2020–2022) y de indicadores demográficos (GDDP, NDDP, PCI, HDI, tasa de alfabetización, índice de salud).\n\n\n\n\nFeatures Key Utilised for ST-DBSCAN Clustering.\n\n\n\nClustering espacial-temporal con ST-DBSCAN para identificar hotspots actuales.\n\nPredicción de hotspots futuros mediante un modelo LSTM entrenado con secuencias de datos demográficos y de crimen.\n\nGeneración de embeddings con InLegalBERT, almacenamiento en FAISS y recuperación dinámica vía RAG.\n\nGeneración de explicaciones textuales con Mixtral-8x22B-Instruct-v0.1 y refinamiento por zero-shot learning.\n\n\n\n\nProposed Architecture Diagram for CriX (Crime Explainer).\n\n\n\n\n5.4.2 Modelos / Algoritmos\n\n\nST-DBSCAN: Clustering de datos espaciales y temporales, ajustando eps1 (distancia espacial), eps2 (distancia temporal) y min_samples.\n\nLSTM: Red de memoria a largo plazo con 2 capas, hidden_dim=128, dropout=0.3, optimizada con Adam (lr=0.001), pérdida CrossEntropy.\n\nInLegalBERT + FAISS + RAG: Embeddings legales especializados y recuperación basada en similitud de coseno.\n\nMixtral-8x22B-Instruct-v0.1: Generación de explicaciones en cero disparos.\n\n\n\n\n5.4.3 Datos\nSe utilizaron dos conjuntos JSON: uno con datos de FIR (2020–2022) para 31 distritos y 1.060 comisarías de Karnataka, y otro con indicadores demográficos (GDDP, NDDP, PCI, alfabetización, salud, HDI) obtenidos de data.opencity.in. Ambos se normalizaron, codificaron y completaron mediante interpolación y promedios distritales.\n\n\n\n\n\n\n\n\nTipo\nFuente\nCobertura temporal\n\n\n\n\nCrime data (FIR)\nKarnataka State Police (scraping Selenium)\n2020–2022\n\n\nIndicadores demográficos\nGovernment of Karnataka (data.opencity.in)\n2020–2022\n\n\n\n\n\n5.4.4 Validación & Uncertainties\nSe empleó una validación por hold-out a partir de la partición entrenamiento/validación, con early stopping tras 42 épocas al no mejorar la métrica. El mejor punto se alcanzó en la época 35 (accuracy 0.8211, loss 0.4928). La evaluación de explicaciones LLM se realizó con puntuaciones humanas en Compactness, Fidelity y Completeness.\n\n\n\n\n\n\n\n\n\nMétrica\nValor\nAlcance\nNotas\n\n\n\n\nAccuracy LSTM\n0.8211\nValidación\nMáx. en época 35\n\n\nLoss LSTM\n0.4928\nValidación\nMín. en época 33\n\n\nCompactness\n4.03\nLLM CriX\nvs. 3.73 (BERT), 2.55 (InLegalBERT)\n\n\nFidelity\n3.51\nLLM CriX\nvs. 2.45 (BERT), 2.47 (InLegalBERT)\n\n\nCompleteness\n5.00\nLLM CriX\nvs. 0.62 (BERT), 5.00 (InLegalBERT)\n\n\n\n\n\n5.4.5 Replicabilidad & Recursos\n\n\n\n\n\n\n\n\nÍtem\nSí/No\nDetalle\n\n\n\n\nCódigo fuente\nNo\nN/A\n\n\nConjuntos de datos\nSí\nJSON FIR scraping + JSON demográficos\n\n\nModelos preentrenados\nSí\nInLegalBERT; Mixtral-8x22B-Instruct-v0.1\n\n\nLibrerías / Frameworks\nSí\nSelenium, PyTorch, FAISS, Gemini\n\n\nNotebook / Plataforma\nNo\nN/A",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Crix - Crime and Demographics</span>"
+    ]
+  },
+  {
+    "objectID": "reza-2025.html#resultados-clave",
+    "href": "reza-2025.html#resultados-clave",
+    "title": "5  Crix - Crime and Demographics",
+    "section": "5.5 Resultados Clave",
+    "text": "5.5 Resultados Clave\n\nST-DBSCAN + LSTM alcanzó una exactitud de validación &gt; 82% en la predicción de hotspots delictivos.\n\nEl marco CriX obtuvo una puntuación media de 4.18/5 en métricas XAI, superando a los baselines (2.27 y 2.67).\n\nCriX mejoró Compactness (+8%), Fidelity (+30%) y mantuvo Completeness máxima respecto a modelos previos.\n\nSe identificaron clusters con perfiles demográficos específicos que explican variaciones regionales de criminalidad.\n\nEl análisis XAI resaltó como factores críticos la tasa de alfabetización, el ingreso per cápita y el HDI.\n\n\n\nOutput:\n\nPara cada ubicación prevista de actividad delictiva, el modelo proporciona un análisis textual de fácil comprensión. Por ejemplo, podría sugerir que las tendencias delictivas en una zona específica podrían estar correlacionadas con la diferencia de ingresos o con bajos niveles de alfabetización. Además, los resultados, de fácil comprensión, ofrecen información práctica sobre la posible vinculación de la incidencia delictiva con parámetros demográficos, lo que podría ayudar a los responsables políticos a seleccionar posibles intervenciones socioeconómicas.\n\n\n\n\n\n\nPredicted Crime Hotspots in the District of Mysuru, Karnataka.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Crix - Crime and Demographics</span>"
+    ]
+  },
+  {
+    "objectID": "reza-2025.html#discusión",
+    "href": "reza-2025.html#discusión",
+    "title": "5  Crix - Crime and Demographics",
+    "section": "5.6 Discusión",
+    "text": "5.6 Discusión\n\nContribuciones: Integración de factores demográficos en predicción de crimen; framework XAI que mejora la interpretabilidad y la precisión.\n\nLimitaciones: Dependencia de la calidad de datos; generalizabilidad limitada fuera de Karnataka; indicadores socioeconómicos adicionales no incluidos; sin predicción en tiempo real.\n\nFuturo: Incluir más variables socioeconómicas; extender a streaming de datos en tiempo real; aplicar a otras regiones de India; explorar Graph-RAG para mejorar recuperación.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Crix - Crime and Demographics</span>"
+    ]
+  },
+  {
+    "objectID": "reza-2025.html#aplicabilidad-en-chile",
+    "href": "reza-2025.html#aplicabilidad-en-chile",
+    "title": "5  Crix - Crime and Demographics",
+    "section": "5.7 Aplicabilidad en Chile",
+    "text": "5.7 Aplicabilidad en Chile\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nDatos disponibles\nExisten bases de victimización y demografía, pero requiere scraping y limpieza similares.\n\n\nInfraestructura técnica\nNecesaria capacidad de cómputo para clustering y LLM; FAISS y PyTorch disponibles localmente.\n\n\nCapacidad de interpretación\nEnfoque XAI facilita la adopción por organismos policiales y municipales.\n\n\nEscalabilidad\nAdaptable a nivel regional chileno, con recalibración de parámetros por comuna o región.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Crix - Crime and Demographics</span>"
+    ]
+  },
+  {
+    "objectID": "reza-2025.html#madurez-evidencia",
+    "href": "reza-2025.html#madurez-evidencia",
+    "title": "5  Crix - Crime and Demographics",
+    "section": "5.8 Madurez & Evidencia",
+    "text": "5.8 Madurez & Evidencia\n\n\n\nEje\nNivel\n\n\n\n\nPredicción espacial-temporal\nModerado\n\n\nInterpretabilidad (XAI)\nModerado\n\n\nUso de datos demográficos\nInicial\n\n\nReplicabilidad\nInicial",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Crix - Crime and Demographics</span>"
+    ]
+  },
+  {
+    "objectID": "reza-2025.html#impacto-en-políticas-públicas-ods",
+    "href": "reza-2025.html#impacto-en-políticas-públicas-ods",
+    "title": "5  Crix - Crime and Demographics",
+    "section": "5.9 Impacto en Políticas Públicas / ODS",
+    "text": "5.9 Impacto en Políticas Públicas / ODS\n\nLa integración de análisis delictivo con factores demográficos y XAI fortalece la ODS 11 (Ciudades y comunidades sostenibles) y ODS 16 (Paz, justicia e instituciones sólidas), al proporcionar evidencia para diseñar políticas de prevención focalizadas y transparentes.\n\n\n\n\n\nReza, Muhammad Ashar, Aaditya Bisaria, S Advaitha, Alekhya Ponnekanti, and Arti Arya. 2025. “CriX: Intersection of Crime, Demographics and Explainable AI.”",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Crix - Crime and Demographics</span>"
+    ]
+  },
+  {
+    "objectID": "brown-2025.html",
+    "href": "brown-2025.html",
+    "title": "3  Alpha Earth Foundation",
+    "section": "",
+    "text": "3.1 Información Básica",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alpha Earth Foundation</span>"
+    ]
+  },
+  {
+    "objectID": "brown-2025.html#información-básica",
+    "href": "brown-2025.html#información-básica",
+    "title": "3  Alpha Earth Foundation",
+    "section": "",
+    "text": "Elemento\nDetalle\n\n\n\n\nReferencia\nBrown et al. (2025)\n\n\nTítulo completo\nAlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data\n\n\nRevista / Volumen / DOI\nhttps://doi.org/10.48550/arXiv.2507.22291\n\n\nTemática\nModelos fundacionales geoespaciales; aprendizaje automático con datos de observación de la Tierra\n\n\nContexto / Problema\nLa enorme cantidad de datos satelitales disponibles supera la capacidad de etiquetado con observaciones de campo, lo que limita la creación eficiente de mapas globales precisos. Se requieren métodos que puedan generalizar desde pocos datos etiquetados a escala planetaria.\n\n\nKeywords\nEarth Observation, Embedding Fields, Sparse Labels, Remote Sensing, Global Mapping, Machine Learning",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alpha Earth Foundation</span>"
+    ]
+  },
+  {
+    "objectID": "brown-2025.html#abstract",
+    "href": "brown-2025.html#abstract",
+    "title": "3  Alpha Earth Foundation",
+    "section": "3.2 Abstract",
+    "text": "3.2 Abstract\n\nOriginal:\n\nUnprecedented volumes of Earth observation data are continually collected around the world, but high-quality labels remain scarce given the effort required to make physical measurements and observations. This has led to considerable investment in bespoke modeling efforts translating sparse labels into maps. Here we introduce AlphaEarth Foundations, an embedding field model yielding a highly general, geospatial representation that assimilates spatial, temporal, and measurement contexts across multiple sources, enabling accurate and efficient production of maps and monitoring systems from local to global scales. The embeddings generated by AlphaEarth Foundations are the only to consistently outperform all previous featurization approaches tested on a diverse set of mapping evaluations without re-training. We will release a dataset of global, annual, analysis-ready embedding field layers from 2017 through 2024.\n\n\n\nTraducción al español:\nSe recolectan volúmenes sin precedentes de datos de observación de la Tierra en todo el mundo, pero las etiquetas de alta calidad siguen siendo escasas debido al esfuerzo requerido para realizar mediciones físicas y observaciones. Esto ha motivado una considerable inversión en modelos personalizados que traducen etiquetas escasas en mapas. Aquí presentamos AlphaEarth Foundations, un modelo de campos de incrustación que produce una representación geoespacial altamente general que asimila contextos espaciales, temporales y de medición desde múltiples fuentes, permitiendo la producción precisa y eficiente de mapas y sistemas de monitoreo desde escalas locales a globales. Las incrustaciones generadas por AlphaEarth Foundations son las únicas que superan consistentemente a todos los enfoques anteriores de featurización evaluados en un conjunto diverso de tareas de mapeo, sin necesidad de reentrenamiento. Publicaremos un conjunto de datos global, anual, y listo para análisis de capas de campos de incrustación desde 2017 hasta 2024.",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alpha Earth Foundation</span>"
+    ]
+  },
+  {
+    "objectID": "brown-2025.html#preguntas-de-investigación-hipótesis",
+    "href": "brown-2025.html#preguntas-de-investigación-hipótesis",
+    "title": "3  Alpha Earth Foundation",
+    "section": "3.3 Preguntas de Investigación / Hipótesis",
+    "text": "3.3 Preguntas de Investigación / Hipótesis\n\n\n¿Cómo puede un modelo fundacional geoespacial integrar múltiples fuentes de datos y escasa etiquetación para producir mapas precisos a nivel global? (inferida)\n\n¿Puede una representación embebida generalizada superar en desempeño a métodos especializados en escenarios con datos escasos? (inferida)",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alpha Earth Foundation</span>"
+    ]
+  },
+  {
+    "objectID": "brown-2025.html#metodología",
+    "href": "brown-2025.html#metodología",
+    "title": "3  Alpha Earth Foundation",
+    "section": "3.4 Metodología",
+    "text": "3.4 Metodología\n\n3.4.1 Flujo de trabajo\n\nPreprocesamiento y normalización de datos EO multifuente.\n\nCodificación con arquitectura Space-Time Precision (STP) para generar representaciones latentes.\n\nEntrenamiento de modelos maestros/alumnos y de alineación con texto.\n\nGeneración de “campos de incrustación” anuales con resolución espacial de 10m².\n\nEvaluación sobre 15 tareas geográficas en escenarios de escasez de datos.\n\n\n\n3.4.2 Modelos / Algoritmos\n\n\nArquitectura STP con operadores espacio, tiempo y precisión intercalados con rescalado tipo Laplaciano.\n\nEmbedding implicito con pérdidas específicas por fuente y distribución uniforme en ( S^{63} ).\n\nModelos tipo “teacher-student” y alineación con texto usando contraste.\n\n\n\n\n\n\n(A) Diagrama general de la arquitectura de red para análisis de video. Los datos brutos se normalizan y se codifican temporalmente con funciones seno. Los codificadores de origen transforman las entradas al mismo espacio latente antes de ingresar al modelo. Las salidas se resumen mediante códigos temporales condicionales específicos por fuente y tarea contrastiva. 𝜇 representa los vectores de embedding. (B) Las salidas del modelo se interpretan como la dirección media de una distribución von Mises-Fisher. La decodificación se realiza muestreando esta distribución y concatenando los resultados con metadatos del sensor y un código temporal relativo al periodo válido. (C) Para evitar el colapso del embedding y mejorar el rendimiento, se comparan los vectores generados con versiones rotadas por lote, minimizando el valor absoluto del producto punto, condición necesaria para una distribución uniforme en 𝑆⁶³. (D) El núcleo del modelo incluye rutas simultáneas a distintas resoluciones, equilibrando eficiencia y precisión espacial. (E) Aprendizaje contrastivo entre el modelo de video maestro, el modelo estudiante y el codificador de texto.(F) Visualización completa del campo de embeddings anual 2023, abarcando toda la superficie terrestre, incluidas islas menores, entre ±82° de latitud.\n\n\n\n\n3.4.3 Datos\nEl modelo AEF se entrenó con más de 3 mil millones de observaciones distribuidas en diez fuentes (ópticas, radar, LiDAR, ambientales y texto), cubriendo aproximadamente 1.1% de la superficie terrestre global. Los datos de entrada fueron reescalados espacialmente y codificados con marcas de tiempo para producir representaciones temporales continuas y espacialmente precisas. Se generaron campos de incrustación anuales de 2017 a 2024 y se diseñó una suite de evaluación con 15 tareas usando datos abiertos, balanceados y con separación mínima de 1.28 km entre muestras.\n\n\n\nTipo\nFuente\nCobertura temporal\n\n\n\n\nSatelital óptico\nSentinel-2, Landsat 8/9\n2017–2024\n\n\nRadar\nSentinel-1, PALSAR2\n2017–2024\n\n\nLiDAR\nGEDI\nVariable\n\n\nAmbiental\nERA5-Land, GLO-30, GRACE\nVariable\n\n\nAnotaciones / texto\nNLCD, Wikipedia\nVariable\n\n\n\n \n\n\n3.4.4 Validación & Uncertainties\nLa validación se realizó mediante 15 evaluaciones temáticas (clasificación, regresión, detección de cambio), comparando AEF con métodos diseñados y modelos fundacionales previos. Se probaron distintos tamaños de muestra (1, 10, máximo por clase), y métodos de transferencia (kNN, regresión lineal). Se emplearon técnicas de bootstrapping y validación cruzada para estimar intervalos de confianza.\n\n\n\n\n\n\n\n\n\nMétrica\nValor\nAlcance\nNotas\n\n\n\n\nReducción de error (max-trial)\n23.9%\nPromedio general\nvs mejor baseline\n\n\nReducción de error (10-shot)\n10.4%\nPromedio\n\n\n\nReducción de error (1-shot)\n4.18%\nPromedio\n\n\n\n( R^2 ) (emissivity)\n0.72 ± 0.00\nGlobal\nMejor resultado\n\n\n( R^2 ) (evapotranspiration)\n0.58 ± 0.01\nEEUU occidental\nÚnico método con ( R^2 &gt; 0.2 )\n\n\n\n\n\n3.4.5 Replicabilidad & Recursos\n\n\n\n\n\n\n\n\nÍtem\nSí/No\nDetalle\n\n\n\n\nCódigo abierto\nNo\nN/A\n\n\nDatos disponibles\nSí\nGoogle Earth Engine (2017–2024)\n\n\nEvaluaciones disponibles\nSí\nConjunto de 15 datasets abiertos\n\n\nManual de uso / documentación\nSí\nEn materiales suplementarios",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alpha Earth Foundation</span>"
+    ]
+  },
+  {
+    "objectID": "brown-2025.html#resultados-clave",
+    "href": "brown-2025.html#resultados-clave",
+    "title": "3  Alpha Earth Foundation",
+    "section": "3.5 Resultados Clave",
+    "text": "3.5 Resultados Clave\n\nAEF supera a todos los métodos de featurización evaluados, tanto diseñados como aprendidos.\n\nReducción promedio de error del 23.9% en escenarios realistas de entrenamiento.\n\nÚnico método con ( R^2 &gt; 0.2 ) para estimar evapotranspiración.\n\nConsistencia en resultados en múltiples dominios (uso/cobertura del suelo, cultivos, variables biofísicas).\n\nAlto desempeño incluso con pocas muestras por clase (1–10).",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alpha Earth Foundation</span>"
+    ]
+  },
+  {
+    "objectID": "brown-2025.html#discusión",
+    "href": "brown-2025.html#discusión",
+    "title": "3  Alpha Earth Foundation",
+    "section": "3.6 Discusión",
+    "text": "3.6 Discusión\n\nContribuciones: Primer modelo fundacional EO que integra múltiples fuentes y soporta tiempo continuo; desempeño robusto con escasa etiquetación; publica embeddings globales abiertos.\n\nLimitaciones: Requiere grandes volúmenes de datos para tareas geográficamente específicas (ej. clasificación de árboles en EE.UU.); no se publicó el código del modelo.\n\nFuturo: Optimización de inferencia, extensión multitemporal sub-anual, incorporación de nuevas fuentes (texto, radar).",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alpha Earth Foundation</span>"
+    ]
+  },
+  {
+    "objectID": "brown-2025.html#aplicabilidad-en-chile",
+    "href": "brown-2025.html#aplicabilidad-en-chile",
+    "title": "3  Alpha Earth Foundation",
+    "section": "3.7 Aplicabilidad en Chile",
+    "text": "3.7 Aplicabilidad en Chile\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nDisponibilidad de datos satelitales\nAlta\n\n\nEscenarios de baja etiquetación\nMuy relevante\n\n\nMonitoreo agrícola, forestal y de humedales\nAltamente aplicable\n\n\nCapacidades institucionales para uso\nModerada – requiere soporte técnico\n\n\nUso en planificación territorial y cambio climático\nPotencial significativo\n\n\n\n\n\n\n\nAEF muestra una mayor coherencia espacial sin comprometer la precisión espacial.",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alpha Earth Foundation</span>"
+    ]
+  },
+  {
+    "objectID": "brown-2025.html#madurez-evidencia",
+    "href": "brown-2025.html#madurez-evidencia",
+    "title": "3  Alpha Earth Foundation",
+    "section": "3.8 Madurez & Evidencia",
+    "text": "3.8 Madurez & Evidencia\n\n\n\n\n\n\n\nEje\nNivel\n\n\n\n\nNivel TRL (Technology Readiness Level)\n7 – Validación en entornos reales\n\n\nReproducibilidad\nAlta (datos abiertos, pruebas detalladas)\n\n\nRobustez metodológica\nAlta\n\n\nGeneralización geográfica\nMuy alta\n\n\nDependencia de infraestructura propietaria\nMedia",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alpha Earth Foundation</span>"
+    ]
+  },
+  {
+    "objectID": "brown-2025.html#impacto-en-políticas-públicas-ods",
+    "href": "brown-2025.html#impacto-en-políticas-públicas-ods",
+    "title": "3  Alpha Earth Foundation",
+    "section": "3.9 Impacto en Políticas Públicas / ODS",
+    "text": "3.9 Impacto en Políticas Públicas / ODS\n\nAlphaEarth Foundations puede habilitar sistemas de monitoreo basados en evidencia para apoyar políticas ambientales, agrícolas y de gestión del agua. Su capacidad para generalizar desde pocos datos lo hace especialmente útil en regiones con limitada capacidad de recolección de datos de campo, como muchas zonas rurales de Chile. Contribuye directamente a los ODS 2 (Hambre cero), 13 (Acción climática), y 15 (Vida de ecosistemas terrestres).\n\n\n\n\n\nBrown, Christopher F, Michal R Kazmierski, Valerie J Pasquarella, William J Rucklidge, Masha Samsikova, Chenhui Zhang, Evan Shelhamer, et al. 2025. “AlphaEarth Foundations: An Embedding Field Model for Accurate and Efficient Global Mapping from Sparse Label Data.” arXiv Preprint arXiv:2507.22291.",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alpha Earth Foundation</span>"
+    ]
+  },
+  {
+    "objectID": "remote_sensing.html",
+    "href": "remote_sensing.html",
+    "title": "Percepción Remota - IA",
+    "section": "",
+    "text": "Propósito\nOrientar la lectura de los resúmenes ejecutivos que siguen, conectando las contribuciones de la inteligencia artificial (IA) con problemas clásicos de percepción remota (PR): clasificación de coberturas, detección de cambios, estimación biofísica y monitoreo espacio–temporal a distintas escalas.",
+    "crumbs": [
+      "Percepción Remota - IA"
+    ]
+  },
+  {
+    "objectID": "remote_sensing.html#capítulo-2.-cómo-leer-y-priorizar-estudios-de-pria-guía-rápida",
+    "href": "remote_sensing.html#capítulo-2.-cómo-leer-y-priorizar-estudios-de-pria-guía-rápida",
+    "title": "Percepción Remota - IA",
+    "section": "Capítulo 2. Cómo leer y priorizar estudios de PR+IA (guía rápida)",
+    "text": "Capítulo 2. Cómo leer y priorizar estudios de PR+IA (guía rápida)\nLectura en 5 minutos (checklist) - Problema claro: ¿qué se predice/segmenta/detecta y por qué importa? - Datos adecuados: sensor(es), resolución espacial/temporal, cobertura; ¿hay análogos para Chile? - Método razonable: ¿por qué este modelo? (baseline + mejora). ¿Evita fugas espacio‑temporales? - Validación sólida: separación espacial/temporal; métricas pertinentes (F1/IoU/PR‑AUC) con incertidumbre. - Transferibilidad: requisitos de cómputo/datos, licencias, código/pesos. - Impacto potencial: ¿a qué decisión/aplicación concreta aporta?\nCriterios mínimos de selección (paso/filtro) - Tema pertenece a PR+IA en uno de los ejes del Cap. 1.\n- Año reciente o relevancia metodológica probada.\n- Señala protocolo de validación espacial/temporal.\n- Reporta incertidumbre o límites.\n- Indica condiciones de transferencia (datos, cómputo, licencias).\nRúbrica ligera (0–2) para priorizar lectura profunda - Relevancia territorial (0–2) - Calidad metodológica/validación (0–2) - Transferibilidad y apertura (0–2) - Impacto esperado (0–2)\n\nSemáforo de prioridad\n0–3: Explorar luego · 4–5: Leer resumen + tablas · 6–8: Leer a fondo y considerar piloto.\n\nCómo pasar a acción (si vale la pena) - Preparar resumen ejecutivo (1–2 págs).\n- Esbozar caso de uso local (datos disponibles, actor responsable, KPI).\n- Diseñar mini‑experimento reproducible (subset chileno o análogo) con protocolo simple.\nGlosario mínimo - Óptico vs. SAR: óptico sensible a nubes; SAR penetra nubes y registra estructura/superficie.\n- Cambio semántico: transición entre clases (ej. bosque→matorral).\n- CV espacial/temporal: validación que respeta separación en espacio/tiempo para evitar sobreajuste.\n- Foundation model: modelo grande preentrenado en datos geoespaciales, adaptable con pocas etiquetas.\nPromesa al lector\nCon esta guía sabrás qué leer primero, qué exigir a la evidencia y cuándo avanzar a un piloto local.\n\n\nPlantillas exprés (para tus resúmenes/papers)\nA) Resumen ejecutivo (1–2 págs) - Problema y relevancia territorial\n- Datos y método\n- Resultados clave + incertidumbre\n- Limitaciones\n- Transferibilidad (datos/cómputo/licencias)\n- Próximo paso sugerido (si aplica)\nB) Ficha mínima de estudio - Título, año, autores, DOI/URL\n- Sensores y cobertura (esp./temp.)\n- Modelo y validación\n- Métricas principales\n- Código/pesos/datos (sí/no)\n- Nota de impacto/uso potencial en Chile",
+    "crumbs": [
+      "Percepción Remota - IA"
+    ]
+  },
+  {
+    "objectID": "remote_sensing.html#alcance-y-definiciones-operativas",
+    "href": "remote_sensing.html#alcance-y-definiciones-operativas",
+    "title": "Percepción Remota - IA",
+    "section": "Alcance y definiciones operativas",
+    "text": "Alcance y definiciones operativas\n\nPercepción remota (PR): uso de sensores (ópticos, radar, LiDAR) para inferir variables del territorio sin contacto directo.\n\nIA en PR: desde ML tradicional (RF, XGB) hasta modelos profundos y modelos fundacionales de visión (pre-entrenados y adaptados).\n\nTransferibilidad: capacidad de un enfoque para generalizar entre regiones, estaciones y sensores, con costo razonable de adaptación.",
+    "crumbs": [
+      "Percepción Remota - IA"
+    ]
+  },
+  {
+    "objectID": "remote_sensing.html#preguntas-guía",
+    "href": "remote_sensing.html#preguntas-guía",
+    "title": "Percepción Remota - IA",
+    "section": "Preguntas guía",
+    "text": "Preguntas guía\n\n¿Qué variable/transformación espacial se estima o detecta y en qué resolución (espacial, temporal, espectral)?\n\n¿Qué datos/sensores y preprocesos requiere?\n\n¿Qué arquitectura o algoritmo aporta ventaja medible frente a líneas base?\n\n¿Cómo valida (espacio–tiempo), cuantifica incertidumbre y reporta errores de comisión/omisión?\n\n¿Qué tan transferible es a Chile (heterogeneidad eco-regional, nubosidad, relieve, disponibilidad de datos)?",
+    "crumbs": [
+      "Percepción Remota - IA"
+    ]
+  },
+  {
+    "objectID": "remote_sensing.html#criterios-de-selección-de-estudios",
+    "href": "remote_sensing.html#criterios-de-selección-de-estudios",
+    "title": "Percepción Remota - IA",
+    "section": "Criterios de selección de estudios",
+    "text": "Criterios de selección de estudios\n\nRigor y reproducibilidad: protocolos claros, código/datos disponibles o descriptivos suficientes para réplica.\n\nEvaluación robusta: validación espacial/temporal (p.ej., block CV), métricas adecuadas (F1, IoU/mIoU, AUC-PR en clases raras).\n\nAporte técnico: mejora significativa vs. lineas bases bien implementados.\n\nAplicabilidad territorial: factible con datos abiertos o accesibles (Sentinel/Landsat) y costos razonables.\n\nGobernanza y ética: tratamiento de sesgos, privacidad (imágenes alta resolución) y trazabilidad.",
+    "crumbs": [
+      "Percepción Remota - IA"
+    ]
+  },
+  {
+    "objectID": "remote_sensing.html#marco-metodológico-mínimo",
+    "href": "remote_sensing.html#marco-metodológico-mínimo",
+    "title": "Percepción Remota - IA",
+    "section": "Marco metodológico mínimo",
+    "text": "Marco metodológico mínimo\n\nDatos y preprocesamiento\n\nSelección de sensores (Sentinel-1 SAR, Sentinel-2 óptico, Landsat 8/9, otros); correcciones (atmosférica, radiométrica), enmascarado de nubes/sombras, mosaicos y composiciones temporales.\n\nCo-registro y armonización multi-sensor; normalización por escena/temporada.\n\n\n\nModelos y enfoque analítico\n\nlineas bases (RF/XGB) vs. modelos profundos (CNN/Transformers) y modelos fundacionales (fine-tuning o prompting).\n\nPR temporal: series multiespectrales, atención temporal, grafos o 3D CNN; para cambios: enfoques bitemporales/siamés, secuenciales o segmentación semántica diferencial.\n\n\n\nEvaluación y reporte\n\nMétricas por clase y promedio ponderado; mIoU/IoU-change para segmentación y cambio; curvas precision–recall (clases raras).\n\nValidación geográficamente explícita; mapas de incertidumbre y análisis de sensibilidad.\n\n\n\nTransferencia y despliegue\n\nAdaptación dominio-cruzado (fine-tuning ligero, normalización por dominio); empaquetado reproducible (containers) y seguimiento de experimentos.",
+    "crumbs": [
+      "Percepción Remota - IA"
+    ]
+  },
+  {
+    "objectID": "remote_sensing.html#aplicabilidad-en-chile-ideas-rápidas",
+    "href": "remote_sensing.html#aplicabilidad-en-chile-ideas-rápidas",
+    "title": "Percepción Remota - IA",
+    "section": "Aplicabilidad en Chile (ideas rápidas)",
+    "text": "Aplicabilidad en Chile (ideas rápidas)\n\nIncendios: superficie calcinada y severidad; recuperación post-fuego.\n\nHumedales/turberas: detección y monitoreo de perturbaciones.\n\nBosque nativo/plantaciones: cambios y fragmentación.\n\nMinería: expansión, relaves y cuerpos de agua asociados.\n\nNieve/hielo: estacionalidad y tendencias.\n\nSequía y agricultura: vigor/estrés y fenología.",
+    "crumbs": [
+      "Percepción Remota - IA"
+    ]
+  },
+  {
+    "objectID": "remote_sensing.html#riesgos-y-consideraciones-éticas",
+    "href": "remote_sensing.html#riesgos-y-consideraciones-éticas",
+    "title": "Percepción Remota - IA",
+    "section": "Riesgos y consideraciones éticas",
+    "text": "Riesgos y consideraciones éticas\nSesgos por nubosidad/estacionalidad y distribución espacial de muestras; errores de cambio con impacto regulatorio; privacidad en alta resolución; transparencia en umbrales y criterios.",
+    "crumbs": [
+      "Percepción Remota - IA"
+    ]
+  },
+  {
+    "objectID": "remote_sensing.html#cómo-usar-los-resúmenes-ejecutivos-paso-a-paso",
+    "href": "remote_sensing.html#cómo-usar-los-resúmenes-ejecutivos-paso-a-paso",
+    "title": "Percepción Remota - IA",
+    "section": "Cómo usar los resúmenes ejecutivos (paso a paso)",
+    "text": "Cómo usar los resúmenes ejecutivos (paso a paso)\n\nIdentifica el problema y escala;\nRevisa datos/preprocesos requeridos;\nContrasta métodos vs. lineas bases;\nComprueba validación e incertidumbre;\nEvalúa costo/transferibilidad a tu caso en Chile;\nRegistra riesgos y supuestos.",
+    "crumbs": [
+      "Percepción Remota - IA"
+    ]
+  },
+  {
+    "objectID": "remote_sensing.html#glosario-mínimo",
+    "href": "remote_sensing.html#glosario-mínimo",
+    "title": "Percepción Remota - IA",
+    "section": "Glosario mínimo",
+    "text": "Glosario mínimo\nResolución (esp./temp./esp.): granularidad en metros/días/bandas.\nmIoU: promedio de intersección-sobre-unión por clase.\nOOD: fuera de distribución; generalización a dominios nuevos.",
+    "crumbs": [
+      "Percepción Remota - IA"
+    ]
+  },
+  {
+    "objectID": "agarwal-2025.html",
+    "href": "agarwal-2025.html",
+    "title": "5  Population Dynamics - FM",
+    "section": "",
+    "text": "5.1 Información Básica",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
+    ]
+  },
+  {
+    "objectID": "agarwal-2025.html#información-básica",
+    "href": "agarwal-2025.html#información-básica",
+    "title": "5  Population Dynamics - FM",
+    "section": "",
+    "text": "Elemento\nDetalle\n\n\n\n\nReferencia corta\nAgarwal et al., 2025 (PDFM)\n\n\nTítulo completo\nGeneral Geospatial Inference with a Population Dynamics Foundation Model\n\n\nRevista / Volumen / DOI\narXiv preprint (cs.LG); arXiv:2411.07207v4; 30 Jan 2025. DOI: https://doi.org/10.48550/arXiv.2411.07207\n\n\nTemática\nIA geoespacial; modelos fundacionales; grafos; salud pública; factores socioeconómicos; medio ambiente; forecasting\n\n\nContexto / Problema\nLa toma de decisiones en salud pública, bienestar social y ambiente requiere inferencias geoespaciales robustas con datos heterogéneos y desbalanceados. Métodos tradicionales dependen de features y modelos específicos por tarea, dificultando la escalabilidad a nuevas variables, resoluciones y regiones. El trabajo propone un modelo fundacional (PDFM) que sintetiza múltiples modalidades para producir embeddings reutilizables en tareas de interpolación, extrapolación, super‑resolución y apoyo a pronósticos.\n\n\nKeywords\nFoundation model; geospatial embeddings; Graph Neural Networks; GraphSAGE; interpolation; extrapolation; super‑resolution; forecasting; TimesFM; Data Commons; CDC PLACES; SatCLIP; GeoCLIP",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
+    ]
+  },
+  {
+    "objectID": "agarwal-2025.html#abstract",
+    "href": "agarwal-2025.html#abstract",
+    "title": "5  Population Dynamics - FM",
+    "section": "5.2 Abstract",
+    "text": "5.2 Abstract\n\nOriginal:\nSupporting the health and well-being of dynamic populations around the world requires governmental agencies, organizations, and researchers to understand and reason over complex relationships between human behavior and local contexts. This support includes identifying populations at elevated risk and gauging where to target limited aid resources. Traditional approaches to these classes of problems often entail developing manually curated, task-specific features and models to represent human behavior and the natural and built environment, which can be challenging to adapt to new, or even related tasks. To address this, we introduce the Population Dynamics Foundation Model (PDFM), which aims to capture the relationships between diverse data modalities and is applicable to a broad range of geospatial tasks. We first construct a geo-indexed dataset for postal codes and counties across the United States, capturing rich aggregated information on human behavior from maps, busyness, and aggregated search trends, and environmental factors such as weather and air quality. We then model this data and the complex relationships between locations using a graph neural network, producing embeddings that can be adapted to a wide range of downstream tasks using relatively simple models. We evaluate the effectiveness of our approach by benchmarking it on 27 downstream tasks spanning three distinct domains: health indicators, socioeconomic factors, and environmental measurements. The approach achieves state-of-the-art performance on geospatial interpolation across all tasks, surpassing existing satellite and geotagged image based location encoders. In addition, it achieves state-of-the-art performance in extrapolation and super-resolution for 25 of the 27 tasks. We also show that the PDFM can be combined with a state-of-the-art forecasting foundation model, TimesFM, to predict unemployment and poverty, achieving performance that surpasses fully supervised forecasting. The full set of embeddings and sample code are publicly available for researchers. In conclusion, we have demonstrated a general purpose approach to geospatial modeling tasks critical to understanding population dynamics by leveraging a rich set of complementary globally available datasets that can be readily adapted to previously unseen machine learning tasks.\n\n\nTraducción al español:\nApoyar la salud y el bienestar de poblaciones dinámicas exige comprender y razonar sobre relaciones complejas entre el comportamiento humano y los contextos locales. Esto incluye identificar poblaciones en mayor riesgo y orientar recursos limitados. Los enfoques tradicionales suelen requerir features y modelos específicos por tarea para representar comportamiento humano y entorno natural/ construido, lo que dificulta su adaptación a tareas nuevas o afines. Para abordarlo, se introduce el Population Dynamics Foundation Model (PDFM), que busca capturar relaciones entre diversas modalidades de datos y es aplicable a un amplio rango de tareas geoespaciales. Primero, se construye un conjunto geo‑indexado para códigos postales y condados de EE. UU., con información agregada rica sobre comportamiento humano (mapas, afluencia/“busyness”, tendencias de búsqueda agregadas) y factores ambientales (clima y calidad del aire). Luego, se modelan estos datos y las relaciones complejas entre lugares mediante una red neuronal de grafos, produciendo embeddings adaptables a muchas tareas con modelos sencillos. La eficacia se evalúa con 27 tareas en tres dominios: indicadores de salud, factores socioeconómicos y mediciones ambientales. El enfoque logra state‑of‑the‑art (SoTA) en interpolación para todas las tareas, superando codificadores basados en satélite e imágenes geolocalizadas; y alcanza SoTA en extrapolación y super‑resolución para 25 de 27 tareas. Además, se muestra que PDFM puede combinarse con el modelo fundacional de pronóstico TimesFM para predecir desempleo y pobreza, superando a un pronóstico totalmente supervisado. Se liberan embeddings y código de ejemplo. En síntesis, se demuestra un enfoque general para modelado geoespacial crítico para entender la dinámica poblacional, aprovechando conjuntos de datos complementarios, globalmente disponibles, fácilmente adaptables a tareas inéditas.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
+    ]
+  },
+  {
+    "objectID": "agarwal-2025.html#preguntas-de-investigación-hipótesis",
+    "href": "agarwal-2025.html#preguntas-de-investigación-hipótesis",
+    "title": "5  Population Dynamics - FM",
+    "section": "5.3 Preguntas de Investigación / Hipótesis",
+    "text": "5.3 Preguntas de Investigación / Hipótesis\n\n\n¿Puede un modelo fundacional geoespacial, basado en GNN y datos multimodales, generar embeddings generales que superen a codificadores de localización existentes (p. ej., SatCLIP/GeoCLIP) en interpolación, extrapolación y super‑resolución? (inferida)\n\n¿Pueden estos embeddings mejorar pronósticos univariados (TimesFM) de indicadores socioeconómicos (desempleo, pobreza) mediante una capa adaptadora simple? (inferida)",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
+    ]
+  },
+  {
+    "objectID": "agarwal-2025.html#metodología",
+    "href": "agarwal-2025.html#metodología",
+    "title": "5  Population Dynamics - FM",
+    "section": "5.4 Metodología",
+    "text": "5.4 Metodología\n\n5.4.1 Flujo de trabajo\n\nFase 1 – Modelo fundacional (PDFM): construcción de un grafo geoespacial (códigos postales y condados como nodos; aristas por proximidad y similitud de comportamiento) e integración de modalidades (tendencias de búsqueda agregadas, POIs en mapas, busyness, clima y calidad del aire; además embeddings SatCLIP como variante). Entrenamiento auto‑supervisado para reconstruir features por fuente y obtener embeddings desagregados por modalidad.\n\nFase 2 – Tareas downstream: uso de embeddings como covariables en modelos ligeros (Ridge, GBDT, MLP) para interpolación, extrapolación y super‑resolución de 27 variables (salud, socioeconomía, ambiente).\n\nPronóstico: combinación de TimesFM (decoder‑only preentrenado) con un MLP adaptador que toma embeddings PDFM + predicción TimesFM (t‑1) para corregir errores y proyectar desempleo (condado) y pobreza (ZIP).\n\n\n\n\nTraining and Applying the Population Dynamics Foundation Model\n\n\n\n\n5.4.2 Modelos / Algoritmos\n\nPDFM (GNN GraphSAGE): muestreo de subgrafos hasta 4 saltos; agregación pooling; una ronda de message passing; capa lineal final (≈330 dim); entrenamiento auto‑supervisado con pérdida Huber; embeddings con partición por fuente (0‑127 Búsquedas; 128‑255 Mapas/Busyness; 256‑329 Clima/Calidad aire).\nDownstream: Ridge, LightGBM (GBDT; hasta 3000 árboles; 31 hojas; lr 0.02), MLP (512‑256‑128, ReLU, dropout 0.2, Adam, 40 épocas).\nPronóstico: TimesFM + MLP adaptador (2 capas) para corrección de errores.\n\n\n\n\n\n\n\n\n5.4.3 Datos\nEl estudio integra cinco fuentes principales a nivel código postal y condado en la CONUS (EE. UU. continental).\n\n\n\n\n\n\n\n\nTipo\nFuente\nCobertura temporal\n\n\n\n\nTendencias de búsqueda agregadas\nAgregados anónimos (Sun et al. 2024)\nJulio 2022\n\n\nMapas (POIs)\nGoogle Maps (1,192 categorías)\nMayo 2024\n\n\nBusyness (afluencia)\nAgregados por categoría de POI\n1er semestre 2024\n\n\nClima & Calidad del aire\nReanálisis / estaciones (variables met & AQ)\nJulio 2022\n\n\nSatélite (embeddings)\nSatCLIP (Sentinel‑2, ViT16‑L40)\n2021–2023\n\n\nEtiquetas salud\nCDC PLACES vía Data Commons\nAño 2022\n\n\nSocioeconómicas (espaciales)\nData Commons (ingresos, vivienda, población, night lights)\n2022\n\n\nPronóstico (desempleo)\nCondado, mensual\n1990–2024\n\n\nPronóstico (pobreza)\nZIP, anual\n2011–2022\n\n\n\nDatos Fase 1\n\nTendencias de búsqueda agregadas (jul‑2022).\nMapas (POIs) (may‑2024).\nBusyness (H1‑2024).\nClima & Calidad del aire (jul‑2022).\n\n\nEmbeddings de comparación y complemento: SatCLIP (2021‑2023).\n\nDatos Fase 2\n\nEtiquetas downstream provienen de Data Commons / CDC PLACES (2022) y catálogos (p. ej., night lights, elevación).\n\n\n\n\n\n\n\n\n5.4.4 Validación & Uncertainties\nSe diseñan tres evaluaciones espaciales: interpolación (holdout 20% condados), extrapolación (holdout 20% estados) y super‑resolución (entrenar en condado, probar en ZIP). Métricas: R², correlación de Pearson (r) y MAPE. Se comparan IDW, SatCLIP, GeoCLIP y PDFM; además, ablaciones por modalidad.\n\n\n\n\n\n\n\n\n\n\nMétrica\nValor\nAlcance\nNotas\n\n\n\n\nR² medio = 0.83\nPDFM\nInterpolación (27 tareas)\nSalud (media) 0.73; Elevación 0.96, Night Lights 0.93\n\n\nR² medio = 0.70\nPDFM\nExtrapolación (27 tareas)\nSalud (media) 0.58; Tree cover GeoCLIP 0.69 (mejor en esa tarea)\n\n\nr medio = 0.48\nPDFM\nSuper‑resolución (27 tareas)\nSalud (media) 0.46; IDW mejor en Elevación\n\n\nMAPE = 0.1132\nTimesFM(t‑1)+PDFM\nDesempleo (condado)\nMejora vs TimesFM(t) 0.1186 y ARIMA 0.1160\n\n\nMAPE = 0.2577\nTimesFM(t‑1)+PDFM\nPobreza (ZIP)\nMejora vs TimesFM(t) 0.3215 y ARIMA 0.2934\n\n\n\nMétricas Globales:\n\n\n\n5.4.5 Replicabilidad & Recursos\n\n\n\n\n\n\n\n\nÍtem\nSí/No\nDetalle\n\n\n\n\nCódigo disponible\nSí\nGitHub google-research/population-dynamics (embeddings, datos procesados y ejemplos)\n\n\nDatos embeddings\nSí\nEmbeddings PDFM públicos; etiquetas de benchmark vía Data Commons/Earth Engine\n\n\nPesos del modelo GNN\nNo\nSe publican embeddings pero no pesos entrenados completos\n\n\nDocumentación de splits\nSí\nEsquemas de holdouts y tablas de resultados en el preprint\n\n\nDeclaración de conflictos\nSí\nFinanciado por Alphabet; autores empleados",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
+    ]
+  },
+  {
+    "objectID": "agarwal-2025.html#resultados-clave",
+    "href": "agarwal-2025.html#resultados-clave",
+    "title": "5  Population Dynamics - FM",
+    "section": "5.5 Resultados Clave",
+    "text": "5.5 Resultados Clave\n\nPDFM logra SoTA en interpolación en las 27 tareas (R² medio 0.83).\n\n25/27 tareas con mejor desempeño en extrapolación y super‑resolución.\n\nBúsquedas agregadas destacan en predicción socioeconómica (night lights, densidad poblacional).\n\nMapas predicen bien night lights; SatCLIP útil en elevación.\n\nPronósticos de desempleo y pobreza mejoran 5–20% en MAPE al combinar PDFM con TimesFM.\n\nConcatenar SatCLIP + PDFM mejora interpolación y super‑resolución, no siempre extrapolación.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
+    ]
+  },
+  {
+    "objectID": "agarwal-2025.html#discusión",
+    "href": "agarwal-2025.html#discusión",
+    "title": "5  Population Dynamics - FM",
+    "section": "5.6 Discusión",
+    "text": "5.6 Discusión\n\nContribuciones:\n\nPrimer marco fundacional geoespacial multimodal validado en 27 tareas.\n\nEmbeddings desagregados por fuente, aportando interpretabilidad.\n\nAdaptabilidad a forecasting (TimesFM).\n\n\nLimitaciones:\n\nDesalineación temporal de fuentes.\n\nAlcance geográfico limitado a EE. UU.\n\nEmbeddings estáticos (no dinámicos).\n\nRiesgos de privacidad y sesgos poblacionales.\n\n\nFuturo:\n\nExtensión global y en regímenes de baja‑datos.\n\nInclusión de aristas espaciotemporales y movilidad.\n\nGarantías de privacidad diferencial.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
+    ]
+  },
+  {
+    "objectID": "agarwal-2025.html#aplicabilidad-en-chile",
+    "href": "agarwal-2025.html#aplicabilidad-en-chile",
+    "title": "5  Population Dynamics - FM",
+    "section": "5.7 Aplicabilidad en Chile",
+    "text": "5.7 Aplicabilidad en Chile\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nDisponibilidad de insumos\nPOIs, clima y calidad del aire disponibles; búsquedas/afluencia dependerán de acuerdos y privacidad\n\n\nUnidades espaciales\nAdaptable a comunas, zonas censales, manzanas\n\n\nTareas prioritarias\nSalud (obesidad, hipertensión), pobreza, vulnerabilidad social, contaminación\n\n\nImplementación\nUso de embeddings publicados como arranque; downstream con etiquetas locales (INE, DEIS, MINSAL)\n\n\nRiesgos\nSesgos por estructura urbano/rural distinta; validación externa necesaria\n\n\nPrivacidad\nRequiere anonimización fuerte / privacidad diferencial",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
+    ]
+  },
+  {
+    "objectID": "agarwal-2025.html#madurez-evidencia",
+    "href": "agarwal-2025.html#madurez-evidencia",
+    "title": "5  Population Dynamics - FM",
+    "section": "5.8 Madurez & Evidencia",
+    "text": "5.8 Madurez & Evidencia\n\n\n\n\n\n\n\nEje\nNivel\n\n\n\n\nTRL (estimado)\n5–6\n\n\nRobustez metodológica\nAlta en interpolación; media en extrapolación/super‑resolución\n\n\nReproducibilidad\nMedia‑alta (código y embeddings públicos; insumos propietarios limitan)\n\n\nGeneralización geográfica\nMedia (foco en EE. UU.)\n\n\nTransparencia/interpretabilidad\nMedia",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
+    ]
+  },
+  {
+    "objectID": "agarwal-2025.html#impacto-en-políticas-públicas-ods",
+    "href": "agarwal-2025.html#impacto-en-políticas-públicas-ods",
+    "title": "5  Population Dynamics - FM",
+    "section": "5.9 Impacto en Políticas Públicas / ODS",
+    "text": "5.9 Impacto en Políticas Públicas / ODS\nSegún los autores creen que que el PDFM puede aplicarse a una variedad de aplicaciones en distintos dominios, incluyendo:\n\nSalud pública: El PDFM podría utilizarse en modelos que predicen la prevalencia y propagación de enfermedades para ayudar a informar las políticas de salud pública y las decisiones de asignación de recursos.\nRetail: El PDFM podría ser usado por analistas del sector minorista para considerar factores como la densidad de población, los intereses de los consumidores y la presencia de competidores en sus procesos de toma de decisiones.\nAnálisis de impacto del riesgo climático: Los científicos ambientales podrían aplicar el PDFM en modelos que monitorean el impacto humano de la deforestación, los cambios en la calidad del aire y el efecto del cambio climático en diferentes regiones.\nIndicadores macroeconómicos y socioeconómicos: El PDFM podría usarse para caracterizar regiones mediante embeddings con el fin de optimizar indicadores macroeconómicos y socioeconómicos como el PIB o el desempleo.\n\n\nPuede apoyar focalización territorial en salud y asistencia social, planificación urbana y monitoreo ambiental. Contribuye a ODS 3, ODS 10, ODS 11, ODS 13 al facilitar un marco replicable y flexible para análisis territorial.\n\n\n\n\n\nAgarwal, Mohit, Mimi Sun, Chaitanya Kamath, Arbaaz Muslim, Prithul Sarker, Joydeep Paul, Hector Yee, et al. 2024. “General Geospatial Inference with a Population Dynamics Foundation Model.” arXiv Preprint arXiv:2411.07207.",
+    "crumbs": [
+      "Urbanismo - IA",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
+    ]
+  }
+]

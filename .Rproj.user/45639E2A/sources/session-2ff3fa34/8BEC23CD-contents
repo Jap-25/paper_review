@@ -1,0 +1,177 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Prefacio
+
+![](images/centro-de-inteligencia-territorial-01.jpg){fig-align="center"
+width="400"}
+
+## Descripción del Proyecto
+
+Este proyecto tiene como propósito central la revisión, análisis,
+documentación y difusión de investigaciones científicas recientes en
+inteligencia artificial (IA), con énfasis en aplicaciones prácticas y
+potencial impacto territorial en Chile. Se orienta a facilitar el acceso
+y comprensión de avances significativos en dos líneas principales:
+
+-   **Urban AI**: Aplicaciones de IA en contextos urbanos (movilidad,
+    planificación urbana, gestión pública, seguridad ciudadana).
+
+-   **Remote Sensing AI**: Aplicaciones de IA en percepción remota
+    (monitoreo ambiental, gestión de recursos naturales, prevención de
+    riesgos).
+    
+![](images/lineas.png){fig-align="center" width="500"}
+
+El proyecto se estructura para ser escalable, dinámico, interactivo y
+didáctico, favoreciendo la colaboración interdisciplinaria.
+
+## Objetivos
+
+### Objetivo General {.unnumbered}
+
+Construir una plataforma escalable de revisión y análisis aplicado de
+investigaciones científicas en IA orientadas al territorio, promoviendo
+la difusión de conocimiento científico actualizado, aplicado y
+didáctico.
+
+
+<!-- ![](images/desc_project.png) -->
+
+### Objetivos Específicos {.unnumbered}
+
+1.  Recopilar, organizar y clasificar investigaciones recientes en Urban
+    AI y Remote Sensing AI.
+2.  Generar resúmenes ejecutivos claros y concisos que faciliten la
+    comprensión y aplicación práctica de cada investigación.
+3.  Crear presentaciones visuales y didácticas que permitan difundir
+    rápidamente los aportes de cada investigación.
+4.  Diseñar un sistema de clasificación progresiva para investigaciones,
+    que permita su escalabilidad según el nivel de análisis y
+    aplicabilidad práctica.
+5.  Motivar la participación de investigadores y estudiantes, fomentando
+    un entorno colaborativo y entretenido para la exploración de
+    innovaciones científicas.
+
+## Metodología
+
+La metodología implica la descomposición de cada investigación en
+niveles progresivos de análisis, generando productos específicos en cada
+etapa. En un primer nivel se realiza un análisis general ejecutivo,
+luego se profundiza en secciones clave, y finalmente, en casos
+destacados, se procede a una experimentación práctica para validar
+resultados en terreno. Esta estructura metodológica facilita la gestión
+del conocimiento, la difusión eficiente y la aplicación práctica de
+hallazgos.
+
+![Roadmap flujo de análisis de los Peppers por cada uno de los niveles y
+sus productos](images/roadmap.png){fig-align="center"}
+
+### Niveles de Análisis {#sec-stages .unnumbered}
+
+-   
+
+    **Stage-0 – Congelador:**
+
+    :   Repositorio de investigaciones recopiladas que aún no han sido
+        analizadas. Esta etapa agrupa los documentos en espera de
+        revisión o priorización.
+
+-   
+
+    **Stage-1 – Análisis ejecutivo:**
+
+    :   Evaluación inicial de los estudios seleccionados, enfocada en
+        identificar su relevancia estratégica. Los resultados se
+        sistematizan en un libro digital denominado
+        book-general[^index-1]. Además, se elabora una presentación
+        ejecutiva complementaria llamada keynote-general[^index-2].
+
+-   
+
+    **Stage-2 – Análisis específico:**
+
+    :   Revisión detallada de los estudios más relevantes, desglosando
+        sus secciones clave (introducción, metodología, resultados,
+        discusión, etc.). Cada análisis profundo se documenta mediante
+        una presentación individual llamada
+        keynote-específico[^index-3], donde se decidirá si el estudio
+        avanza a la siguiente etapa.
+
+-   
+
+    **Stage-3 – Investigación aplicada:**
+
+    :   Implementación práctica del conocimiento adquirido a través de
+        experimentación, pruebas o desarrollos pilotos. Esta etapa se
+        formaliza en un libro digital denominado
+        book-específico[^index-4].
+
+[^index-1]: book-general: Este libro digital contiene los resúmenes
+    ejecutivos de todos los estudios analizados, así como enlaces a
+    análisis más profundos para aquellos documentos que avanzan al
+    Stage-2, organizados por temática
+
+[^index-2]: keynote-general: Presentación asociada al book-general, que
+    resume los hallazgos principales clasificados por temática
+
+[^index-3]: keynote-específico: Presentación detallada de un estudio
+    particular, abordando sus contenidos en profundidad y evaluando su
+    potencial para una fase de aplicación
+
+[^index-4]: book-específico: Documento técnico que recoge el análisis
+    detallado del estudio aplicado, incluyendo resultados experimentales
+    y aspectos metodológicos clave. Constituye la base para futuras
+    publicaciones científicas
+
+![](images/niveles.png)
+
+### Productos {#sec-productos .unnumbered}
+
+-   Libros Digitales (Quarto): Documentos interactivos con resúmenes
+    ejecutivos o análisis detallados según etapa.
+-   Presentaciones (Markdown con Reveal.js): Slides concisas, claras y
+    visualmente atractivas para facilitar difusión y comprensión.
+
+## Estrategia de Participación
+
+### Motivación y Didáctica
+
+-   Eventos regulares (reuniones Review, webinars, workshops) para
+    presentar investigaciones destacadas.
+-   Espacios interactivos para debate, discusión y preguntas.
+-   Integración de elementos visuales, storytelling y ejemplos prácticos
+    locales para mayor atractivo.
+
+### Rol de los participantes
+
+-   Oyentes: Recibirán información sintetizada y visualmente atractiva
+    que estimule el interés y curiosidad por la IA aplicada.
+-   Analistas: Investigadores o estudiantes que realizarán análisis
+    profundos, generarán contenidos y experimentaciones prácticas.
+
+## Conclusiones
+
+Este proyecto se plantea como un entorno dinámico y atractivo para
+explorar y entender cómo la inteligencia artificial puede impactar
+positivamente en nuestro territorio y sociedad, proporcionando
+herramientas que faciliten la transición del conocimiento científico
+hacia acciones prácticas, informadas y sostenibles.
+
+## Autor Principal: Denis Berroeta {.unnumbered}
+
+([denis.berroeta\@uai.cl](mailto:denis.berroeta@uai.cl){.email})
+
+Master y PhD (cursando) in Data Science, Magister en Inteligencia
+Artificial, Universidad Adolfo Ibáñez. Coordinador de Investigación
+Centro Inteligencia Territorial, UAI. Tiene experiencia en modelamiento
+y análisis de datos espaciales, trabajando en diferentes proyectos de
+investigación públicos y privados en el Centro de Inteligencia
+Territorial de la Universidad Adolfo Ibáñez, diseñando y gestionando la
+implementación de metodologías de análisis de datos territoriales. Posee
+experiencia como profesor en Geoestadística; Análisis Criminal, Análisis
+de imágenes satelitales para el monitoreo ambiental y gestión de
+desastres naturales; y Data Science.
