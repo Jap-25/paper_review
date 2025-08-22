@@ -1,5 +1,5 @@
 ---
-title: "Population Dynamics - FM"
+title: "Population Dynamics - FM" 
 subtitle: "General Geospatial Inference with a Population Dynamics Foundation Model"
 author: "@agarwal2024pdfm"
 ---
@@ -150,7 +150,7 @@ Se diseñan **tres evaluaciones espaciales**: interpolación (holdout 20% condad
 | **TRL (estimado)** | 5–6 |
 | **Robustez metodológica** | Alta en interpolación; media en extrapolación/super‑resolución |
 | **Reproducibilidad** | Media‑alta (código y embeddings públicos; insumos propietarios limitan) |
-| **Generalización geográfica** | Media (foco en EE. UU.) |
+| **Generalización geográfica** | Media (foco en EE.UU.) |
 | **Transparencia/interpretabilidad** | Media |
 
 ## Impacto en Políticas Públicas / ODS
