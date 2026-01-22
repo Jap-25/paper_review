@@ -34,6 +34,8 @@ author: "@fang2026earthembedding"
 4. Identificación de barreras operacionales.
 5. Integración en TorchGeo para estandarizar el acceso mediante una API unificada.
 
+![Taxonomía propuesta](images/fang-taxonomy.png){fig-align="center"}
+
 ### Modelos / Algoritmos  
 > Revisión de productos basados en arquitecturas como ResNet-50, ViT, DINOv2, MAE, MoCo v2, Barlow Twins, entre otros, usando técnicas de autoaprendizaje como contraste, autoencoders enmascarados y distilación.
 
@@ -47,6 +49,10 @@ El análisis cubre productos de embedding precomputados derivados de datos satel
 | ERA5 | ECMWF | 2019–2020 |
 | NAIP, MODIS | USDA, NASA | N/A |
 | Dynamic World, EuroCrops | Varios (Open data) | 2019–2025 |
+
+
+![Tabla de Datos y Coberturas](images/fang-tab1-cobertura.png){fig-align="center"}
+
 
 ### Validación & Uncertainties  
 Se destacan los retos de reproducibilidad, incluyendo falta de mantenimiento en repositorios, formatos inconsistentes, y ausencia de benchmarks comunes. Se propone TorchGeo como solución integradora con soporte para múltiples modelos y datasets, permitiendo tareas como recuperación por similitud y mapeo.
@@ -62,6 +68,8 @@ Se destacan los retos de reproducibilidad, incluyendo falta de mantenimiento en 
 | Código abierto | Parcial | Algunos modelos y códigos disponibles (TorchGeo, HuggingFace) |
 | Datos abiertos | Sí | Sentinel, Landsat, ERA5, etc. |
 | Repositorio activo | No | Muchos repositorios sin mantenimiento |
+
+![Tabla de Reproducibilidad](images/fang-tab2-licencias.png){fig-align="center"}
 
 ## Resultados Clave  
 - Se clasifican los embeddings en tres tipos: por ubicación, por parche, y por píxel.
