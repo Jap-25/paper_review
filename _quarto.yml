@@ -20,6 +20,7 @@ book:
     - part: remote_sensing.qmd
       chapters:
         - brown-2025.qmd
+        - fang-2026.qmd
     - part: urban.qmd
       chapters:
         - han-2018.qmd

@@ -425,7 +425,7 @@
     "href": "agarwal-2025.html#abstract",
     "title": "5  Population Dynamics - FM",
     "section": "5.2 Abstract",
-    "text": "5.2 Abstract\n\nOriginal:\nSupporting the health and well-being of dynamic populations around the world requires governmental agencies, organizations, and researchers to understand and reason over complex relationships between human behavior and local contexts. This support includes identifying populations at elevated risk and gauging where to target limited aid resources. Traditional approaches to these classes of problems often entail developing manually curated, task-specific features and models to represent human behavior and the natural and built environment, which can be challenging to adapt to new, or even related tasks. To address this, we introduce the Population Dynamics Foundation Model (PDFM), which aims to capture the relationships between diverse data modalities and is applicable to a broad range of geospatial tasks. We first construct a geo-indexed dataset for postal codes and counties across the United States, capturing rich aggregated information on human behavior from maps, busyness, and aggregated search trends, and environmental factors such as weather and air quality. We then model this data and the complex relationships between locations using a graph neural network, producing embeddings that can be adapted to a wide range of downstream tasks using relatively simple models. We evaluate the effectiveness of our approach by benchmarking it on 27 downstream tasks spanning three distinct domains: health indicators, socioeconomic factors, and environmental measurements. The approach achieves state-of-the-art performance on geospatial interpolation across all tasks, surpassing existing satellite and geotagged image based location encoders. In addition, it achieves state-of-the-art performance in extrapolation and super-resolution for 25 of the 27 tasks. We also show that the PDFM can be combined with a state-of-the-art forecasting foundation model, TimesFM, to predict unemployment and poverty, achieving performance that surpasses fully supervised forecasting. The full set of embeddings and sample code are publicly available for researchers. In conclusion, we have demonstrated a general purpose approach to geospatial modeling tasks critical to understanding population dynamics by leveraging a rich set of complementary globally available datasets that can be readily adapted to previously unseen machine learning tasks.\n\n\nTraducción al español:\nApoyar la salud y el bienestar de poblaciones dinámicas exige comprender y razonar sobre relaciones complejas entre el comportamiento humano y los contextos locales. Esto incluye identificar poblaciones en mayor riesgo y orientar recursos limitados. Los enfoques tradicionales suelen requerir features y modelos específicos por tarea para representar comportamiento humano y entorno natural/ construido, lo que dificulta su adaptación a tareas nuevas o afines. Para abordarlo, se introduce el Population Dynamics Foundation Model (PDFM), que busca capturar relaciones entre diversas modalidades de datos y es aplicable a un amplio rango de tareas geoespaciales. Primero, se construye un conjunto geo‑indexado para códigos postales y condados de EE. UU., con información agregada rica sobre comportamiento humano (mapas, afluencia/“busyness”, tendencias de búsqueda agregadas) y factores ambientales (clima y calidad del aire). Luego, se modelan estos datos y las relaciones complejas entre lugares mediante una red neuronal de grafos, produciendo embeddings adaptables a muchas tareas con modelos sencillos. La eficacia se evalúa con 27 tareas en tres dominios: indicadores de salud, factores socioeconómicos y mediciones ambientales. El enfoque logra state‑of‑the‑art (SoTA) en interpolación para todas las tareas, superando codificadores basados en satélite e imágenes geolocalizadas; y alcanza SoTA en extrapolación y super‑resolución para 25 de 27 tareas. Además, se muestra que PDFM puede combinarse con el modelo fundacional de pronóstico TimesFM para predecir desempleo y pobreza, superando a un pronóstico totalmente supervisado. Se liberan embeddings y código de ejemplo. En síntesis, se demuestra un enfoque general para modelado geoespacial crítico para entender la dinámica poblacional, aprovechando conjuntos de datos complementarios, globalmente disponibles, fácilmente adaptables a tareas inéditas.",
+    "text": "5.2 Abstract\n\nOriginal:\nSupporting the health and well-being of dynamic populations around the world requires governmental agencies, organizations, and researchers to understand and reason over complex relationships between human behavior and local contexts. This support includes identifying populations at elevated risk and gauging where to target limited aid resources. Traditional approaches to these classes of problems often entail developing manually curated, task-specific features and models to represent human behavior and the natural and built environment, which can be challenging to adapt to new, or even related tasks. To address this, we introduce the Population Dynamics Foundation Model (PDFM), which aims to capture the relationships between diverse data modalities and is applicable to a broad range of geospatial tasks. We first construct a geo-indexed dataset for postal codes and counties across the United States, capturing rich aggregated information on human behavior from maps, busyness, and aggregated search trends, and environmental factors such as weather and air quality. We then model this data and the complex relationships between locations using a graph neural network, producing embeddings that can be adapted to a wide range of downstream tasks using relatively simple models. We evaluate the effectiveness of our approach by benchmarking it on 27 downstream tasks spanning three distinct domains: health indicators, socioeconomic factors, and environmental measurements. The approach achieves state-of-the-art performance on geospatial interpolation across all tasks, surpassing existing satellite and geotagged image based location encoders. In addition, it achieves state-of-the-art performance in extrapolation and super-resolution for 25 of the 27 tasks. We also show that the PDFM can be combined with a state-of-the-art forecasting foundation model, TimesFM, to predict unemployment and poverty, achieving performance that surpasses fully supervised forecasting. The full set of embeddings and sample code are publicly available for researchers. In conclusion, we have demonstrated a general purpose approach to geospatial modeling tasks critical to understanding population dynamics by leveraging a rich set of complementary globally available datasets that can be readily adapted to previously unseen machine learning tasks.\n\n\nTraducción al español:\nApoyar la salud y el bienestar de poblaciones dinámicas exige comprender y razonar sobre relaciones complejas entre el comportamiento humano y los contextos locales. Esto incluye identificar poblaciones en mayor riesgo y orientar recursos limitados. Los enfoques tradicionales suelen requerir features y modelos específicos por tarea para representar comportamiento humano y entorno natural/ construido, lo que dificulta su adaptación a tareas nuevas o afines. Para abordarlo, se introduce el Population Dynamics Foundation Model (PDFM), que busca capturar relaciones entre diversas modalidades de datos y es aplicable a un amplio rango de tareas geoespaciales. Primero, se construye un conjunto geo‑indexado para códigos postales y condados de EE.UU., con información agregada rica sobre comportamiento humano (mapas, afluencia/“busyness”, tendencias de búsqueda agregadas) y factores ambientales (clima y calidad del aire). Luego, se modelan estos datos y las relaciones complejas entre lugares mediante una red neuronal de grafos, produciendo embeddings adaptables a muchas tareas con modelos sencillos. La eficacia se evalúa con 27 tareas en tres dominios: indicadores de salud, factores socioeconómicos y mediciones ambientales. El enfoque logra state‑of‑the‑art (SoTA) en interpolación para todas las tareas, superando codificadores basados en satélite e imágenes geolocalizadas; y alcanza SoTA en extrapolación y super‑resolución para 25 de 27 tareas. Además, se muestra que PDFM puede combinarse con el modelo fundacional de pronóstico TimesFM para predecir desempleo y pobreza, superando a un pronóstico totalmente supervisado. Se liberan embeddings y código de ejemplo. En síntesis, se demuestra un enfoque general para modelado geoespacial crítico para entender la dinámica poblacional, aprovechando conjuntos de datos complementarios, globalmente disponibles, fácilmente adaptables a tareas inéditas.",
     "crumbs": [
       "Urbanismo - IA",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
@@ -436,7 +436,7 @@
     "href": "agarwal-2025.html#preguntas-de-investigación-hipótesis",
     "title": "5  Population Dynamics - FM",
     "section": "5.3 Preguntas de Investigación / Hipótesis",
-    "text": "5.3 Preguntas de Investigación / Hipótesis\n\n\n¿Puede un modelo fundacional geoespacial, basado en GNN y datos multimodales, generar embeddings generales que superen a codificadores de localización existentes (p. ej., SatCLIP/GeoCLIP) en interpolación, extrapolación y super‑resolución? (inferida)\n\n¿Pueden estos embeddings mejorar pronósticos univariados (TimesFM) de indicadores socioeconómicos (desempleo, pobreza) mediante una capa adaptadora simple? (inferida)",
+    "text": "5.3 Preguntas de Investigación / Hipótesis\n\n\n¿Puede un modelo fundacional geoespacial, basado en GNN y datos multimodales, generar embeddings generales que superen a codificadores de localización existentes (p.ej., SatCLIP/GeoCLIP) en interpolación, extrapolación y super‑resolución? (inferida)\n\n¿Pueden estos embeddings mejorar pronósticos univariados (TimesFM) de indicadores socioeconómicos (desempleo, pobreza) mediante una capa adaptadora simple? (inferida)",
     "crumbs": [
       "Urbanismo - IA",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
@@ -447,7 +447,7 @@
     "href": "agarwal-2025.html#metodología",
     "title": "5  Population Dynamics - FM",
     "section": "5.4 Metodología",
-    "text": "5.4 Metodología\n\n5.4.1 Flujo de trabajo\n\nFase 1 – Modelo fundacional (PDFM): construcción de un grafo geoespacial (códigos postales y condados como nodos; aristas por proximidad y similitud de comportamiento) e integración de modalidades (tendencias de búsqueda agregadas, POIs en mapas, busyness, clima y calidad del aire; además embeddings SatCLIP como variante). Entrenamiento auto‑supervisado para reconstruir features por fuente y obtener embeddings desagregados por modalidad.\n\nFase 2 – Tareas downstream: uso de embeddings como covariables en modelos ligeros (Ridge, GBDT, MLP) para interpolación, extrapolación y super‑resolución de 27 variables (salud, socioeconomía, ambiente).\n\nPronóstico: combinación de TimesFM (decoder‑only preentrenado) con un MLP adaptador que toma embeddings PDFM + predicción TimesFM (t‑1) para corregir errores y proyectar desempleo (condado) y pobreza (ZIP).\n\n\n\n\nTraining and Applying the Population Dynamics Foundation Model\n\n\n\n\n5.4.2 Modelos / Algoritmos\n\nPDFM (GNN GraphSAGE): muestreo de subgrafos hasta 4 saltos; agregación pooling; una ronda de message passing; capa lineal final (≈330 dim); entrenamiento auto‑supervisado con pérdida Huber; embeddings con partición por fuente (0‑127 Búsquedas; 128‑255 Mapas/Busyness; 256‑329 Clima/Calidad aire).\nDownstream: Ridge, LightGBM (GBDT; hasta 3000 árboles; 31 hojas; lr 0.02), MLP (512‑256‑128, ReLU, dropout 0.2, Adam, 40 épocas).\nPronóstico: TimesFM + MLP adaptador (2 capas) para corrección de errores.\n\n\n\n\n\n\n\n\n5.4.3 Datos\nEl estudio integra cinco fuentes principales a nivel código postal y condado en la CONUS (EE. UU. continental).\n\n\n\n\n\n\n\n\nTipo\nFuente\nCobertura temporal\n\n\n\n\nTendencias de búsqueda agregadas\nAgregados anónimos (Sun et al. 2024)\nJulio 2022\n\n\nMapas (POIs)\nGoogle Maps (1,192 categorías)\nMayo 2024\n\n\nBusyness (afluencia)\nAgregados por categoría de POI\n1er semestre 2024\n\n\nClima & Calidad del aire\nReanálisis / estaciones (variables met & AQ)\nJulio 2022\n\n\nSatélite (embeddings)\nSatCLIP (Sentinel‑2, ViT16‑L40)\n2021–2023\n\n\nEtiquetas salud\nCDC PLACES vía Data Commons\nAño 2022\n\n\nSocioeconómicas (espaciales)\nData Commons (ingresos, vivienda, población, night lights)\n2022\n\n\nPronóstico (desempleo)\nCondado, mensual\n1990–2024\n\n\nPronóstico (pobreza)\nZIP, anual\n2011–2022\n\n\n\nDatos Fase 1\n\nTendencias de búsqueda agregadas (jul‑2022).\nMapas (POIs) (may‑2024).\nBusyness (H1‑2024).\nClima & Calidad del aire (jul‑2022).\n\n\nEmbeddings de comparación y complemento: SatCLIP (2021‑2023).\n\nDatos Fase 2\n\nEtiquetas downstream provienen de Data Commons / CDC PLACES (2022) y catálogos (p. ej., night lights, elevación).\n\n\n\n\n\n\n\n\n5.4.4 Validación & Uncertainties\nSe diseñan tres evaluaciones espaciales: interpolación (holdout 20% condados), extrapolación (holdout 20% estados) y super‑resolución (entrenar en condado, probar en ZIP). Métricas: R², correlación de Pearson (r) y MAPE. Se comparan IDW, SatCLIP, GeoCLIP y PDFM; además, ablaciones por modalidad.\n\n\n\n\n\n\n\n\n\n\nMétrica\nValor\nAlcance\nNotas\n\n\n\n\nR² medio = 0.83\nPDFM\nInterpolación (27 tareas)\nSalud (media) 0.73; Elevación 0.96, Night Lights 0.93\n\n\nR² medio = 0.70\nPDFM\nExtrapolación (27 tareas)\nSalud (media) 0.58; Tree cover GeoCLIP 0.69 (mejor en esa tarea)\n\n\nr medio = 0.48\nPDFM\nSuper‑resolución (27 tareas)\nSalud (media) 0.46; IDW mejor en Elevación\n\n\nMAPE = 0.1132\nTimesFM(t‑1)+PDFM\nDesempleo (condado)\nMejora vs TimesFM(t) 0.1186 y ARIMA 0.1160\n\n\nMAPE = 0.2577\nTimesFM(t‑1)+PDFM\nPobreza (ZIP)\nMejora vs TimesFM(t) 0.3215 y ARIMA 0.2934\n\n\n\nMétricas Globales:\n\n\n\n5.4.5 Replicabilidad & Recursos\n\n\n\n\n\n\n\n\nÍtem\nSí/No\nDetalle\n\n\n\n\nCódigo disponible\nSí\nGitHub google-research/population-dynamics (embeddings, datos procesados y ejemplos)\n\n\nDatos embeddings\nSí\nEmbeddings PDFM públicos; etiquetas de benchmark vía Data Commons/Earth Engine\n\n\nPesos del modelo GNN\nNo\nSe publican embeddings pero no pesos entrenados completos\n\n\nDocumentación de splits\nSí\nEsquemas de holdouts y tablas de resultados en el preprint\n\n\nDeclaración de conflictos\nSí\nFinanciado por Alphabet; autores empleados",
+    "text": "5.4 Metodología\n\n5.4.1 Flujo de trabajo\n\nFase 1 – Modelo fundacional (PDFM): construcción de un grafo geoespacial (códigos postales y condados como nodos; aristas por proximidad y similitud de comportamiento) e integración de modalidades (tendencias de búsqueda agregadas, POIs en mapas, busyness, clima y calidad del aire; además embeddings SatCLIP como variante). Entrenamiento auto‑supervisado para reconstruir features por fuente y obtener embeddings desagregados por modalidad.\n\nFase 2 – Tareas downstream: uso de embeddings como covariables en modelos ligeros (Ridge, GBDT, MLP) para interpolación, extrapolación y super‑resolución de 27 variables (salud, socioeconomía, ambiente).\n\n\n\n\n\nTraining and Applying the Population Dynamics Foundation Model\n\n\n\n\n5.4.2 Modelos / Algoritmos\n\nPDFM (GNN GraphSAGE): muestreo de subgrafos hasta 4 saltos; agregación pooling; una ronda de message passing; capa lineal final (≈330 dim); entrenamiento auto‑supervisado con pérdida Huber; embeddings con partición por fuente (0‑127 Búsquedas; 128‑255 Mapas/Busyness; 256‑329 Clima/Calidad aire).\nDownstream: Ridge, LightGBM (GBDT; hasta 3000 árboles; 31 hojas; lr 0.02), MLP (512‑256‑128, ReLU, dropout 0.2, Adam, 40 épocas).\nPronóstico: TimesFM + MLP adaptador (2 capas) para corrección de errores.\n\n\n\n\n\n\n\n\n5.4.3 Datos\nEl estudio integra cinco fuentes principales a nivel código postal y condado en la CONUS (EE.UU. continental).\n\n\n\n\n\n\n\n\nTipo\nFuente\nCobertura temporal\n\n\n\n\nTendencias de búsqueda agregadas\nAgregados anónimos (Sun et al. 2024)\nJulio 2022\n\n\nMapas (POIs)\nGoogle Maps (1,192 categorías)\nMayo 2024\n\n\nBusyness (afluencia)\nAgregados por categoría de POI\n1er semestre 2024\n\n\nClima & Calidad del aire\nReanálisis / estaciones (variables met & AQ)\nJulio 2022\n\n\nSatélite (embeddings)\nSatCLIP (Sentinel‑2, ViT16‑L40)\n2021–2023\n\n\nEtiquetas salud\nCDC PLACES vía Data Commons\nAño 2022\n\n\nSocioeconómicas (espaciales)\nData Commons (ingresos, vivienda, población, night lights)\n2022\n\n\nPronóstico (desempleo)\nCondado, mensual\n1990–2024\n\n\nPronóstico (pobreza)\nZIP, anual\n2011–2022\n\n\n\nDatos Fase 1\n\nTendencias de búsqueda agregadas (jul‑2022).\nMapas (POIs) (may‑2024).\nBusyness (H1‑2024).\nClima & Calidad del aire (jul‑2022).\n\n\nEmbeddings de comparación y complemento: SatCLIP (2021‑2023).\n\nDatos Fase 2\n\nEtiquetas downstream provienen de Data Commons / CDC PLACES (2022) y catálogos (p.ej., night lights, elevación).\n\n\n\n\n\n\n\n\n5.4.4 Validación & Uncertainties\nSe diseñan tres evaluaciones espaciales: interpolación (holdout 20% condados), extrapolación (holdout 20% estados) y super‑resolución (entrenar en condado, probar en ZIP). Métricas: R², correlación de Pearson (r) y MAPE. Se comparan IDW, SatCLIP, GeoCLIP y PDFM; además, ablaciones por modalidad.\n\n\n\n\n\n\n\n\n\n\nMétrica\nValor\nAlcance\nNotas\n\n\n\n\nR² medio = 0.83\nPDFM\nInterpolación (27 tareas)\nSalud (media) 0.73; Elevación 0.96, Night Lights 0.93\n\n\nR² medio = 0.70\nPDFM\nExtrapolación (27 tareas)\nSalud (media) 0.58; Tree cover GeoCLIP 0.69 (mejor en esa tarea)\n\n\nr medio = 0.48\nPDFM\nSuper‑resolución (27 tareas)\nSalud (media) 0.46; IDW mejor en Elevación\n\n\nMAPE = 0.1132\nTimesFM(t‑1)+PDFM\nDesempleo (condado)\nMejora vs TimesFM(t) 0.1186 y ARIMA 0.1160\n\n\nMAPE = 0.2577\nTimesFM(t‑1)+PDFM\nPobreza (ZIP)\nMejora vs TimesFM(t) 0.3215 y ARIMA 0.2934\n\n\n\nMétricas Globales:\n\n\n\n5.4.5 Replicabilidad & Recursos\n\n\n\n\n\n\n\n\nÍtem\nSí/No\nDetalle\n\n\n\n\nCódigo disponible\nSí\nGitHub google-research/population-dynamics (embeddings, datos procesados y ejemplos)\n\n\nDatos embeddings\nSí\nEmbeddings PDFM públicos; etiquetas de benchmark vía Data Commons/Earth Engine\n\n\nPesos del modelo GNN\nNo\nSe publican embeddings pero no pesos entrenados completos\n\n\nDocumentación de splits\nSí\nEsquemas de holdouts y tablas de resultados en el preprint\n\n\nDeclaración de conflictos\nSí\nFinanciado por Alphabet; autores empleados",
     "crumbs": [
       "Urbanismo - IA",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
@@ -469,7 +469,7 @@
     "href": "agarwal-2025.html#discusión",
     "title": "5  Population Dynamics - FM",
     "section": "5.6 Discusión",
-    "text": "5.6 Discusión\n\nContribuciones:\n\nPrimer marco fundacional geoespacial multimodal validado en 27 tareas.\n\nEmbeddings desagregados por fuente, aportando interpretabilidad.\n\nAdaptabilidad a forecasting (TimesFM).\n\n\nLimitaciones:\n\nDesalineación temporal de fuentes.\n\nAlcance geográfico limitado a EE. UU.\n\nEmbeddings estáticos (no dinámicos).\n\nRiesgos de privacidad y sesgos poblacionales.\n\n\nFuturo:\n\nExtensión global y en regímenes de baja‑datos.\n\nInclusión de aristas espaciotemporales y movilidad.\n\nGarantías de privacidad diferencial.",
+    "text": "5.6 Discusión\n\nContribuciones:\n\nPrimer marco fundacional geoespacial multimodal validado en 27 tareas.\n\nEmbeddings desagregados por fuente, aportando interpretabilidad.\n\nAdaptabilidad a forecasting (TimesFM).\n\n\nLimitaciones:\n\nDesalineación temporal de fuentes.\n\nAlcance geográfico limitado a EE.UU.\n\nEmbeddings estáticos (no dinámicos).\n\nRiesgos de privacidad y sesgos poblacionales.\n\n\nFuturo:\n\nExtensión global y en regímenes de baja‑datos.\n\nInclusión de aristas espaciotemporales y movilidad.\n\nGarantías de privacidad diferencial.",
     "crumbs": [
       "Urbanismo - IA",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Population Dynamics - FM</span>"
@@ -640,6 +640,17 @@
     ]
   },
   {
+    "objectID": "presentaciones.html#reuniones-review",
+    "href": "presentaciones.html#reuniones-review",
+    "title": "Appendix A — Presentaciones",
+    "section": "",
+    "text": "Fecha\nTema\nPaper\nAutor\nPresentación\nExpositor\n\n\n\n\n22-ago-2025\nUrban AI\nPopulation Dynamics - FM\nAgarwal et al. (2024)\n\n\n\n\n\nUrban AI\nLLM - Urban Agents\nHan et al. (2025)",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Presentaciones</span>"
+    ]
+  },
+  {
     "objectID": "presentaciones.html#webinar",
     "href": "presentaciones.html#webinar",
     "title": "Appendix A — Presentaciones",
@@ -772,14 +783,113 @@
     ]
   },
   {
-    "objectID": "presentaciones.html#reuniones-review",
-    "href": "presentaciones.html#reuniones-review",
-    "title": "Appendix A — Presentaciones",
+    "objectID": "fang-2026.html",
+    "href": "fang-2026.html",
+    "title": "4  Earth Embeddings as Products",
     "section": "",
-    "text": "Fecha\nTema\nPaper\nAutor\nPresentación\nExpositor\n\n\n\n\n22-ago-2025\nUrban AI\nPopulation Dynamics - FM\nAgarwal et al. (2024)\n\n\n\n\n\nUrban AI\nLLM - Urban Agents\nHan et al. (2025)",
+    "text": "4.1 Información Básica",
     "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Presentaciones</span>"
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Earth Embeddings as Products</span>"
+    ]
+  },
+  {
+    "objectID": "fang-2026.html#información-básica",
+    "href": "fang-2026.html#información-básica",
+    "title": "4  Earth Embeddings as Products",
+    "section": "",
+    "text": "Elemento\nDetalle\n\n\n\n\nReferencia corta\nFang et al. (2026)\n\n\nTítulo completo\nEarth Embeddings as Products: Taxonomy, Ecosystem, and Standardized Access\n\n\nRevista / Volumen / DOI\narXiv preprint arXiv:2601.13134v1 (cs.SE), 2026\n\n\nTemática\nModelos fundacionales geoespaciales, estandarización de productos de embedding, observación de la Tierra\n\n\nContexto / Problema\nEl ecosistema de productos derivados de modelos fundacionales geoespaciales está fragmentado, carece de estandarización en formatos, resoluciones y licencias, dificultando su comparabilidad y uso reproducible.\n\n\nKeywords\nEarth embeddings, geospatial foundation models, TorchGeo, remote sensing, standardization",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Earth Embeddings as Products</span>"
+    ]
+  },
+  {
+    "objectID": "fang-2026.html#abstract",
+    "href": "fang-2026.html#abstract",
+    "title": "4  Earth Embeddings as Products",
+    "section": "4.2 Abstract",
+    "text": "4.2 Abstract\n\nOriginal:\nGeospatial Foundation Models (GFMs) provide powerful representations, but high compute costs hinder their widespread use. Pre-computed embedding data products offer a practical “frozen” alternative, yet they currently exist in a fragmented ecosystem of incompatible formats and resolutions. This lack of standardization creates an engineering bottleneck that prevents meaningful model comparison and reproducibility. We formalize this landscape through a three-layer taxonomy: Data, Tools, and Value. We survey existing products to identify interoperability barriers. To bridge this gap, we extend TorchGeo with a unified API that standardizes the loading and querying of diverse embedding products. By treating embeddings as first-class geospatial datasets, we decouple downstream analysis from model-specific engineering, providing a roadmap for more transparent and accessible Earth observation workflows.\nTraducción al español:\nLos Modelos Fundacionales Geoespaciales (GFMs) ofrecen representaciones potentes, pero sus altos costos computacionales limitan su uso generalizado. Los productos de embedding precomputados constituyen una alternativa “congelada” más práctica, pero actualmente existen en un ecosistema fragmentado con formatos y resoluciones incompatibles. Esta falta de estandarización crea un cuello de botella ingenieril que impide comparaciones significativas entre modelos y su reproducibilidad. Formalizamos este panorama mediante una taxonomía de tres capas: Datos, Herramientas y Valor. Realizamos una revisión de productos existentes para identificar barreras de interoperabilidad. Para cerrar esta brecha, extendemos TorchGeo con una API unificada que estandariza la carga y consulta de diversos productos de embedding. Al tratar los embeddings como conjuntos de datos geoespaciales de primera clase, desacoplamos el análisis descendente de la ingeniería específica del modelo, proporcionando una hoja de ruta para flujos de trabajo más accesibles y transparentes en observación de la Tierra.",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Earth Embeddings as Products</span>"
+    ]
+  },
+  {
+    "objectID": "fang-2026.html#preguntas-de-investigación-hipótesis",
+    "href": "fang-2026.html#preguntas-de-investigación-hipótesis",
+    "title": "4  Earth Embeddings as Products",
+    "section": "4.3 Preguntas de Investigación / Hipótesis",
+    "text": "4.3 Preguntas de Investigación / Hipótesis\n\n\n¿Cómo se puede estandarizar el acceso y uso de productos de embedding geoespaciales para facilitar su comparación y aplicación? (inferida)\n¿Cuáles son las barreras actuales para la interoperabilidad y reproducibilidad en el ecosistema de Earth embeddings? (inferida)",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Earth Embeddings as Products</span>"
+    ]
+  },
+  {
+    "objectID": "fang-2026.html#metodología",
+    "href": "fang-2026.html#metodología",
+    "title": "4  Earth Embeddings as Products",
+    "section": "4.4 Metodología",
+    "text": "4.4 Metodología\n\n4.4.1 Flujo de trabajo\n\nRevisión del ecosistema actual de productos de Earth embeddings (7 casos).\nClasificación mediante una taxonomía funcional: Datos, Herramientas y Valor.\nComparación de propiedades técnicas: resolución, cobertura, licencia, arquitectura del modelo.\nIdentificación de barreras operacionales.\nIntegración en TorchGeo para estandarizar el acceso mediante una API unificada.\n\n\n\n4.4.2 Modelos / Algoritmos\n\nRevisión de productos basados en arquitecturas como ResNet-50, ViT, DINOv2, MAE, MoCo v2, Barlow Twins, entre otros, usando técnicas de autoaprendizaje como contraste, autoencoders enmascarados y distilación.\n\n\n\n4.4.3 Datos\nEl análisis cubre productos de embedding precomputados derivados de datos satelitales como Sentinel (1/2/3/5P), Landsat, MODIS, NAIP, ERA5 y otros. Los productos varían en resolución espacial (desde 0.25° hasta 10 m), cobertura (global o países como Togo) y cobertura temporal (instantánea o series anuales desde 2015 hasta 2025).\n\n\n\nTipo\nFuente\nCobertura temporal\n\n\n\n\nSentinel 1/2/3/5P\nESA (Copernicus)\n2015–2025\n\n\nLandsat 8/9\nNASA / USGS\n2018–2025\n\n\nERA5\nECMWF\n2019–2020\n\n\nNAIP, MODIS\nUSDA, NASA\nN/A\n\n\nDynamic World, EuroCrops\nVarios (Open data)\n2019–2025\n\n\n\n\n\n4.4.4 Validación & Uncertainties\nSe destacan los retos de reproducibilidad, incluyendo falta de mantenimiento en repositorios, formatos inconsistentes, y ausencia de benchmarks comunes. Se propone TorchGeo como solución integradora con soporte para múltiples modelos y datasets, permitiendo tareas como recuperación por similitud y mapeo.\n\n\n\n\n\n\n\n\n\nMétrica\nValor\nAlcance\nNotas\n\n\n\n\nCompatibilidad API\nCompleta\nTorchGeo\n7 productos integrados\n\n\nReproducibilidad\nLimitada\nGeneral\nRepos sin pruebas o documentación suficiente\n\n\n\n\n\n4.4.5 Replicabilidad & Recursos\n\n\n\n\n\n\n\n\nÍtem\nSí/No\nDetalle\n\n\n\n\nCódigo abierto\nParcial\nAlgunos modelos y códigos disponibles (TorchGeo, HuggingFace)\n\n\nDatos abiertos\nSí\nSentinel, Landsat, ERA5, etc.\n\n\nRepositorio activo\nNo\nMuchos repositorios sin mantenimiento",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Earth Embeddings as Products</span>"
+    ]
+  },
+  {
+    "objectID": "fang-2026.html#resultados-clave",
+    "href": "fang-2026.html#resultados-clave",
+    "title": "4  Earth Embeddings as Products",
+    "section": "4.5 Resultados Clave",
+    "text": "4.5 Resultados Clave\n\nSe clasifican los embeddings en tres tipos: por ubicación, por parche, y por píxel.\nLos embeddings recientes tienden hacia representaciones a nivel de píxel.\nSe integran 7 productos de embedding en TorchGeo con una API estandarizada.\nSe identifican tres barreras clave: distribución inconsistente, baja reproducibilidad, y dificultad para generar nuevos embeddings.",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Earth Embeddings as Products</span>"
+    ]
+  },
+  {
+    "objectID": "fang-2026.html#discusión",
+    "href": "fang-2026.html#discusión",
+    "title": "4  Earth Embeddings as Products",
+    "section": "4.6 Discusión",
+    "text": "4.6 Discusión\n\nContribuciones: Propuesta de taxonomía clara, revisión exhaustiva de productos existentes, y solución concreta de integración en TorchGeo.\nLimitaciones: Repositorios poco mantenidos, documentación parcial, falta de benchmarks unificados.\nFuturo: Ampliar comparación estandarizada en tareas temporales, incorporar más modelos y mejorar explicabilidad y cuantificación de incertidumbre.",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Earth Embeddings as Products</span>"
+    ]
+  },
+  {
+    "objectID": "fang-2026.html#aplicabilidad-en-chile",
+    "href": "fang-2026.html#aplicabilidad-en-chile",
+    "title": "4  Earth Embeddings as Products",
+    "section": "4.7 Aplicabilidad en Chile",
+    "text": "4.7 Aplicabilidad en Chile\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nDisponibilidad de datos base\nAlta (Sentinel, Landsat, ERA5 disponibles)\n\n\nResolución espacial adecuada\nSí, hasta 10 m\n\n\nPotencial para aplicaciones locales\nAlto (agricultura, cobertura de suelo, planificación territorial)",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Earth Embeddings as Products</span>"
+    ]
+  },
+  {
+    "objectID": "fang-2026.html#madurez-evidencia",
+    "href": "fang-2026.html#madurez-evidencia",
+    "title": "4  Earth Embeddings as Products",
+    "section": "4.8 Madurez & Evidencia",
+    "text": "4.8 Madurez & Evidencia\n\n\n\n\n\n\n\nEje\nNivel\n\n\n\n\nTRL (Technology Readiness Level)\n6–7 (implementado y en integración)\n\n\nEvidencia empírica\nMedia (estudio comparativo sin evaluación de desempeño directo)",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Earth Embeddings as Products</span>"
+    ]
+  },
+  {
+    "objectID": "fang-2026.html#impacto-en-políticas-públicas-ods",
+    "href": "fang-2026.html#impacto-en-políticas-públicas-ods",
+    "title": "4  Earth Embeddings as Products",
+    "section": "4.9 Impacto en Políticas Públicas / ODS",
+    "text": "4.9 Impacto en Políticas Públicas / ODS\n\nEste trabajo permite una mayor eficiencia y transparencia en aplicaciones de observación de la Tierra, facilitando la adopción de inteligencia artificial en la gestión ambiental, agricultura sostenible y monitoreo del cambio climático. Contribuye especialmente a los ODS 13 (Acción por el clima), 15 (Vida de ecosistemas terrestres) y 2 (Hambre cero).\n\n\n\n\n\n\nFang, Heng, Adam J. Stewart, Isaac Corley, Xiao Xiang Zhu, and Hossein Azizpour. 2026. “Earth Embeddings as Products: Taxonomy, Ecosystem, and Standardized Access.” https://arxiv.org/abs/2601.13134.",
+    "crumbs": [
+      "Percepción Remota - IA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Earth Embeddings as Products</span>"
     ]
   }
 ]

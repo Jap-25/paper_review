@@ -36,7 +36,7 @@ author: "@agarwal2024pdfm"
 
 1.  **Fase 1 – Modelo fundacional (PDFM):** construcción de un grafo geoespacial (códigos postales y condados como nodos; aristas por proximidad y similitud de comportamiento) e integración de modalidades (tendencias de búsqueda agregadas, POIs en mapas, *busyness*, clima y calidad del aire; además embeddings SatCLIP como variante). Entrenamiento auto‑supervisado para reconstruir *features* por fuente y obtener *embeddings* desagregados por modalidad.\
 2.  **Fase 2 – Tareas downstream:** uso de *embeddings* como covariables en modelos ligeros (Ridge, GBDT, MLP) para **interpolación**, **extrapolación** y **super‑resolución** de 27 variables (salud, socioeconomía, ambiente).\
-3.  **Pronóstico:** combinación de **TimesFM** (decoder‑only preentrenado) con un **MLP adaptador** que toma *embeddings* PDFM + predicción TimesFM (t‑1) para corregir errores y proyectar desempleo (condado) y pobreza (ZIP).
+<!-- 3.  **Pronóstico:** combinación de **TimesFM** (decoder‑only preentrenado) con un **MLP adaptador** que toma *embeddings* PDFM + predicción TimesFM (t‑1) para corregir errores y proyectar desempleo (condado) y pobreza (ZIP). -->
 
 ![Training and Applying the Population Dynamics Foundation Model](images/agawarl-pases.png)
 

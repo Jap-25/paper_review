@@ -195,6 +195,42 @@
             },
             "title": "General geospatial inference with a population dynamics foundation model",
             "type": "article-journal"
+        },
+        {
+            "URL": "https://arxiv.org/abs/2601.13134",
+            "author": [
+                {
+                    "family": "Fang",
+                    "given": "Heng"
+                },
+                {
+                    "family": "Stewart",
+                    "given": "Adam J."
+                },
+                {
+                    "family": "Corley",
+                    "given": "Isaac"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Xiao Xiang"
+                },
+                {
+                    "family": "Azizpour",
+                    "given": "Hossein"
+                }
+            ],
+            "id": "fang2026earthembedding",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026
+                    ]
+                ]
+            },
+            "title": "Earth embeddings as products: Taxonomy, ecosystem, and standardized access",
+            "title-short": "Earth embeddings as products",
+            "type": ""
         }
     ],
     "project_biblios": [
