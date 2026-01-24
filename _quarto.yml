@@ -26,6 +26,7 @@ book:
         - han-2018.qmd
         - agarwal-2025.qmd
         - reza-2025.qmd
+        - fleischmann-2025.qmd
     - references.qmd
   appendices:
     - presentaciones.qmd

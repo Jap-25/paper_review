@@ -8,7 +8,7 @@
 
 <meta name="author" content="Han et al. (2025)">
 
-<title>4&nbsp; LLM - Urban Agents – Paper Review: IA y Territorio</title>
+<title>5&nbsp; LLM - Urban Agents – Paper Review: IA y Territorio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./urban.html">Urbanismo - IA</a></li><li class="breadcrumb-item"><a href="./han-2018.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">LLM - Urban Agents</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./urban.html">Urbanismo - IA</a></li><li class="breadcrumb-item"><a href="./han-2018.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">LLM - Urban Agents</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -156,6 +156,12 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Alpha Earth Foundation</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fang-2026.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Earth Embeddings as Products</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -170,19 +176,19 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./han-2018.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">LLM - Urban Agents</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">LLM - Urban Agents</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./agarwal-2025.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Population Dynamics - FM</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Population Dynamics - FM</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./reza-2025.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Crix - Crime and Demographics</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Crix - Crime and Demographics</span></span></a>
   </div>
 </li>
       </ul>
@@ -226,30 +232,30 @@ div.csl-indent {
     <h2 id="toc-title">Contenidos</h2>
    
   <ul>
-  <li><a href="#información-básica" id="toc-información-básica" class="nav-link active" data-scroll-target="#información-básica"><span class="header-section-number">4.1</span> Información Básica</a></li>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"><span class="header-section-number">4.2</span> Abstract</a></li>
-  <li><a href="#metodología" id="toc-metodología" class="nav-link" data-scroll-target="#metodología"><span class="header-section-number">4.3</span> Metodología</a>
+  <li><a href="#información-básica" id="toc-información-básica" class="nav-link active" data-scroll-target="#información-básica"><span class="header-section-number">5.1</span> Información Básica</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"><span class="header-section-number">5.2</span> Abstract</a></li>
+  <li><a href="#metodología" id="toc-metodología" class="nav-link" data-scroll-target="#metodología"><span class="header-section-number">5.3</span> Metodología</a>
   <ul class="collapse">
-  <li><a href="#flujo-de-trabajo" id="toc-flujo-de-trabajo" class="nav-link" data-scroll-target="#flujo-de-trabajo"><span class="header-section-number">4.3.1</span> Flujo de trabajo</a></li>
-  <li><a href="#modelos-algoritmos" id="toc-modelos-algoritmos" class="nav-link" data-scroll-target="#modelos-algoritmos"><span class="header-section-number">4.3.2</span> Modelos / Algoritmos</a></li>
-  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos"><span class="header-section-number">4.3.3</span> Datos</a></li>
-  <li><a href="#validación-uncertainties" id="toc-validación-uncertainties" class="nav-link" data-scroll-target="#validación-uncertainties"><span class="header-section-number">4.3.4</span> Validación &amp; Uncertainties</a></li>
-  <li><a href="#replicabilidad-recursos" id="toc-replicabilidad-recursos" class="nav-link" data-scroll-target="#replicabilidad-recursos"><span class="header-section-number">4.3.5</span> Replicabilidad &amp; Recursos</a></li>
+  <li><a href="#flujo-de-trabajo" id="toc-flujo-de-trabajo" class="nav-link" data-scroll-target="#flujo-de-trabajo"><span class="header-section-number">5.3.1</span> Flujo de trabajo</a></li>
+  <li><a href="#modelos-algoritmos" id="toc-modelos-algoritmos" class="nav-link" data-scroll-target="#modelos-algoritmos"><span class="header-section-number">5.3.2</span> Modelos / Algoritmos</a></li>
+  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos"><span class="header-section-number">5.3.3</span> Datos</a></li>
+  <li><a href="#validación-uncertainties" id="toc-validación-uncertainties" class="nav-link" data-scroll-target="#validación-uncertainties"><span class="header-section-number">5.3.4</span> Validación &amp; Uncertainties</a></li>
+  <li><a href="#replicabilidad-recursos" id="toc-replicabilidad-recursos" class="nav-link" data-scroll-target="#replicabilidad-recursos"><span class="header-section-number">5.3.5</span> Replicabilidad &amp; Recursos</a></li>
   </ul></li>
-  <li><a href="#resultados-clave" id="toc-resultados-clave" class="nav-link" data-scroll-target="#resultados-clave"><span class="header-section-number">4.4</span> Resultados Clave</a></li>
-  <li><a href="#discusión" id="toc-discusión" class="nav-link" data-scroll-target="#discusión"><span class="header-section-number">4.5</span> Discusión</a></li>
-  <li><a href="#aplicabilidad-en-chile" id="toc-aplicabilidad-en-chile" class="nav-link" data-scroll-target="#aplicabilidad-en-chile"><span class="header-section-number">4.6</span> Aplicabilidad en Chile</a></li>
-  <li><a href="#madurez-evidencia" id="toc-madurez-evidencia" class="nav-link" data-scroll-target="#madurez-evidencia"><span class="header-section-number">4.7</span> Madurez &amp; Evidencia</a></li>
-  <li><a href="#impacto-en-políticas-públicas-ods" id="toc-impacto-en-políticas-públicas-ods" class="nav-link" data-scroll-target="#impacto-en-políticas-públicas-ods"><span class="header-section-number">4.8</span> Impacto en Políticas Públicas / ODS</a></li>
+  <li><a href="#resultados-clave" id="toc-resultados-clave" class="nav-link" data-scroll-target="#resultados-clave"><span class="header-section-number">5.4</span> Resultados Clave</a></li>
+  <li><a href="#discusión" id="toc-discusión" class="nav-link" data-scroll-target="#discusión"><span class="header-section-number">5.5</span> Discusión</a></li>
+  <li><a href="#aplicabilidad-en-chile" id="toc-aplicabilidad-en-chile" class="nav-link" data-scroll-target="#aplicabilidad-en-chile"><span class="header-section-number">5.6</span> Aplicabilidad en Chile</a></li>
+  <li><a href="#madurez-evidencia" id="toc-madurez-evidencia" class="nav-link" data-scroll-target="#madurez-evidencia"><span class="header-section-number">5.7</span> Madurez &amp; Evidencia</a></li>
+  <li><a href="#impacto-en-políticas-públicas-ods" id="toc-impacto-en-políticas-públicas-ods" class="nav-link" data-scroll-target="#impacto-en-políticas-públicas-ods"><span class="header-section-number">5.8</span> Impacto en Políticas Públicas / ODS</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./urban.html">Urbanismo - IA</a></li><li class="breadcrumb-item"><a href="./han-2018.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">LLM - Urban Agents</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./urban.html">Urbanismo - IA</a></li><li class="breadcrumb-item"><a href="./han-2018.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">LLM - Urban Agents</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">LLM - Urban Agents</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">LLM - Urban Agents</span></h1>
 <p class="subtitle lead">Large Language Model Powered Intelligent Urban Agents: Concepts, Capabilities, and Applications</p>
 </div>
 
@@ -273,8 +279,8 @@ div.csl-indent {
 </header>
 
 
-<section id="información-básica" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="información-básica"><span class="header-section-number">4.1</span> Información Básica</h2>
+<section id="información-básica" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="información-básica"><span class="header-section-number">5.1</span> Información Básica</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -306,8 +312,8 @@ div.csl-indent {
 </tbody>
 </table>
 </section>
-<section id="abstract" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="abstract"><span class="header-section-number">4.2</span> Abstract</h2>
+<section id="abstract" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="abstract"><span class="header-section-number">5.2</span> Abstract</h2>
 <blockquote class="blockquote">
 <p><strong>Original:</strong><br>
 The long-standing vision of intelligent cities is to create efficient, livable, and sustainable urban environments using big data and artificial intelligence technologies. Recently, the advent of Large Language Models (LLMs) has opened new ways toward realizing this vision. With powerful semantic understanding and reasoning capabilities, LLMs can be deployed as intelligent agents capable of autonomously solving complex problems across domains. In this article, we focus on Urban LLM Agents, which are LLM-powered agents that are semi-embodied within the hybrid cyber-physical-social space of cities and used for system-level urban decision-making. First, we introduce the concept of urban LLM agents, discussing their unique capabilities and features. Second, we survey the current research landscape from the perspective of agent workflows, encompassing urban sensing, memory management, reasoning, execution, and learning. Third, we categorize the application domains of urban LLM agents into five groups: urban planning, transportation, environment, public safety, and urban society, presenting representative works in each group. Finally, we discuss trustworthiness and evaluation issues that are critical for real-world deployment, and identify several open problems for future research.</p>
@@ -319,10 +325,10 @@ La visión de ciudades inteligentes busca entornos urbanos eficientes, habitable
 <!-- ## Preguntas de Investigación / Hipótesis   -->
 <!-- > *(el artículo es una revisión sistemática; sección eliminada)* -->
 </section>
-<section id="metodología" class="level2 page-columns page-full" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="metodología"><span class="header-section-number">4.3</span> Metodología</h2>
-<section id="flujo-de-trabajo" class="level3 page-columns page-full" data-number="4.3.1">
-<h3 data-number="4.3.1" class="anchored" data-anchor-id="flujo-de-trabajo"><span class="header-section-number">4.3.1</span> Flujo de trabajo</h3>
+<section id="metodología" class="level2 page-columns page-full" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="metodología"><span class="header-section-number">5.3</span> Metodología</h2>
+<section id="flujo-de-trabajo" class="level3 page-columns page-full" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="flujo-de-trabajo"><span class="header-section-number">5.3.1</span> Flujo de trabajo</h3>
 <ol type="1">
 <li>Definición conceptual de Agentes Urbanos LLM.<br>
 </li>
@@ -340,14 +346,14 @@ La visión de ciudades inteligentes busca entornos urbanos eficientes, habitable
 </figure>
 </div>
 </section>
-<section id="modelos-algoritmos" class="level3" data-number="4.3.2">
-<h3 data-number="4.3.2" class="anchored" data-anchor-id="modelos-algoritmos"><span class="header-section-number">4.3.2</span> Modelos / Algoritmos</h3>
+<section id="modelos-algoritmos" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="modelos-algoritmos"><span class="header-section-number">5.3.2</span> Modelos / Algoritmos</h3>
 <blockquote class="blockquote">
 <p>Survey de técnicas generales de LLM (Transformer pre-entrenado, afinamiento por instrucciones, RLHF, RAG, Chain-of-Thought) y su integración con herramientas externas: simuladores, APIs urbanas, bases de datos espaciales.</p>
 </blockquote>
 </section>
-<section id="datos" class="level3 page-columns page-full" data-number="4.3.3">
-<h3 data-number="4.3.3" class="anchored" data-anchor-id="datos"><span class="header-section-number">4.3.3</span> Datos</h3>
+<section id="datos" class="level3 page-columns page-full" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="datos"><span class="header-section-number">5.3.3</span> Datos</h3>
 <p>Se describen insumos heterogéneos en la literatura: sensores urbanos (tráfico, calidad del aire), datos geovectoriales (POI, redes viales), series temporales, trayectorias GPS, imágenes satelitales y texto no estructurado (políticas, redes sociales). Estos datos se utilizan para ilustrar casos de uso y métodos de integración multimodal.</p>
 <table class="caption-top table">
 <colgroup>
@@ -398,8 +404,8 @@ La visión de ciudades inteligentes busca entornos urbanos eficientes, habitable
 </figure>
 </div>
 </section>
-<section id="validación-uncertainties" class="level3" data-number="4.3.4">
-<h3 data-number="4.3.4" class="anchored" data-anchor-id="validación-uncertainties"><span class="header-section-number">4.3.4</span> Validación &amp; Uncertainties</h3>
+<section id="validación-uncertainties" class="level3" data-number="5.3.4">
+<h3 data-number="5.3.4" class="anchored" data-anchor-id="validación-uncertainties"><span class="header-section-number">5.3.4</span> Validación &amp; Uncertainties</h3>
 <p>Las evaluaciones en los trabajos revisados varían: simulaciones de tráfico (métricas de demora y congestión), benchmarks temporales y espaciales (precisión en razonamiento), validación cualitativa por expertos urbanos.</p>
 <table class="caption-top table">
 <colgroup>
@@ -438,8 +444,8 @@ La visión de ciudades inteligentes busca entornos urbanos eficientes, habitable
 </tbody>
 </table>
 </section>
-<section id="replicabilidad-recursos" class="level3" data-number="4.3.5">
-<h3 data-number="4.3.5" class="anchored" data-anchor-id="replicabilidad-recursos"><span class="header-section-number">4.3.5</span> Replicabilidad &amp; Recursos</h3>
+<section id="replicabilidad-recursos" class="level3" data-number="5.3.5">
+<h3 data-number="5.3.5" class="anchored" data-anchor-id="replicabilidad-recursos"><span class="header-section-number">5.3.5</span> Replicabilidad &amp; Recursos</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 16%">
@@ -478,8 +484,8 @@ La visión de ciudades inteligentes busca entornos urbanos eficientes, habitable
 </table>
 </section>
 </section>
-<section id="resultados-clave" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="resultados-clave"><span class="header-section-number">4.4</span> Resultados Clave</h2>
+<section id="resultados-clave" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="resultados-clave"><span class="header-section-number">5.4</span> Resultados Clave</h2>
 <ul>
 <li>Urban LLM agents unifican cinco módulos (percepción, memoria, razonamiento, ejecución, aprendizaje).<br>
 </li>
@@ -492,8 +498,8 @@ La visión de ciudades inteligentes busca entornos urbanos eficientes, habitable
 <li>Desafíos en confiabilidad, interpretabilidad y adaptabilidad a datos reales.</li>
 </ul>
 </section>
-<section id="discusión" class="level2" data-number="4.5">
-<h2 data-number="4.5" class="anchored" data-anchor-id="discusión"><span class="header-section-number">4.5</span> Discusión</h2>
+<section id="discusión" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="discusión"><span class="header-section-number">5.5</span> Discusión</h2>
 <ul>
 <li><strong>Contribuciones:</strong>
 <ul>
@@ -521,8 +527,8 @@ La visión de ciudades inteligentes busca entornos urbanos eficientes, habitable
 </ul></li>
 </ul>
 </section>
-<section id="aplicabilidad-en-chile" class="level2 page-columns page-full" data-number="4.6">
-<h2 data-number="4.6" class="anchored" data-anchor-id="aplicabilidad-en-chile"><span class="header-section-number">4.6</span> Aplicabilidad en Chile</h2>
+<section id="aplicabilidad-en-chile" class="level2 page-columns page-full" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="aplicabilidad-en-chile"><span class="header-section-number">5.6</span> Aplicabilidad en Chile</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 23%">
@@ -565,8 +571,8 @@ La visión de ciudades inteligentes busca entornos urbanos eficientes, habitable
 </figure>
 </div>
 </section>
-<section id="madurez-evidencia" class="level2" data-number="4.7">
-<h2 data-number="4.7" class="anchored" data-anchor-id="madurez-evidencia"><span class="header-section-number">4.7</span> Madurez &amp; Evidencia</h2>
+<section id="madurez-evidencia" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="madurez-evidencia"><span class="header-section-number">5.7</span> Madurez &amp; Evidencia</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -594,8 +600,8 @@ La visión de ciudades inteligentes busca entornos urbanos eficientes, habitable
 </tbody>
 </table>
 </section>
-<section id="impacto-en-políticas-públicas-ods" class="level2" data-number="4.8">
-<h2 data-number="4.8" class="anchored" data-anchor-id="impacto-en-políticas-públicas-ods"><span class="header-section-number">4.8</span> Impacto en Políticas Públicas / ODS</h2>
+<section id="impacto-en-políticas-públicas-ods" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="impacto-en-políticas-públicas-ods"><span class="header-section-number">5.8</span> Impacto en Políticas Públicas / ODS</h2>
 <blockquote class="blockquote">
 <p>Los Urban LLM Agents pueden contribuir a ODS 11 (Ciudades y comunidades sostenibles) al optimizar la planificación urbana y el transporte; ODS 13 (Acción por el clima) a través de monitoreo ambiental y gestión de recursos; y ODS 16 (Paz, justicia e instituciones sólidas) mediante la mejora de la seguridad pública y transparencia en la toma de decisiones urbanas.</p>
 </blockquote>
@@ -1016,7 +1022,7 @@ Han, Jindong, Yansong Ning, Zirui Yuan, Hang Ni, Fan Liu, Tengfei Lyu, and Hao L
   </div>
   <div class="nav-page nav-page-next">
       <a href="./agarwal-2025.html" class="pagination-link" aria-label="Population Dynamics - FM">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Population Dynamics - FM</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Population Dynamics - FM</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

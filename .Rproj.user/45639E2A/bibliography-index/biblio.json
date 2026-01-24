@@ -231,6 +231,42 @@
             "title": "Earth embeddings as products: Taxonomy, ecosystem, and standardized access",
             "title-short": "Earth embeddings as products",
             "type": ""
+        },
+        {
+            "URL": "https://arxiv.org/abs/2509.10083",
+            "author": [
+                {
+                    "family": "Fleischmann",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Samardzhiev",
+                    "given": "Krasen"
+                },
+                {
+                    "family": "Brázdová",
+                    "given": "Anna"
+                },
+                {
+                    "family": "Dančejová",
+                    "given": "Daniela"
+                },
+                {
+                    "family": "Winkler",
+                    "given": "Lisa"
+                }
+            ],
+            "id": "fleischmann2025hierarchicalmorphotope",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "title": "The hierarchical morphotope classification: A theory-driven framework for large-scale analysis of built form",
+            "title-short": "The hierarchical morphotope classification",
+            "type": ""
         }
     ],
     "project_biblios": [
