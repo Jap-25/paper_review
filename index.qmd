@@ -4,39 +4,14 @@ editor:
     wrap: 72
 ---
 
+
 # Prefacio
 
-![](images/centro-de-inteligencia-territorial-01.jpg){fig-align="center"
-width="400"}
-
-## Descripción del Proyecto
-
-Este proyecto tiene como propósito central la revisión, análisis,
-documentación y difusión de investigaciones científicas recientes en
-inteligencia artificial (IA), con énfasis en aplicaciones prácticas y
-potencial impacto territorial en Chile. Se orienta a facilitar el acceso
-y comprensión de avances significativos en dos líneas principales:
-
--   **Urban AI**: Aplicaciones de IA en contextos urbanos (movilidad,
-    planificación urbana, gestión pública, seguridad ciudadana).
-
--   **Remote Sensing AI**: Aplicaciones de IA en percepción remota
-    (monitoreo ambiental, gestión de recursos naturales, prevención de
-    riesgos).
-    
-![](images/lineas.png){fig-align="center" width="500"}
-
-El proyecto se estructura para ser escalable, dinámico, interactivo y
-didáctico, favoreciendo la colaboración interdisciplinaria.
+En deuda...
 
 ## Objetivos
 
 ### Objetivo General {.unnumbered}
-
-Construir una plataforma escalable de revisión y análisis aplicado de
-investigaciones científicas en IA orientadas al territorio, promoviendo
-la difusión de conocimiento científico actualizado, aplicado y
-didáctico.
 
 
 <!-- ![](images/desc_project.png) -->
@@ -140,38 +115,10 @@ sus productos](images/roadmap.png){fig-align="center"}
 
 ### Motivación y Didáctica
 
--   Eventos regulares (reuniones Review, webinars, workshops) para
-    presentar investigaciones destacadas.
--   Espacios interactivos para debate, discusión y preguntas.
--   Integración de elementos visuales, storytelling y ejemplos prácticos
-    locales para mayor atractivo.
 
 ### Rol de los participantes
 
--   Oyentes: Recibirán información sintetizada y visualmente atractiva
-    que estimule el interés y curiosidad por la IA aplicada.
--   Analistas: Investigadores o estudiantes que realizarán análisis
-    profundos, generarán contenidos y experimentaciones prácticas.
 
 ## Conclusiones
 
-Este proyecto se plantea como un entorno dinámico y atractivo para
-explorar y entender cómo la inteligencia artificial puede impactar
-positivamente en nuestro territorio y sociedad, proporcionando
-herramientas que faciliten la transición del conocimiento científico
-hacia acciones prácticas, informadas y sostenibles.
 
-## Autor Principal: Denis Berroeta {.unnumbered}
-
-([denis.berroeta\@uai.cl](mailto:denis.berroeta@uai.cl){.email})
-
-Master y PhD (cursando) in Data Science, Magister en Inteligencia
-Artificial, Universidad Adolfo Ibáñez. Coordinador de Investigación
-Centro Inteligencia Territorial, UAI. Tiene experiencia en modelamiento
-y análisis de datos espaciales, trabajando en diferentes proyectos de
-investigación públicos y privados en el Centro de Inteligencia
-Territorial de la Universidad Adolfo Ibáñez, diseñando y gestionando la
-implementación de metodologías de análisis de datos territoriales. Posee
-experiencia como profesor en Geoestadística; Análisis Criminal, Análisis
-de imágenes satelitales para el monitoreo ambiental y gestión de
-desastres naturales; y Data Science.

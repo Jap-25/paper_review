@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Introducción – Papers Review</title>
+<title>3&nbsp; Modelling urban expansion with cellular automata supported by urban growth intensity over time – Papers Review</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./liao-2023.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./intro.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -71,6 +91,49 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -84,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./liao-2023.html">Revisiones de Papers</a></li><li class="breadcrumb-item"><a href="./liao-2023.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelling urban expansion with cellular automata supported by urban growth intensity over time</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -117,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
   </div>
 </li>
@@ -132,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./liao-2023.html" class="sidebar-item-text sidebar-link">
+  <a href="./liao-2023.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelling urban expansion with cellular automata supported by urban growth intensity over time</span></span></a>
   </div>
 </li>
@@ -171,18 +234,30 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contenidos</h2>
    
   <ul>
-  <li><a href="#objetivos-del-libro" id="toc-objetivos-del-libro" class="nav-link active" data-scroll-target="#objetivos-del-libro"><span class="header-section-number">2.1</span> Objetivos del libro</a></li>
-  <li><a href="#estructura-general-de-cada-análisis" id="toc-estructura-general-de-cada-análisis" class="nav-link" data-scroll-target="#estructura-general-de-cada-análisis"><span class="header-section-number">2.2</span> Estructura general de cada análisis</a></li>
-  <li><a href="#cierre" id="toc-cierre" class="nav-link" data-scroll-target="#cierre"><span class="header-section-number">2.3</span> Cierre</a></li>
+  <li><a href="#información-básica" id="toc-información-básica" class="nav-link active" data-scroll-target="#información-básica"><span class="header-section-number">3.1</span> Información Básica</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"><span class="header-section-number">3.2</span> Abstract</a></li>
+  <li><a href="#preguntas-de-investigación-hipótesis" id="toc-preguntas-de-investigación-hipótesis" class="nav-link" data-scroll-target="#preguntas-de-investigación-hipótesis"><span class="header-section-number">3.3</span> Preguntas de Investigación / Hipótesis</a></li>
+  <li><a href="#metodología" id="toc-metodología" class="nav-link" data-scroll-target="#metodología"><span class="header-section-number">3.4</span> Metodología</a>
+  <ul class="collapse">
+  <li><a href="#flujo-de-trabajo" id="toc-flujo-de-trabajo" class="nav-link" data-scroll-target="#flujo-de-trabajo"><span class="header-section-number">3.4.1</span> Flujo de trabajo</a></li>
+  <li><a href="#modelos-algoritmos" id="toc-modelos-algoritmos" class="nav-link" data-scroll-target="#modelos-algoritmos"><span class="header-section-number">3.4.2</span> Modelos / Algoritmos</a></li>
+  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos"><span class="header-section-number">3.4.3</span> Datos</a></li>
+  </ul></li>
+  <li><a href="#resultados-clave" id="toc-resultados-clave" class="nav-link" data-scroll-target="#resultados-clave"><span class="header-section-number">3.5</span> Resultados Clave</a></li>
+  <li><a href="#discusión" id="toc-discusión" class="nav-link" data-scroll-target="#discusión"><span class="header-section-number">3.6</span> Discusión</a></li>
+  <li><a href="#aplicabilidad-en-chile" id="toc-aplicabilidad-en-chile" class="nav-link" data-scroll-target="#aplicabilidad-en-chile"><span class="header-section-number">3.7</span> Aplicabilidad en Chile</a></li>
+  <li><a href="#madurez-evidencia" id="toc-madurez-evidencia" class="nav-link" data-scroll-target="#madurez-evidencia"><span class="header-section-number">3.8</span> Madurez &amp; Evidencia</a></li>
+  <li><a href="#impacto-en-políticas-públicas-ods" id="toc-impacto-en-políticas-públicas-ods" class="nav-link" data-scroll-target="#impacto-en-políticas-públicas-ods"><span class="header-section-number">3.9</span> Impacto en Políticas Públicas / ODS</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./liao-2023.html">Revisiones de Papers</a></li><li class="breadcrumb-item"><a href="./liao-2023.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelling urban expansion with cellular automata supported by urban growth intensity over time</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelling urban expansion with cellular automata supported by urban growth intensity over time</span></h1>
+<p class="subtitle lead">Zhang, J. Wu, D. Zhu, A. &amp; Zhu, Y., 2023</p>
 </div>
 
 
@@ -199,26 +274,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>El presente libro digital, denominado <em>book_general</em> dentro del proyecto general, tiene como propósito central sistematizar y comunicar de manera ejecutiva los principales hallazgos y aportes de una selección de investigaciones científicas relevantes para el análisis territorial, la planificación y la toma de decisiones en contextos complejos como el chileno.</p>
-<p>Este repositorio estructurado forma parte de un sistema progresivo de análisis en cuatro etapas, y corresponde al Stage-1: el nivel de síntesis ejecutiva. Cada hoja de este libro representa la revisión condensada de un paper, con un enfoque en sus componentes más relevantes para el análisis aplicado y su potencial de transferencia al contexto territorial de Chile.</p>
-<section id="objetivos-del-libro" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="objetivos-del-libro"><span class="header-section-number">2.1</span> Objetivos del libro</h2>
-<ol type="1">
-<li>Sintetizar el contenido de investigaciones clave mediante resúmenes ejecutivos estructurados, comprensibles y comparables entre sí.</li>
-<li>Facilitar la identificación de metodologías, datos, y conclusiones con potencial de aplicación práctica en el territorio chileno.</li>
-<li>Apoyar la toma de decisiones estratégicas mediante el análisis transversal de investigaciones clasificadas por temática.</li>
-<li>Orientar la priorización de papers que pasarán a etapas más profundas de análisis (Stage-2 y Stage-3).</li>
-</ol>
-</section>
-<section id="estructura-general-de-cada-análisis" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="estructura-general-de-cada-análisis"><span class="header-section-number">2.2</span> Estructura general de cada análisis</h2>
-<p>Cada resumen ejecutivo seguirá una estructura común, diseñada para ofrecer una lectura rápida, precisa y orientada a la aplicabilidad territorial. La estructura de cada hoja será la siguiente:</p>
-<p><strong>1. Identificación del paper</strong></p>
+<section id="información-básica" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="información-básica"><span class="header-section-number">3.1</span> Información Básica</h2>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 35%">
-<col style="width: 64%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Elemento</th>
@@ -227,100 +285,198 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Título</strong></td>
-<td><em>Título completo del paper</em></td>
+<td><strong>Referencia corta</strong></td>
+<td><span class="citation" data-cites="zhang2023modelling">Zhang et&nbsp;al. (<a href="references.html#ref-zhang2023modelling" role="doc-biblioref">2023</a>)</span></td>
 </tr>
 <tr class="even">
-<td><strong>Autores</strong></td>
-<td><em>Autor1, Autor2, Año</em></td>
+<td><strong>Título completo</strong></td>
+<td>Modelling urban expansion with cellular automata supported by urban growth intensity over time</td>
 </tr>
 <tr class="odd">
-<td><strong>Año</strong></td>
-<td><em>Año</em></td>
+<td><strong>Revista / DOI</strong></td>
+<td>Annals of GIS, <a href="https://doi.org/10.1080/19475683.2023.2181393">10.1080/19475683.2023.2181393</a></td>
 </tr>
 <tr class="even">
-<td><strong>Revista / Volumen</strong></td>
-<td><em>Nombre de la revista, volumen, número</em></td>
+<td><strong>Temática</strong></td>
+<td>Urban • Cellular Automata • Machine Learning (ANN)</td>
 </tr>
 <tr class="odd">
-<td><strong>DOI / URL</strong></td>
-<td><em>https://doi.org/…</em></td>
-</tr>
-<tr class="even">
-<td><strong>Temática principal</strong></td>
-<td><em>Urban</em>, <em>Remote Sensing</em></td>
-</tr>
-<tr class="odd">
-<td><strong>Keywords</strong></td>
-<td><em>LLM</em>,, <em>Change Detection</em></td>
+<td><strong>Contexto / Problema</strong></td>
+<td>Heterogeneidad espacial y temporal: las ciudades crecen de forma irregular y las reglas de transición tradicionales en AC no capturan bien los cambios en la intensidad del crecimiento a lo largo del tiempo.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>2. 📌 Abstract (resumen original)</strong></p>
-<p>Texto original del resumen, traducido si corresponde, para conservar la intención del autor.</p>
-<p><strong>3. ⚙️ Metodología</strong></p>
-<p>Esta sección describe de forma sintética pero precisa cómo se construyó el estudio. Se estructura en los siguientes bloques:</p>
+</section>
+<section id="abstract" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="abstract"><span class="header-section-number">3.2</span> Abstract</h2>
+<blockquote class="blockquote">
+<p><strong>Original:</strong><br>
+The simulation of urban expansion has become an important means to assist urban development planning and ecological sustainable development. However, the spatial and temporal heterogeneities of urban expansion has been a major challenge for modelling urban expansion. This study designed three features from the perspective of spatiotemporal heterogeneity to improve the accuracy of CA model. The new features cover the trends effects of long time-series data on urban expansion, urban spatial growth intensity based on urban growth kernel estimation and allocation probability of the newly generated urban cells from global neighbourhood effects. Finally, urban expansion in Huizhou, China, was simulated and predicted. The experimental results show that the new features can effectively reduce the prediction error for the total amount of urban growth with a deviation of about 2%, and the overall accuracy of urban expansion is as high as 0.93. The features designed in this paper are shown to be effective and can be applied to urban simulations and scenario prediction with various models.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Traducción al español:</strong><br>
+La simulación de la expansión urbana se ha convertido en un medio importante para apoyar la planificación del desarrollo urbano y el desarrollo ecológico sostenible. Sin embargo, las heterogeneidades espaciales y temporales de la expansión urbana han sido un desafío importante para modelar la expansión urbana. Este estudio diseñó tres características desde la perspectiva de la heterogeneidad espacio-temporal para mejorar la precisión del modelo de CA. Las nuevas características cubren los efectos de tendencia de los datos de series temporales largas en la expansión urbana, la intensidad del crecimiento espacial urbano basada en la estimación del núcleo de crecimiento urbano y la probabilidad de asignación de las celdas urbanas recién generadas a partir de los efectos del vecindario global. Finalmente, se simuló y predijo la expansión urbana en Huizhou, China. Los resultados experimentales muestran que las nuevas características pueden reducir eficazmente el error de predicción de la cantidad total de crecimiento urbano con una desviación de alrededor del 2%, y la precisión general de la expansión urbana es tan alta como 0.93. Las características diseñadas en este artículo han demostrado ser efectivas y pueden aplicarse a simulaciones urbanas y predicciones de escenarios con varios modelos.</p>
+</blockquote>
+</section>
+<section id="preguntas-de-investigación-hipótesis" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="preguntas-de-investigación-hipótesis"><span class="header-section-number">3.3</span> Preguntas de Investigación / Hipótesis</h2>
+<blockquote class="blockquote">
 <ul>
-<li><dl>
-<dt>Enfoque metodológico:</dt>
-<dd>
-Tipo de estudio (exploratorio, experimental, predictivo, comparativo, etc.) y diseño general (supervisado, no supervisado, basado en reglas, etc.).
-</dd>
-<dd>
-Técnica(s) utilizada(s): Algoritmos, modelos o técnicas específicas empleadas (e.g., Random Forest, LSTM, GANs, redes convolucionales, VFM, etc.).
-</dd>
-<dd>
-Nivel de modelamiento: Detalle del alcance del modelo: local, regional, nacional o global; uniescala o multiescala.
-</dd>
-<dd>
-Replicabilidad: Grado de apertura metodológica (¿se publica el código? ¿hay acceso a datos? ¿están disponibles scripts reproducibles?).
-</dd>
-</dl></li>
-<li><dl>
-<dt>Datos de entrada:</dt>
-<dd>
-Tipo, fuente, resolución y periodo temporal de los datos utilizados. Ejemplos: imágenes Sentinel-2 (10m, 2020–2023), encuestas censales, bases geoespaciales, etc.
-</dd>
-</dl></li>
-<li><dl>
-<dt>Datos de salida / resultados esperados:</dt>
-<dd>
-Producto(s) final(es) del estudio: mapas temáticos, índices de cambio, clasificaciones, modelos entrenados, etc.
-</dd>
-</dl></li>
-<li><dl>
-<dt>Región o contexto geográfico del estudio:</dt>
-<dd>
-Descripción del área de aplicación, incluyendo país, región o escala (local, nacional, global).
-</dd>
-</dl></li>
+<li><strong>PI:</strong> ¿Cómo mejorar la precisión de los modelos AC capturando la heterogeneidad real mediante datos de series temporales largas y análisis espaciales avanzados?</li>
+<li><strong>H1 (Temporal):</strong> La regresión por segmentos identifica puntos de inflexión históricos, reduciendo el error en la predicción del área total de expansión.</li>
+<li><strong>H2 (Vecindario):</strong> La probabilidad de conversión no es lineal; sigue una distribución normal donde las densidades intermedias tienen la mayor probabilidad de cambio.</li>
+<li><strong>H3 (Espacial):</strong> La intensidad de crecimiento (KDE) como variable auxiliar permite simular “áreas calientes” y formas urbanas más realistas.</li>
+<li><strong>H4 (Integración):</strong> Combinar tendencias temporales, intensidad espacial y probabilidad vecinal no lineal en un modelo CA-ANN eleva la precisión global a ~0.93.</li>
 </ul>
-<p><strong>4. Discusión y conclusiones</strong></p>
+</blockquote>
+</section>
+<section id="metodología" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="metodología"><span class="header-section-number">3.4</span> Metodología</h2>
+<section id="flujo-de-trabajo" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="flujo-de-trabajo"><span class="header-section-number">3.4.1</span> Flujo de trabajo</h3>
+<ol type="1">
+<li><strong>Estimación Temporal:</strong> Uso de regresión segmentada para predecir el área de expansión año a año, evitando promedios engañosos de intervalos fijos (5-10 años).</li>
+<li><strong>Análisis de Intensidad:</strong> Cálculo de Densidad Kernel (KDE) sobre los eventos de conversión urbana histórica para identificar zonas de alta dinámica.</li>
+<li><strong>Optimización del Vecindario:</strong> Estudio de la probabilidad <span class="math inline">P_{den}</span> para determinar el rango ideal de vecinos urbanos que maximizan la probabilidad de cambio.</li>
+<li><strong>Integración de ML:</strong> Uso de Redes Neuronales Artificiales (ANN) para aprender las reglas de transición.</li>
+</ol>
+</section>
+<section id="modelos-algoritmos" class="level3" data-number="3.4.2">
+<h3 data-number="3.4.2" class="anchored" data-anchor-id="modelos-algoritmos"><span class="header-section-number">3.4.2</span> Modelos / Algoritmos</h3>
+<blockquote class="blockquote">
+<p><strong>ANN (mejor desempeño)</strong> • SVM • Regresión Logística • Cellular Automata (CA)</p>
+</blockquote>
+</section>
+<section id="datos" class="level3" data-number="3.4.3">
+<h3 data-number="3.4.3" class="anchored" data-anchor-id="datos"><span class="header-section-number">3.4.3</span> Datos</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo</th>
+<th>Fuente</th>
+<th>Resolución</th>
+<th>Cobertura temporal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Suelo Urbano</td>
+<td>Gong et al.&nbsp;(Human Settlement Changes)</td>
+<td>30 m</td>
+<td>1986 - 2018</td>
+</tr>
+<tr class="even">
+<td>Elevación / Pendiente</td>
+<td>NASA/ASTER DEM</td>
+<td>30 m</td>
+<td>2009</td>
+</tr>
+<tr class="odd">
+<td>Infraestructura</td>
+<td>Tianditu (vías, ríos, parques)</td>
+<td>1:250,000</td>
+<td>2017</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="resultados-clave" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="resultados-clave"><span class="header-section-number">3.5</span> Resultados Clave</h2>
 <ul>
-<li>Principales hallazgos</li>
-<li>Limitaciones reconocidas</li>
-<li>Recomendaciones del estudio original</li>
-</ul>
-<p><strong>5. Aplicabilidad territorial en Chile</strong></p>
+<li><strong>Identificación de Puntos de Cambio:</strong> El modelo detectó automáticamente transiciones críticas en la tendencia de Huizhou (ej. auge 2001-2011).</li>
+<li><strong>Densidad Óptima Vecinal:</strong> En un vecindario de 5x5, la probabilidad de conversión es máxima cuando hay entre <strong>8 y 10 celdas urbanas</strong>. Fuera de ese rango (muy baja o muy alta densidad), la probabilidad cae.</li>
+<li><strong>Métricas del Modelo:</strong>
 <ul>
-<li>¿Puede esta metodología aplicarse al contexto chileno?</li>
-<li>Recomendaciones para adaptación</li>
-<li>Escenarios prioritarios (e.g., zonas urbanas, ecosistemas sensibles)</li>
-</ul>
-<p><strong>6. Nivel de madurez</strong></p>
-<ul>
-<li>Exploratorio, operativo o aplicado</li>
-<li>Nivel de evidencia empírica</li>
-<li>Relevancia temática y territorial</li>
-<li>Stage en que se encuentra dentro loos niveles de este proyecto</li>
+<li><strong>F1-score (nuevas celdas):</strong> 0.42.</li>
+<li><strong>Precisión general:</strong> &gt; 0.93.</li>
+</ul></li>
 </ul>
 </section>
-<section id="cierre" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="cierre"><span class="header-section-number">2.3</span> Cierre</h2>
-<p>Este libro ha sido diseñado para facilitar una lectura flexible, orientada tanto a la exploración temática como al análisis profundo. Cada resumen ejecutivo ofrece una entrada clara y estructurada a investigaciones clave, permitiendo al lector identificar rápidamente su relevancia metodológica, territorial y aplicada.</p>
-<p>Invitamos a recorrer las distintas hojas del <em>book_general</em>, explorando cómo cada paper puede aportar conocimiento estratégico al análisis territorial y a la toma de decisiones en el contexto chileno. Ya sea como fuente de inspiración, insumo técnico o base para una implementación futura, cada análisis aquí presentado constituye un eslabón en la cadena de transferencia de conocimiento hacia la acción</p>
+<section id="discusión" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="discusión"><span class="header-section-number">3.6</span> Discusión</h2>
+<ul>
+<li><strong>Contribuciones:</strong> Supera el sesgo de los modelos que asumen crecimiento uniforme. La integración de KDE como variable auxiliar mejora significativamente la “forma” de la ciudad simulada.</li>
+<li><strong>Limitaciones:</strong> El puntaje F1 de 0.42 refleja la dificultad intrínseca de predecir la ubicación exacta de nuevas celdas debido a factores externos (políticas, economía no modelada).</li>
+<li><strong>Hallazgo clave:</strong> Una alta densidad urbana vecina no garantiza la urbanización; por el contrario, puede indicar espacios consolidados o protegidos (parques) que no cambiarán.</li>
+</ul>
+</section>
+<section id="aplicabilidad-en-chile" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="aplicabilidad-en-chile"><span class="header-section-number">3.7</span> Aplicabilidad en Chile</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspecto</th>
+<th>Evaluación</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Transferencia</strong></td>
+<td>Alta. Aplicable a zonas de rápida expansión como la periferia de la RM o Concepción.</td>
+</tr>
+<tr class="even">
+<td><strong>Condiciones</strong></td>
+<td>Requiere series históricas de alta resolución (ej. Landsat/Sentinel procesados).</td>
+</tr>
+<tr class="odd">
+<td><strong>Valor Agregado</strong></td>
+<td>Permite modelar escenarios de “crecimiento acelerado”, “estable” o “descenso”, útil para planificación territorial estratégica.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="madurez-evidencia" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="madurez-evidencia"><span class="header-section-number">3.8</span> Madurez &amp; Evidencia</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Eje</th>
+<th>Nivel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Innovación</strong></td>
+<td>4.5/5 (Por el análisis de probabilidad no lineal de vecindario)</td>
+</tr>
+<tr class="even">
+<td><strong>Rigor metodológico</strong></td>
+<td>4/5</td>
+</tr>
+<tr class="odd">
+<td><strong>Estado TRL</strong></td>
+<td>Validado en entorno académico (TRL-4)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="impacto-en-políticas-públicas-ods" class="level2" data-number="3.9">
+<h2 data-number="3.9" class="anchored" data-anchor-id="impacto-en-políticas-públicas-ods"><span class="header-section-number">3.9</span> Impacto en Políticas Públicas / ODS</h2>
+<blockquote class="blockquote">
+<p>Contribuye al <strong>ODS 11 (Ciudades y Comunidades Sostenibles)</strong> al proporcionar herramientas para modelar la expansión urbana de manera más realista, permitiendo anticipar demandas de infraestructura y proteger áreas de riesgo o alto valor ecológico mediante simulaciones de escenarios.</p>
+</blockquote>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-zhang2023modelling" class="csl-entry" role="listitem">
+Zhang, Jinqu, Donglin Wu, A-Xing Zhu, y Yunqiang Zhu. 2023. <span>«Modelling urban expansion with cellular automata supported by urban growth intensity over time»</span>. <em>Annals of GIS</em> 29 (3): 337-53.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -726,13 +882,13 @@ Descripción del área de aplicación, incluyendo país, región o escala (local
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="@*">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title"><span class="citation" data-cites="*"></span></span></span>
+      <a href="./intro.html" class="pagination-link" aria-label="Introducción">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./liao-2023.html" class="pagination-link" aria-label="Modelling urban expansion with cellular automata supported by urban growth intensity over time">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelling urban expansion with cellular automata supported by urban growth intensity over time</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

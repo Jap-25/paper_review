@@ -2,37 +2,31 @@ project:
   type: book
 
 book:
-  title: "Paper Review: IA y Territorio"
-  subtitle: "Revisión de Estudios Científicos para Investigación Aplicada"
+  title: "Papers Review"
+  subtitle: "Revisión de articulos cientificos para el estudio de las ciudades"
   author:
-    - name: Denis Berroeta González
-      url: https://cit.uai.cl/denis-berroeta/
+    - name: Jorge Aravena Peña
+      url: https://jap-port.vercel.app/
       affiliation: Centro de Inteligencia Territorial
       affiliation-url: https://cit.uai.cl
-      email: denis.berroeta@uai.cl
-  date: "2025-8-06"
+      email: [jorge.aravena.p@uai.cl]
+  date: "2026-01-29"
   #number-sections: 3
   page-footer: 
-    left: "Copyright 2025, Denis Berroeta" 
+    left: "Copyright 2026, Jorge Aravena Peña | Idea original: [Denis Berroeta](https://github.com/DenisSebastian/book-papers-GEOAI)"
   chapters:
     - index.qmd
     - intro.qmd
-    - part: remote_sensing.qmd
+    - part: "Revisiones de Papers"
       chapters:
-        - brown-2025.qmd
-        - fang-2026.qmd
-    - part: urban.qmd
-      chapters:
-        - han-2018.qmd
-        - agarwal-2025.qmd
-        - reza-2025.qmd
-        - fleischmann-2025.qmd
+        - liao-2023.qmd
     - references.qmd
   appendices:
-    - presentaciones.qmd
     - template_paper.qmd
 
 bibliography: references.bib
+cite-method: citeproc
+lang: es
 
 format:
   html:
