@@ -1,0 +1,332 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Papers Review",
+    "section": "",
+    "text": "1 Prefacio\nEn deuda…",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#objetivos",
+    "href": "index.html#objetivos",
+    "title": "Papers Review",
+    "section": "1.1 Objetivos",
+    "text": "1.1 Objetivos\n\nObjetivo General\n\n\n\nObjetivos Específicos\n\nRecopilar, organizar y clasificar investigaciones recientes en Urban AI y Remote Sensing AI.\nGenerar resúmenes ejecutivos claros y concisos que faciliten la comprensión y aplicación práctica de cada investigación.\nCrear presentaciones visuales y didácticas que permitan difundir rápidamente los aportes de cada investigación.\nDiseñar un sistema de clasificación progresiva para investigaciones, que permita su escalabilidad según el nivel de análisis y aplicabilidad práctica.\nMotivar la participación de investigadores y estudiantes, fomentando un entorno colaborativo y entretenido para la exploración de innovaciones científicas.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#metodología",
+    "href": "index.html#metodología",
+    "title": "Papers Review",
+    "section": "1.2 Metodología",
+    "text": "1.2 Metodología\nLa metodología implica la descomposición de cada investigación en niveles progresivos de análisis, generando productos específicos en cada etapa. En un primer nivel se realiza un análisis general ejecutivo, luego se profundiza en secciones clave, y finalmente, en casos destacados, se procede a una experimentación práctica para validar resultados en terreno. Esta estructura metodológica facilita la gestión del conocimiento, la difusión eficiente y la aplicación práctica de hallazgos.\n\n\n\nRoadmap flujo de análisis de los Peppers por cada uno de los niveles y sus productos\n\n\n\nNiveles de Análisis\n\n\nStage-0 – Congelador:\n\nRepositorio de investigaciones recopiladas que aún no han sido analizadas. Esta etapa agrupa los documentos en espera de revisión o priorización.\n\n\n\nStage-1 – Análisis ejecutivo:\n\nEvaluación inicial de los estudios seleccionados, enfocada en identificar su relevancia estratégica. Los resultados se sistematizan en un libro digital denominado book-general1. Además, se elabora una presentación ejecutiva complementaria llamada keynote-general2.\n\n\n\nStage-2 – Análisis específico:\n\nRevisión detallada de los estudios más relevantes, desglosando sus secciones clave (introducción, metodología, resultados, discusión, etc.). Cada análisis profundo se documenta mediante una presentación individual llamada keynote-específico3, donde se decidirá si el estudio avanza a la siguiente etapa.\n\n\n\nStage-3 – Investigación aplicada:\n\nImplementación práctica del conocimiento adquirido a través de experimentación, pruebas o desarrollos pilotos. Esta etapa se formaliza en un libro digital denominado book-específico4.\n\n\n\n\n\n\nProductos\n\nLibros Digitales (Quarto): Documentos interactivos con resúmenes ejecutivos o análisis detallados según etapa.\nPresentaciones (Markdown con Reveal.js): Slides concisas, claras y visualmente atractivas para facilitar difusión y comprensión.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#estrategia-de-participación",
+    "href": "index.html#estrategia-de-participación",
+    "title": "Papers Review",
+    "section": "1.3 Estrategia de Participación",
+    "text": "1.3 Estrategia de Participación\n\n1.3.1 Motivación y Didáctica\n\n\n1.3.2 Rol de los participantes",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#conclusiones",
+    "href": "index.html#conclusiones",
+    "title": "Papers Review",
+    "section": "1.4 Conclusiones",
+    "text": "1.4 Conclusiones",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Papers Review",
+    "section": "",
+    "text": "book-general: Este libro digital contiene los resúmenes ejecutivos de todos los estudios analizados, así como enlaces a análisis más profundos para aquellos documentos que avanzan al Stage-2, organizados por temática↩︎\nkeynote-general: Presentación asociada al book-general, que resume los hallazgos principales clasificados por temática↩︎\nkeynote-específico: Presentación detallada de un estudio particular, abordando sus contenidos en profundidad y evaluando su potencial para una fase de aplicación↩︎\nbook-específico: Documento técnico que recoge el análisis detallado del estudio aplicado, incluyendo resultados experimentales y aspectos metodológicos clave. Constituye la base para futuras publicaciones científicas↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefacio</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introducción",
+    "section": "",
+    "text": "2.1 Objetivos del libro\nEl presente libro digital, denominado book_general dentro del proyecto general, tiene como propósito central sistematizar y comunicar de manera ejecutiva los principales hallazgos y aportes de una selección de investigaciones científicas relevantes para el análisis territorial, la planificación y la toma de decisiones en contextos complejos como el chileno.\nEste repositorio estructurado forma parte de un sistema progresivo de análisis en cuatro etapas, y corresponde al Stage-1: el nivel de síntesis ejecutiva. Cada hoja de este libro representa la revisión condensada de un paper, con un enfoque en sus componentes más relevantes para el análisis aplicado y su potencial de transferencia al contexto territorial de Chile.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#objetivos-del-libro",
+    "href": "intro.html#objetivos-del-libro",
+    "title": "2  Introducción",
+    "section": "",
+    "text": "Sintetizar el contenido de investigaciones clave mediante resúmenes ejecutivos estructurados, comprensibles y comparables entre sí.\nFacilitar la identificación de metodologías, datos, y conclusiones con potencial de aplicación práctica en el territorio chileno.\nApoyar la toma de decisiones estratégicas mediante el análisis transversal de investigaciones clasificadas por temática.\nOrientar la priorización de papers que pasarán a etapas más profundas de análisis (Stage-2 y Stage-3).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#estructura-general-de-cada-análisis",
+    "href": "intro.html#estructura-general-de-cada-análisis",
+    "title": "2  Introducción",
+    "section": "2.2 Estructura general de cada análisis",
+    "text": "2.2 Estructura general de cada análisis\nCada resumen ejecutivo seguirá una estructura común, diseñada para ofrecer una lectura rápida, precisa y orientada a la aplicabilidad territorial. La estructura de cada hoja será la siguiente:\n1. Identificación del paper\n\n\n\n\n\n\n\nElemento\nDetalle\n\n\n\n\nTítulo\nTítulo completo del paper\n\n\nAutores\nAutor1, Autor2, Año\n\n\nAño\nAño\n\n\nRevista / Volumen\nNombre de la revista, volumen, número\n\n\nDOI / URL\nhttps://doi.org/…\n\n\nTemática principal\nUrban, Remote Sensing\n\n\nKeywords\nLLM,, Change Detection\n\n\n\n2. 📌 Abstract (resumen original)\nTexto original del resumen, traducido si corresponde, para conservar la intención del autor.\n3. ⚙️ Metodología\nEsta sección describe de forma sintética pero precisa cómo se construyó el estudio. Se estructura en los siguientes bloques:\n\n\nEnfoque metodológico:\n\nTipo de estudio (exploratorio, experimental, predictivo, comparativo, etc.) y diseño general (supervisado, no supervisado, basado en reglas, etc.).\n\n\nTécnica(s) utilizada(s): Algoritmos, modelos o técnicas específicas empleadas (e.g., Random Forest, LSTM, GANs, redes convolucionales, VFM, etc.).\n\n\nNivel de modelamiento: Detalle del alcance del modelo: local, regional, nacional o global; uniescala o multiescala.\n\n\nReplicabilidad: Grado de apertura metodológica (¿se publica el código? ¿hay acceso a datos? ¿están disponibles scripts reproducibles?).\n\n\n\nDatos de entrada:\n\nTipo, fuente, resolución y periodo temporal de los datos utilizados. Ejemplos: imágenes Sentinel-2 (10m, 2020–2023), encuestas censales, bases geoespaciales, etc.\n\n\n\nDatos de salida / resultados esperados:\n\nProducto(s) final(es) del estudio: mapas temáticos, índices de cambio, clasificaciones, modelos entrenados, etc.\n\n\n\nRegión o contexto geográfico del estudio:\n\nDescripción del área de aplicación, incluyendo país, región o escala (local, nacional, global).\n\n\n\n4. Discusión y conclusiones\n\nPrincipales hallazgos\nLimitaciones reconocidas\nRecomendaciones del estudio original\n\n5. Aplicabilidad territorial en Chile\n\n¿Puede esta metodología aplicarse al contexto chileno?\nRecomendaciones para adaptación\nEscenarios prioritarios (e.g., zonas urbanas, ecosistemas sensibles)\n\n6. Nivel de madurez\n\nExploratorio, operativo o aplicado\nNivel de evidencia empírica\nRelevancia temática y territorial\nStage en que se encuentra dentro loos niveles de este proyecto",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#cierre",
+    "href": "intro.html#cierre",
+    "title": "2  Introducción",
+    "section": "2.3 Cierre",
+    "text": "2.3 Cierre\nEste libro ha sido diseñado para facilitar una lectura flexible, orientada tanto a la exploración temática como al análisis profundo. Cada resumen ejecutivo ofrece una entrada clara y estructurada a investigaciones clave, permitiendo al lector identificar rápidamente su relevancia metodológica, territorial y aplicada.\nInvitamos a recorrer las distintas hojas del book_general, explorando cómo cada paper puede aportar conocimiento estratégico al análisis territorial y a la toma de decisiones en el contexto chileno. Ya sea como fuente de inspiración, insumo técnico o base para una implementación futura, cada análisis aquí presentado constituye un eslabón en la cadena de transferencia de conocimiento hacia la acción",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "liao-2023.html",
+    "href": "liao-2023.html",
+    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "section": "",
+    "text": "3.1 Información Básica",
+    "crumbs": [
+      "Revisiones de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+    ]
+  },
+  {
+    "objectID": "liao-2023.html#información-básica",
+    "href": "liao-2023.html#información-básica",
+    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "section": "",
+    "text": "Elemento\nDetalle\n\n\n\n\nReferencia corta\nZhang et al. (2023)\n\n\nTítulo completo\nModelling urban expansion with cellular automata supported by urban growth intensity over time\n\n\nRevista / DOI\nAnnals of GIS, 10.1080/19475683.2023.2181393\n\n\nTemática\nUrban • Cellular Automata • Machine Learning (ANN)\n\n\nContexto / Problema\nHeterogeneidad espacial y temporal: las ciudades crecen de forma irregular y las reglas de transición tradicionales en AC no capturan bien los cambios en la intensidad del crecimiento a lo largo del tiempo.",
+    "crumbs": [
+      "Revisiones de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+    ]
+  },
+  {
+    "objectID": "liao-2023.html#abstract",
+    "href": "liao-2023.html#abstract",
+    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "section": "3.2 Abstract",
+    "text": "3.2 Abstract\n\nOriginal:\nThe simulation of urban expansion has become an important means to assist urban development planning and ecological sustainable development. However, the spatial and temporal heterogeneities of urban expansion has been a major challenge for modelling urban expansion. This study designed three features from the perspective of spatiotemporal heterogeneity to improve the accuracy of CA model. The new features cover the trends effects of long time-series data on urban expansion, urban spatial growth intensity based on urban growth kernel estimation and allocation probability of the newly generated urban cells from global neighbourhood effects. Finally, urban expansion in Huizhou, China, was simulated and predicted. The experimental results show that the new features can effectively reduce the prediction error for the total amount of urban growth with a deviation of about 2%, and the overall accuracy of urban expansion is as high as 0.93. The features designed in this paper are shown to be effective and can be applied to urban simulations and scenario prediction with various models.\n\n\nTraducción al español:\nLa simulación de la expansión urbana se ha convertido en un medio importante para apoyar la planificación del desarrollo urbano y el desarrollo ecológico sostenible. Sin embargo, las heterogeneidades espaciales y temporales de la expansión urbana han sido un desafío importante para modelar la expansión urbana. Este estudio diseñó tres características desde la perspectiva de la heterogeneidad espacio-temporal para mejorar la precisión del modelo de CA. Las nuevas características cubren los efectos de tendencia de los datos de series temporales largas en la expansión urbana, la intensidad del crecimiento espacial urbano basada en la estimación del núcleo de crecimiento urbano y la probabilidad de asignación de las celdas urbanas recién generadas a partir de los efectos del vecindario global. Finalmente, se simuló y predijo la expansión urbana en Huizhou, China. Los resultados experimentales muestran que las nuevas características pueden reducir eficazmente el error de predicción de la cantidad total de crecimiento urbano con una desviación de alrededor del 2%, y la precisión general de la expansión urbana es tan alta como 0.93. Las características diseñadas en este artículo han demostrado ser efectivas y pueden aplicarse a simulaciones urbanas y predicciones de escenarios con varios modelos.",
+    "crumbs": [
+      "Revisiones de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+    ]
+  },
+  {
+    "objectID": "liao-2023.html#preguntas-de-investigación-hipótesis",
+    "href": "liao-2023.html#preguntas-de-investigación-hipótesis",
+    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "section": "3.3 Preguntas de Investigación / Hipótesis",
+    "text": "3.3 Preguntas de Investigación / Hipótesis\n\n\nPI: ¿Cómo mejorar la precisión de los modelos AC capturando la heterogeneidad real mediante datos de series temporales largas y análisis espaciales avanzados?\nH1 (Temporal): La regresión por segmentos identifica puntos de inflexión históricos, reduciendo el error en la predicción del área total de expansión.\nH2 (Vecindario): La probabilidad de conversión no es lineal; sigue una distribución normal donde las densidades intermedias tienen la mayor probabilidad de cambio.\nH3 (Espacial): La intensidad de crecimiento (KDE) como variable auxiliar permite simular “áreas calientes” y formas urbanas más realistas.\nH4 (Integración): Combinar tendencias temporales, intensidad espacial y probabilidad vecinal no lineal en un modelo CA-ANN eleva la precisión global a ~0.93.",
+    "crumbs": [
+      "Revisiones de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+    ]
+  },
+  {
+    "objectID": "liao-2023.html#metodología",
+    "href": "liao-2023.html#metodología",
+    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "section": "3.4 Metodología",
+    "text": "3.4 Metodología\n\n3.4.1 Flujo de trabajo\n\nEstimación Temporal: Uso de regresión segmentada para predecir el área de expansión año a año, evitando promedios engañosos de intervalos fijos (5-10 años).\nAnálisis de Intensidad: Cálculo de Densidad Kernel (KDE) sobre los eventos de conversión urbana histórica para identificar zonas de alta dinámica.\nOptimización del Vecindario: Estudio de la probabilidad P_{den} para determinar el rango ideal de vecinos urbanos que maximizan la probabilidad de cambio.\nIntegración de ML: Uso de Redes Neuronales Artificiales (ANN) para aprender las reglas de transición.\n\n\n\n3.4.2 Modelos / Algoritmos\n\nANN (mejor desempeño) • SVM • Regresión Logística • Cellular Automata (CA)\n\n\n\n3.4.3 Datos\n\n\n\n\n\n\n\n\n\nTipo\nFuente\nResolución\nCobertura temporal\n\n\n\n\nSuelo Urbano\nGong et al. (Human Settlement Changes)\n30 m\n1986 - 2018\n\n\nElevación / Pendiente\nNASA/ASTER DEM\n30 m\n2009\n\n\nInfraestructura\nTianditu (vías, ríos, parques)\n1:250,000\n2017",
+    "crumbs": [
+      "Revisiones de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+    ]
+  },
+  {
+    "objectID": "liao-2023.html#resultados-clave",
+    "href": "liao-2023.html#resultados-clave",
+    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "section": "3.5 Resultados Clave",
+    "text": "3.5 Resultados Clave\n\nIdentificación de Puntos de Cambio: El modelo detectó automáticamente transiciones críticas en la tendencia de Huizhou (ej. auge 2001-2011).\nDensidad Óptima Vecinal: En un vecindario de 5x5, la probabilidad de conversión es máxima cuando hay entre 8 y 10 celdas urbanas. Fuera de ese rango (muy baja o muy alta densidad), la probabilidad cae.\nMétricas del Modelo:\n\nF1-score (nuevas celdas): 0.42.\nPrecisión general: &gt; 0.93.",
+    "crumbs": [
+      "Revisiones de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+    ]
+  },
+  {
+    "objectID": "liao-2023.html#discusión",
+    "href": "liao-2023.html#discusión",
+    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "section": "3.6 Discusión",
+    "text": "3.6 Discusión\n\nContribuciones: Supera el sesgo de los modelos que asumen crecimiento uniforme. La integración de KDE como variable auxiliar mejora significativamente la “forma” de la ciudad simulada.\nLimitaciones: El puntaje F1 de 0.42 refleja la dificultad intrínseca de predecir la ubicación exacta de nuevas celdas debido a factores externos (políticas, economía no modelada).\nHallazgo clave: Una alta densidad urbana vecina no garantiza la urbanización; por el contrario, puede indicar espacios consolidados o protegidos (parques) que no cambiarán.",
+    "crumbs": [
+      "Revisiones de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+    ]
+  },
+  {
+    "objectID": "liao-2023.html#aplicabilidad-en-chile",
+    "href": "liao-2023.html#aplicabilidad-en-chile",
+    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "section": "3.7 Aplicabilidad en Chile",
+    "text": "3.7 Aplicabilidad en Chile\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nTransferencia\nAlta. Aplicable a zonas de rápida expansión como la periferia de la RM o Concepción.\n\n\nCondiciones\nRequiere series históricas de alta resolución (ej. Landsat/Sentinel procesados).\n\n\nValor Agregado\nPermite modelar escenarios de “crecimiento acelerado”, “estable” o “descenso”, útil para planificación territorial estratégica.",
+    "crumbs": [
+      "Revisiones de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+    ]
+  },
+  {
+    "objectID": "liao-2023.html#madurez-evidencia",
+    "href": "liao-2023.html#madurez-evidencia",
+    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "section": "3.8 Madurez & Evidencia",
+    "text": "3.8 Madurez & Evidencia\n\n\n\n\n\n\n\nEje\nNivel\n\n\n\n\nInnovación\n4.5/5 (Por el análisis de probabilidad no lineal de vecindario)\n\n\nRigor metodológico\n4/5\n\n\nEstado TRL\nValidado en entorno académico (TRL-4)",
+    "crumbs": [
+      "Revisiones de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+    ]
+  },
+  {
+    "objectID": "liao-2023.html#impacto-en-políticas-públicas-ods",
+    "href": "liao-2023.html#impacto-en-políticas-públicas-ods",
+    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "section": "3.9 Impacto en Políticas Públicas / ODS",
+    "text": "3.9 Impacto en Políticas Públicas / ODS\n\nContribuye al ODS 11 (Ciudades y Comunidades Sostenibles) al proporcionar herramientas para modelar la expansión urbana de manera más realista, permitiendo anticipar demandas de infraestructura y proteger áreas de riesgo o alto valor ecológico mediante simulaciones de escenarios.\n\n\n\n\n\nZhang, Jinqu, Donglin Wu, A-Xing Zhu, y Yunqiang Zhu. 2023. «Modelling urban expansion with cellular automata supported by urban growth intensity over time». Annals of GIS 29 (3): 337-53.",
+    "crumbs": [
+      "Revisiones de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Zhang, Jinqu, Donglin Wu, A-Xing Zhu, and Yunqiang Zhu. 2023.\n“Modelling Urban Expansion with Cellular Automata Supported by\nUrban Growth Intensity over Time.” Annals of GIS 29 (3):\n337–53.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "template_paper.html",
+    "href": "template_paper.html",
+    "title": "Apéndice A — Template",
+    "section": "",
+    "text": "A.1 Información Básica",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#información-básica",
+    "href": "template_paper.html#información-básica",
+    "title": "Apéndice A — Template",
+    "section": "",
+    "text": "Elemento\nDetalle\n\n\n\n\nReferencia corta\nGonzález et al. (2024)\n\n\nTítulo completo\n…\n\n\nRevista / Volumen / DOI\nRemote Sensing 16(7), https://doi.org/…\n\n\nTemática\nUrban • Remote Sensing\n\n\nContexto / Problema\n¿Qué reto territorial/ambiental aborda?",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#abstract",
+    "href": "template_paper.html#abstract",
+    "title": "Apéndice A — Template",
+    "section": "A.2 Abstract",
+    "text": "A.2 Abstract\n\nEn caso de estar en inglés, puede incluir traducción debajo si es necesario.",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#preguntas-de-investigación-hipótesis",
+    "href": "template_paper.html#preguntas-de-investigación-hipótesis",
+    "title": "Apéndice A — Template",
+    "section": "A.3 Preguntas de Investigación / Hipótesis",
+    "text": "A.3 Preguntas de Investigación / Hipótesis\n\n\nPI1: …\n\nPI2: …",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#metodología",
+    "href": "template_paper.html#metodología",
+    "title": "Apéndice A — Template",
+    "section": "A.4 Metodología",
+    "text": "A.4 Metodología\n\nA.4.1 Flujo de trabajo\n\nIngesta de imágenes Sentinel-2 (2015-2023)\n\nPreprocesamiento atmosférico con Sen2Cor\n\n…\n\n\n\nA.4.2 Modelos / Algoritmos\n\nRandom Forest (200 árboles, mtry = √p) • U-Net • VFM-SAM\n\n\n\nA.4.3 Datos\n\n\n\nTipo\nFuente\nResolución\nCobertura temporal\n\n\n\n\nImágenes ópticas\nSentinel-2 L2A\n10 m\n2015-2023\n\n\nCenso\nINE 2017\nComuna\n–\n\n\n\n\n\nA.4.4 Validación & Uncertainties\n\n\n\nMétrica\nValor\nk-fold / AOI\nIntervalo 95 %\n\n\n\n\nF1-score\n0.88\n5-fold\n± 0.03\n\n\nIoU\n0.75\nZona centro\n± 0.04\n\n\n\nSensibilidad a nubes evaluada con ± 5 % de cobertura.\n\n\nA.4.5 Replicabilidad & Recursos\n\n\n\nÍtem\nSí/No\nDetalle\n\n\n\n\nCódigo abierto\nSí\nGitHub : user/repo\n\n\nDatos abiertos\nParcial\nImágenes libres; etiquetas no públicas\n\n\nLicencia\nMIT\n–\n\n\nHW/Costos\n2× A100 16 h\n~USD 40",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#resultados-clave",
+    "href": "template_paper.html#resultados-clave",
+    "title": "Apéndice A — Template",
+    "section": "A.5 Resultados Clave",
+    "text": "A.5 Resultados Clave\n\nCobertura nativa ↓ 12 % en periferia sur (2015-2020).\n\nModelo VFM ↑ 6 pp en F1 respecto a U-Net base.\n\nMapa de transiciones publicado como GeoTIFF (link).",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#discusión",
+    "href": "template_paper.html#discusión",
+    "title": "Apéndice A — Template",
+    "section": "A.6 Discusión",
+    "text": "A.6 Discusión\n\nContribuciones: primera integración de VFM + socio-económicos en Chile central.\n\nLimitaciones: sin datos SAR; validación en terreno limitada (n = 45 puntos).\n\nFuturo: incorporar Sentinel-1, probar transferencia en zonas áridas.",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#aplicabilidad-en-chile",
+    "href": "template_paper.html#aplicabilidad-en-chile",
+    "title": "Apéndice A — Template",
+    "section": "A.7 Aplicabilidad en Chile",
+    "text": "A.7 Aplicabilidad en Chile\n\n\n\nAspecto\nEvaluación\n\n\n\n\nTransferencia\nAlta a monitoreo regional SINIA\n\n\nCondiciones\nAcceso continuo a Sentinel-2; etiquetas comunales\n\n\nÁreas prioritarias\nBosque esclerófilo, periurbano RM",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#madurez-evidencia",
+    "href": "template_paper.html#madurez-evidencia",
+    "title": "Apéndice A — Template",
+    "section": "A.8 Madurez & Evidencia",
+    "text": "A.8 Madurez & Evidencia\n\n\n\nEje\nNivel\n\n\n\n\nInnovación\n4/5\n\n\nRigor metodológico\n3.5/5\n\n\nTransferibilidad\n4/5\n\n\nEstado TRL\nValidado (TRL-5)",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template_paper.html#impacto-en-políticas-públicas-ods",
+    "href": "template_paper.html#impacto-en-políticas-públicas-ods",
+    "title": "Apéndice A — Template",
+    "section": "A.9 Impacto en Políticas Públicas / ODS",
+    "text": "A.9 Impacto en Políticas Públicas / ODS\n\nEj: Contribuye al ODS 15 (Vida de ecosistemas terrestres) y al Plan Nacional de Adaptación al Cambio Climático, proporcionando evidencia para priorizar restauración en áreas con pérdida acelerada de bosque nativo.",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Template</span>"
+    ]
+  }
+]
