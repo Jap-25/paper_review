@@ -8,17 +8,15 @@ book:
   author:
     - name: Jorge Aravena Peña
       url: https://jap-port.vercel.app/
-      affiliation: Centro de Inteligencia Territorial
-      affiliation-url: https://cit.uai.cl
       email: [jorge.aravena.p@uai.cl]
-  date: "2026-01-29"
+  date: "2026-01-28"
   #number-sections: 3
   page-footer: 
     left: "Copyright 2026, Jorge Aravena Peña | Idea original: [Denis Berroeta](https://github.com/DenisSebastian/book-papers-GEOAI)"
   chapters:
     - index.qmd
     - intro.qmd
-    - part: "Revisiones de Papers"
+    - part: "Revisión de Papers"
       chapters:
         - liao-2023.qmd
     - references.qmd
@@ -37,7 +35,7 @@ format:
     fig-align: "center"
     fig-cap-location: "margin"
     tab-cap-location: "left"
-    mailto: "denis.berroeta@uai.cl"
+    mailto: "[jorge.aravena.p@uai.cl]"
     toc-title: "Contenidos"
   
 execute:

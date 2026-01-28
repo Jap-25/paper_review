@@ -1,5 +1,5 @@
 ---
-title: "Modelling urban expansion with cellular automata supported by urban growth intensity over time"
+title: "Modelling urban expansion with CA"
 subtitle: "Zhang, J. Wu, D. Zhu, A. & Zhu, Y., 2023"
 ---
 
