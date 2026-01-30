@@ -18,7 +18,8 @@ book:
     - intro.qmd
     - part: "Revisión de Papers"
       chapters:
-        - liao-2023.qmd
+        - how-to-read.qmd
+        - zhang-2023.qmd
     - references.qmd
   appendices:
     - template_paper.qmd

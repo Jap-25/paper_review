@@ -100,113 +100,91 @@
     ]
   },
   {
-    "objectID": "liao-2023.html",
-    "href": "liao-2023.html",
-    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "objectID": "how-to-read.html",
+    "href": "how-to-read.html",
+    "title": "3  Cómo leer un artículo",
     "section": "",
-    "text": "3.1 Información Básica",
+    "text": "3.1 Método de Tres Pasos.\nPaper original de S. Keshav, profesor de informática en la Universidad de Waterloo, titulado “How to read a paper”\nEl autor propone un método de lectura de artículos que consta de tres pasos:\n1.1 Vista general del artículo, sin entrar en detalles técnicos.\n1.2 Despues del primer vistazo general se deberia poder responde a las “cinco C”:\n1.3 Con esta información, se puede decidir no seguir leyendo el artículo. Esto puede deberse a que el artículo no es de nuestro interés, no se tiene conocimientos suficientes sobre el área para entenderlo, o porque los autores parten de suposiciones inválidas. Si el artículo pasa este filtro, se procede al segundo paso.\n2.1 Captar el contenido pero no los detalles técnicos.\n2.2 Al finalizar este paso, se debería ser capaz de resumir la idea principal del artículo, junto con su evidencia de apoyo, a otra persona. Este nivel de detalle es adecuado para artículos que nos interesan pero que no están exactamente dentro de nuestra especialidad de investigación.\n2.3 ¿Qué hacer si no se entiende el artículo? A veces, al terminar el segundo paso, puede que aún no se entienda el artículo. Esto puede deberse a que el tema es nuevo para nosotros (terminología desconocida), o que los autores usan técnicas experimentales complejas, o que el artículo está mal escrito, etc.\nEn este punto, se tienen tres opciones:\n3.1 Comprender el artículo en profundidad.\nRecrear mentalmente el trabajo haciendo las mismas suposiciones que los autores. Esto nos ayuda a identificar las innovaciones y las fallas ocultas.",
     "crumbs": [
-      "Revisiones de Papers",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+      "Revisión de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Cómo leer un artículo</span>"
     ]
   },
   {
-    "objectID": "liao-2023.html#información-básica",
-    "href": "liao-2023.html#información-básica",
-    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
+    "objectID": "how-to-read.html#método-de-tres-pasos.",
+    "href": "how-to-read.html#método-de-tres-pasos.",
+    "title": "3  Cómo leer un artículo",
+    "section": "",
+    "text": "Primera Paso (5-10 minutos).\n\n\n\nLeer el titulo y el resumen\nEscanear los encabezados de las secciones\nLeer la conclusión\nEchar un vistazo a las referencias\n\n\n\nCategoría: ¿Qué tipo de artículo es?\nContexto: ¿Cómo se relaciona con otros trabajos?\nCorrección: ¿Parecen válidas las suposiciones?\nContribuciones: ¿Cuáles son las principales aportaciones?\nClaridad: ¿Esta bien escrito el artículo?\n\n\n\nSegunda Paso (hasta 1 hora).\n\n\n\nLeer con más atención, pero ignorar las pruebas\nPrestar atención a las figuras y gráficos\nMarcar referencias relevantes no leídas\n\n\n\n\n\nDejarlo a un lado\nVolver más tarde\nPerseverar\n\n\nTercera Paso (1-5 horas).\n\n\n\nIntentar “reimplementar virtualmente” el articulo:\n\n\n\nEn este proceso se deberia ir anotando ideas para trabajos futuros.",
+    "crumbs": [
+      "Revisión de Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Cómo leer un artículo</span>"
+    ]
+  },
+  {
+    "objectID": "zhang-2023.html",
+    "href": "zhang-2023.html",
+    "title": "4  Modelling urban expansion with CA",
+    "section": "",
+    "text": "4.1 Información Básica",
+    "crumbs": [
+      "Revisión de Papers",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelling urban expansion with CA</span>"
+    ]
+  },
+  {
+    "objectID": "zhang-2023.html#información-básica",
+    "href": "zhang-2023.html#información-básica",
+    "title": "4  Modelling urban expansion with CA",
     "section": "",
     "text": "Elemento\nDetalle\n\n\n\n\nReferencia corta\nZhang et al. (2023)\n\n\nTítulo completo\nModelling urban expansion with cellular automata supported by urban growth intensity over time\n\n\nRevista / DOI\nAnnals of GIS, 10.1080/19475683.2023.2181393\n\n\nTemática\nUrban • Cellular Automata • Machine Learning (ANN)\n\n\nContexto / Problema\nHeterogeneidad espacial y temporal: las ciudades crecen de forma irregular y las reglas de transición tradicionales en AC no capturan bien los cambios en la intensidad del crecimiento a lo largo del tiempo.",
     "crumbs": [
-      "Revisiones de Papers",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+      "Revisión de Papers",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelling urban expansion with CA</span>"
     ]
   },
   {
-    "objectID": "liao-2023.html#abstract",
-    "href": "liao-2023.html#abstract",
-    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
-    "section": "3.2 Abstract",
-    "text": "3.2 Abstract\n\nOriginal:\nThe simulation of urban expansion has become an important means to assist urban development planning and ecological sustainable development. However, the spatial and temporal heterogeneities of urban expansion has been a major challenge for modelling urban expansion. This study designed three features from the perspective of spatiotemporal heterogeneity to improve the accuracy of CA model. The new features cover the trends effects of long time-series data on urban expansion, urban spatial growth intensity based on urban growth kernel estimation and allocation probability of the newly generated urban cells from global neighbourhood effects. Finally, urban expansion in Huizhou, China, was simulated and predicted. The experimental results show that the new features can effectively reduce the prediction error for the total amount of urban growth with a deviation of about 2%, and the overall accuracy of urban expansion is as high as 0.93. The features designed in this paper are shown to be effective and can be applied to urban simulations and scenario prediction with various models.\n\n\nTraducción al español:\nLa simulación de la expansión urbana se ha convertido en un medio importante para apoyar la planificación del desarrollo urbano y el desarrollo ecológico sostenible. Sin embargo, las heterogeneidades espaciales y temporales de la expansión urbana han sido un desafío importante para modelar la expansión urbana. Este estudio diseñó tres características desde la perspectiva de la heterogeneidad espacio-temporal para mejorar la precisión del modelo de CA. Las nuevas características cubren los efectos de tendencia de los datos de series temporales largas en la expansión urbana, la intensidad del crecimiento espacial urbano basada en la estimación del núcleo de crecimiento urbano y la probabilidad de asignación de las celdas urbanas recién generadas a partir de los efectos del vecindario global. Finalmente, se simuló y predijo la expansión urbana en Huizhou, China. Los resultados experimentales muestran que las nuevas características pueden reducir eficazmente el error de predicción de la cantidad total de crecimiento urbano con una desviación de alrededor del 2%, y la precisión general de la expansión urbana es tan alta como 0.93. Las características diseñadas en este artículo han demostrado ser efectivas y pueden aplicarse a simulaciones urbanas y predicciones de escenarios con varios modelos.",
+    "objectID": "zhang-2023.html#abstract",
+    "href": "zhang-2023.html#abstract",
+    "title": "4  Modelling urban expansion with CA",
+    "section": "4.2 Abstract",
+    "text": "4.2 Abstract\n\nLa simulación de la expansión urbana se ha convertido en un medio importante para apoyar la planificación del desarrollo urbano y el desarrollo ecológico sostenible. Sin embargo, las heterogeneidades espaciales y temporales de la expansión urbana han sido un desafío importante para modelar la expansión urbana. Este estudio diseñó tres características desde la perspectiva de la heterogeneidad espacio-temporal para mejorar la precisión del modelo de CA. Las nuevas características cubren los efectos de tendencia de los datos de series temporales largas en la expansión urbana, la intensidad del crecimiento espacial urbano basada en la estimación del núcleo de crecimiento urbano y la probabilidad de asignación de las celdas urbanas recién generadas a partir de los efectos del vecindario global. Finalmente, se simuló y predijo la expansión urbana en Huizhou, China. Los resultados experimentales muestran que las nuevas características pueden reducir eficazmente el error de predicción de la cantidad total de crecimiento urbano con una desviación de alrededor del 2%, y la precisión general de la expansión urbana es tan alta como 0.93. Las características diseñadas en este artículo han demostrado ser efectivas y pueden aplicarse a simulaciones urbanas y predicciones de escenarios con varios modelos.",
     "crumbs": [
-      "Revisiones de Papers",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+      "Revisión de Papers",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelling urban expansion with CA</span>"
     ]
   },
   {
-    "objectID": "liao-2023.html#preguntas-de-investigación-hipótesis",
-    "href": "liao-2023.html#preguntas-de-investigación-hipótesis",
-    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
-    "section": "3.3 Preguntas de Investigación / Hipótesis",
-    "text": "3.3 Preguntas de Investigación / Hipótesis\n\n\nPI: ¿Cómo mejorar la precisión de los modelos AC capturando la heterogeneidad real mediante datos de series temporales largas y análisis espaciales avanzados?\nH1 (Temporal): La regresión por segmentos identifica puntos de inflexión históricos, reduciendo el error en la predicción del área total de expansión.\nH2 (Vecindario): La probabilidad de conversión no es lineal; sigue una distribución normal donde las densidades intermedias tienen la mayor probabilidad de cambio.\nH3 (Espacial): La intensidad de crecimiento (KDE) como variable auxiliar permite simular “áreas calientes” y formas urbanas más realistas.\nH4 (Integración): Combinar tendencias temporales, intensidad espacial y probabilidad vecinal no lineal en un modelo CA-ANN eleva la precisión global a ~0.93.",
+    "objectID": "zhang-2023.html#paso-1-lectura-rápida",
+    "href": "zhang-2023.html#paso-1-lectura-rápida",
+    "title": "4  Modelling urban expansion with CA",
+    "section": "4.3 Paso 1 (Lectura rápida):",
+    "text": "4.3 Paso 1 (Lectura rápida):\n\nResumen y conclusiones\n\n\n4.3.1 TL;DR\nMejoran la predicción de crecimiento urbano integrando 3 características:\n\nGran cantidad de datos sobre crecimiento a lo largo de los años.\n\nSe utliza un método de regresión por partes para predecir la cantidad total de crecimiento urbano.\n\nIntensidad del crecimiento basado en KDE.\n\nCuantifican la intensidad en diferentes regiones del área de estudio\n\nAnalizan la influencia del vecindario.\n\nProbabilidad de asignación en función de la densidad urbana (¿Mayor densidad urbana, mayor probabilidad de crecimiento?)\n\n\n\n\n4.3.2 Metodología (Preeliminar)\n\nAutómatas Celulares",
     "crumbs": [
-      "Revisiones de Papers",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+      "Revisión de Papers",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelling urban expansion with CA</span>"
     ]
   },
   {
-    "objectID": "liao-2023.html#metodología",
-    "href": "liao-2023.html#metodología",
-    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
-    "section": "3.4 Metodología",
-    "text": "3.4 Metodología\n\n3.4.1 Flujo de trabajo\n\nEstimación Temporal: Uso de regresión segmentada para predecir el área de expansión año a año, evitando promedios engañosos de intervalos fijos (5-10 años).\nAnálisis de Intensidad: Cálculo de Densidad Kernel (KDE) sobre los eventos de conversión urbana histórica para identificar zonas de alta dinámica.\nOptimización del Vecindario: Estudio de la probabilidad P_{den} para determinar el rango ideal de vecinos urbanos que maximizan la probabilidad de cambio.\nIntegración de ML: Uso de Redes Neuronales Artificiales (ANN) para aprender las reglas de transición.\n\n\n\n3.4.2 Modelos / Algoritmos\n\nANN (mejor desempeño) • SVM • Regresión Logística • Cellular Automata (CA)\n\n\n\n3.4.3 Datos\n\n\n\n\n\n\n\n\n\nTipo\nFuente\nResolución\nCobertura temporal\n\n\n\n\nSuelo Urbano\nGong et al. (Human Settlement Changes)\n30 m\n1986 - 2018\n\n\nElevación / Pendiente\nNASA/ASTER DEM\n30 m\n2009\n\n\nInfraestructura\nTianditu (vías, ríos, parques)\n1:250,000\n2017",
+    "objectID": "zhang-2023.html#paso-2-lectura-completa",
+    "href": "zhang-2023.html#paso-2-lectura-completa",
+    "title": "4  Modelling urban expansion with CA",
+    "section": "4.4 Paso 2 (Lectura completa):",
+    "text": "4.4 Paso 2 (Lectura completa):\n\nLectura completa pero superficial\n\n\n4.4.1 Datos\n\n\n\n\n\n\n\n\n\nTipo\nFuente\nResolución\nCobertura temporal\n\n\n\n\nSuelo Urbano\nGong et al. 2020 (Human Settlement Changes)\n30 m\n1986 - 2018\n\n\nElevación / Pendiente\nNASA/ASTER DEM\n30 m\n2009\n\n\nInfraestructura\nTianditu (vías, ríos, parques)\n1:250,000\n2017\n\n\n\n\n\n4.4.2 Método\nIdea básica (copy paste)\nEl crecimiento urbano presenta desequilibrios temporales. En algunos períodos, es rápido y en otros, gradual. Si no estudiamos las características del crecimiento urbano a lo largo del tiempo, no es posible estimar con precisión su magnitud. En estudios previos, la predicción del tamaño urbano se basaba en la escala de crecimiento del período anterior, con una duración de 5 o 10 años. Es probable que dicho intervalo supere el ciclo de desarrollo urbano. La idea básica de este estudio es utilizar series de datos de crecimiento urbano con alta resolución temporal para extraer reglas de crecimiento urbano. Las nuevas celdas de crecimiento se asignan entonces a diferentes regiones con la ayuda de la intensidad del crecimiento espacial urbano y la probabilidad de asignación de los efectos de vecindad propuestos en este documento. Finalmente, se realizan simulaciones mediante autómatas celulares.\nModelos usados\n\nSupport Vector Machine (SVM)\nLogistic Regression (LR)\nArtificial Neural Network (ANN)\n\n\n\n4.4.3 Notas\n\nAbordan las tres variables que se mencionan en el TL;DR.\nAl momento de abordar la probabilidad de asignación de las celdas urbanas a partir del efecto del vecindario, los autores debaten la idea de que a mayor densidad urbana, mayor probabilidad de crecimiento tendra la celda central.\nUsan una matriz de confución para evaluar el desempeño de su modelo.\nCuentan con 32 años de datos pero solo utilizan 10 años (2001-2006; 2006-2011) dado que esos periodos presentan una tendencia más estable.\nDado su área de estudio (Huizhou, China) y la resolución de sus datos (30 m), solo usaron el 30% de los datos para el entrenamiento del modelo (positivo y negativos. Es decir una muestra balanceada 1:1).\n\n\n\n4.4.4 Citas interesantes:\n\nEs de gran importancia explorar las reglas de evolución de la expansión urbana de Huizhou y simular su posible desarrollo en el futuro.\nEl desequilibrio del crecimiento espacial urbano se manifiesta primero en la inconsistencia de la intensidad del crecimiento. Es decir, algunas regiones crecen rápidamente, mientras que otras crecen gradualmente. Identificar la intensidad del crecimiento urbano en diferentes regiones ayuda a simular la forma urbana real.\nSegún estudios anteriores, se ha demostrado que un método de muestreo de equilibrio es la mejor estrategia de muestreo para el modelado de AC.\nSe puede observar que el algoritmo ANN logró la mayor precisión y, por lo tanto, se integró en el modelo CA.",
     "crumbs": [
-      "Revisiones de Papers",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+      "Revisión de Papers",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelling urban expansion with CA</span>"
     ]
   },
   {
-    "objectID": "liao-2023.html#resultados-clave",
-    "href": "liao-2023.html#resultados-clave",
-    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
-    "section": "3.5 Resultados Clave",
-    "text": "3.5 Resultados Clave\n\nIdentificación de Puntos de Cambio: El modelo detectó automáticamente transiciones críticas en la tendencia de Huizhou (ej. auge 2001-2011).\nDensidad Óptima Vecinal: En un vecindario de 5x5, la probabilidad de conversión es máxima cuando hay entre 8 y 10 celdas urbanas. Fuera de ese rango (muy baja o muy alta densidad), la probabilidad cae.\nMétricas del Modelo:\n\nF1-score (nuevas celdas): 0.42.\nPrecisión general: &gt; 0.93.",
+    "objectID": "zhang-2023.html#paso-3-lectura-profunda",
+    "href": "zhang-2023.html#paso-3-lectura-profunda",
+    "title": "4  Modelling urban expansion with CA",
+    "section": "4.5 Paso 3 (Lectura profunda):",
+    "text": "4.5 Paso 3 (Lectura profunda):\n\nLectura completa y profunda del artículo\n\n\n4.5.1 Metodología\n\n\n\n\nZhang, Jinqu, Donglin Wu, A-Xing Zhu, y Yunqiang Zhu. 2023. «Modelling urban expansion with cellular automata supported by urban growth intensity over time». Annals of GIS 29 (3): 337-53.",
     "crumbs": [
-      "Revisiones de Papers",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
-    ]
-  },
-  {
-    "objectID": "liao-2023.html#discusión",
-    "href": "liao-2023.html#discusión",
-    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
-    "section": "3.6 Discusión",
-    "text": "3.6 Discusión\n\nContribuciones: Supera el sesgo de los modelos que asumen crecimiento uniforme. La integración de KDE como variable auxiliar mejora significativamente la “forma” de la ciudad simulada.\nLimitaciones: El puntaje F1 de 0.42 refleja la dificultad intrínseca de predecir la ubicación exacta de nuevas celdas debido a factores externos (políticas, economía no modelada).\nHallazgo clave: Una alta densidad urbana vecina no garantiza la urbanización; por el contrario, puede indicar espacios consolidados o protegidos (parques) que no cambiarán.",
-    "crumbs": [
-      "Revisiones de Papers",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
-    ]
-  },
-  {
-    "objectID": "liao-2023.html#aplicabilidad-en-chile",
-    "href": "liao-2023.html#aplicabilidad-en-chile",
-    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
-    "section": "3.7 Aplicabilidad en Chile",
-    "text": "3.7 Aplicabilidad en Chile\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nTransferencia\nAlta. Aplicable a zonas de rápida expansión como la periferia de la RM o Concepción.\n\n\nCondiciones\nRequiere series históricas de alta resolución (ej. Landsat/Sentinel procesados).\n\n\nValor Agregado\nPermite modelar escenarios de “crecimiento acelerado”, “estable” o “descenso”, útil para planificación territorial estratégica.",
-    "crumbs": [
-      "Revisiones de Papers",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
-    ]
-  },
-  {
-    "objectID": "liao-2023.html#madurez-evidencia",
-    "href": "liao-2023.html#madurez-evidencia",
-    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
-    "section": "3.8 Madurez & Evidencia",
-    "text": "3.8 Madurez & Evidencia\n\n\n\n\n\n\n\nEje\nNivel\n\n\n\n\nInnovación\n4.5/5 (Por el análisis de probabilidad no lineal de vecindario)\n\n\nRigor metodológico\n4/5\n\n\nEstado TRL\nValidado en entorno académico (TRL-4)",
-    "crumbs": [
-      "Revisiones de Papers",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
-    ]
-  },
-  {
-    "objectID": "liao-2023.html#impacto-en-políticas-públicas-ods",
-    "href": "liao-2023.html#impacto-en-políticas-públicas-ods",
-    "title": "3  Modelling urban expansion with cellular automata supported by urban growth intensity over time",
-    "section": "3.9 Impacto en Políticas Públicas / ODS",
-    "text": "3.9 Impacto en Políticas Públicas / ODS\n\nContribuye al ODS 11 (Ciudades y Comunidades Sostenibles) al proporcionar herramientas para modelar la expansión urbana de manera más realista, permitiendo anticipar demandas de infraestructura y proteger áreas de riesgo o alto valor ecológico mediante simulaciones de escenarios.\n\n\n\n\n\nZhang, Jinqu, Donglin Wu, A-Xing Zhu, y Yunqiang Zhu. 2023. «Modelling urban expansion with cellular automata supported by urban growth intensity over time». Annals of GIS 29 (3): 337-53.",
-    "crumbs": [
-      "Revisiones de Papers",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelling urban expansion with cellular automata supported by urban growth intensity over time</span>"
+      "Revisión de Papers",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelling urban expansion with CA</span>"
     ]
   },
   {

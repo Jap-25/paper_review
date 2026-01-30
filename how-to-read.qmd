@@ -1,0 +1,58 @@
+---
+title: "Cómo leer un artículo"
+subtitle: "El enfoque de tres pasos"
+---
+
+Paper original de [S. Keshav](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf), profesor de informática en la Universidad de Waterloo, titulado "How to read a paper"
+
+## Método de Tres Pasos.
+El autor propone un método de lectura de artículos que consta de tres pasos:
+
+1. **Primera Paso (5-10 minutos).**
+
+1.1 Vista general del artículo, sin entrar en detalles técnicos.
+
+- Leer el titulo y el resumen
+- Escanear los encabezados de las secciones
+- Leer la conclusión
+- Echar un vistazo a las referencias
+
+1.2 Despues del primer vistazo general se deberia poder responde a las "cinco C":
+
+- *Categoría:* ¿Qué tipo de artículo es?
+- *Contexto:* ¿Cómo se relaciona con otros trabajos?
+- *Corrección:* ¿Parecen válidas las suposiciones?
+- *Contribuciones:* ¿Cuáles son las principales aportaciones?
+- *Claridad:* ¿Esta bien escrito el artículo?
+
+1.3 Con esta información, se puede decidir no seguir leyendo el artículo. Esto puede deberse a que el artículo no es de nuestro interés, no se tiene conocimientos suficientes sobre el área para entenderlo, o porque los autores parten de suposiciones inválidas. Si el artículo pasa este filtro, se procede al segundo paso.
+
+2. **Segunda Paso (hasta 1 hora).**
+
+2.1 Captar el contenido pero no los detalles técnicos.
+
+- Leer con más atención, pero ignorar las pruebas
+- Prestar atención a las figuras y gráficos
+- Marcar referencias relevantes no leídas
+
+2.2 Al finalizar este paso, se debería ser capaz de resumir la idea principal del artículo, junto con su evidencia de apoyo, a otra persona. Este nivel de detalle es adecuado para artículos que nos interesan pero que no están exactamente dentro de nuestra especialidad de investigación.
+
+2.3 *¿Qué hacer si no se entiende el artículo?* A veces, al terminar el segundo paso, puede que aún no se entienda el artículo. Esto puede deberse a que el tema es nuevo para nosotros (terminología desconocida), o que los autores usan técnicas experimentales complejas, o que el artículo está mal escrito, etc.
+
+En este punto, se tienen tres opciones:
+
+- Dejarlo a un lado
+- Volver más tarde
+- Perseverar
+
+3. **Tercera Paso (1-5 horas).**
+
+3.1 Comprender el artículo en profundidad.
+
+- Intentar *"reimplementar virtualmente"* el articulo:
+
+Recrear mentalmente el trabajo haciendo las mismas suposiciones que los autores. Esto nos ayuda a identificar las innovaciones y las fallas ocultas.
+
+* En este proceso se deberia ir anotando ideas para trabajos futuros.
+
+

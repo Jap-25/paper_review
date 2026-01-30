@@ -1,0 +1,83 @@
+---
+title: "Modelling urban expansion with CA"
+subtitle: 🟨 Leyendo (Paso 3)
+---
+
+## Información Básica
+
+| Elemento | Detalle |
+|---|---|
+| **Referencia corta** | @zhang2023modelling |
+| **Título completo** | Modelling urban expansion with cellular automata supported by urban growth intensity over time |
+| **Revista / DOI** | Annals of GIS, [10.1080/19475683.2023.2181393](https://doi.org/10.1080/19475683.2023.2181393) |
+| **Temática** | Urban • Cellular Automata • Machine Learning (ANN) |
+| **Contexto / Problema** | Heterogeneidad espacial y temporal: las ciudades crecen de forma irregular y las reglas de transición tradicionales en AC no capturan bien los cambios en la intensidad del crecimiento a lo largo del tiempo. |
+
+## Abstract  
+
+>La simulación de la expansión urbana se ha convertido en un medio importante para apoyar la planificación del desarrollo urbano y el desarrollo ecológico sostenible. Sin embargo, las heterogeneidades espaciales y temporales de la expansión urbana han sido un desafío importante para modelar la expansión urbana. Este estudio diseñó tres características desde la perspectiva de la heterogeneidad espacio-temporal para mejorar la precisión del modelo de CA. Las nuevas características cubren los efectos de tendencia de los datos de series temporales largas en la expansión urbana, la intensidad del crecimiento espacial urbano basada en la estimación del núcleo de crecimiento urbano y la probabilidad de asignación de las celdas urbanas recién generadas a partir de los efectos del vecindario global. Finalmente, se simuló y predijo la expansión urbana en Huizhou, China. Los resultados experimentales muestran que las nuevas características pueden reducir eficazmente el error de predicción de la cantidad total de crecimiento urbano con una desviación de alrededor del 2%, y la precisión general de la expansión urbana es tan alta como 0.93. Las características diseñadas en este artículo han demostrado ser efectivas y pueden aplicarse a simulaciones urbanas y predicciones de escenarios con varios modelos.
+
+## Paso 1 (Lectura rápida):
+
+> Resumen y conclusiones
+
+### TL;DR
+
+Mejoran la predicción de crecimiento urbano integrando 3 características:
+
+- Gran cantidad de datos sobre crecimiento a lo largo de los años.
+    - Se utliza un método de regresión por partes para predecir la cantidad total de crecimiento urbano.
+- Intensidad del crecimiento basado en KDE.
+    - Cuantifican la intensidad en diferentes regiones del área de estudio
+- Analizan la influencia del vecindario.
+    - Probabilidad de asignación en función de la densidad urbana (¿Mayor densidad urbana, mayor probabilidad de crecimiento?)
+
+
+### Metodología (Preeliminar)
+
+* Autómatas Celulares
+
+## Paso 2 (Lectura completa):
+
+> Lectura completa pero superficial
+
+###  Datos
+
+| Tipo | Fuente | Resolución | Cobertura temporal |
+|---|---|---|---|
+| Suelo Urbano | Gong et al. 2020 (Human Settlement Changes) | 30 m | 1986 - 2018 |
+| Elevación / Pendiente | NASA/ASTER DEM | 30 m | 2009 |
+| Infraestructura | Tianditu (vías, ríos, parques) | 1:250,000 | 2017 |
+
+### Método
+
+**Idea básica (copy paste)**
+
+El crecimiento urbano presenta desequilibrios temporales. En algunos períodos, es rápido y en otros, gradual. Si no estudiamos las características del crecimiento urbano a lo largo del tiempo, no es posible estimar con precisión su magnitud. En estudios previos, la predicción del tamaño urbano se basaba en la escala de crecimiento del período anterior, con una duración de 5 o 10 años. Es probable que dicho intervalo supere el ciclo de desarrollo urbano. <mark>La idea básica de este estudio es utilizar series de datos de crecimiento urbano con alta resolución temporal para extraer reglas de crecimiento urbano</mark>. Las nuevas celdas de crecimiento se asignan entonces a diferentes regiones con la ayuda de la intensidad del crecimiento espacial urbano y la probabilidad de asignación de los efectos de vecindad propuestos en este documento. Finalmente, se realizan simulaciones mediante autómatas celulares.
+
+**Modelos usados**
+
+- Support Vector Machine (SVM)
+- Logistic Regression (LR)
+- Artificial Neural Network (ANN)
+
+### Notas
+
+- Abordan las tres variables que se mencionan en el TL;DR.
+- Al momento de abordar la probabilidad de asignación de las celdas urbanas a partir del efecto del vecindario, <mark>los autores debaten la idea de que a mayor densidad urbana, mayor probabilidad de crecimiento tendra la celda central.</mark>
+- Usan una matriz de confución para evaluar el desempeño de su modelo.
+- Cuentan con 32 años de datos pero solo utilizan 10 años (2001-2006; 2006-2011) dado que esos periodos presentan una tendencia más estable.
+- Dado su área de estudio (Huizhou, China) y la resolución de sus datos (30 m), solo usaron el 30% de los datos para el entrenamiento del modelo (positivo y negativos. Es decir una muestra balanceada 1:1).
+
+### Citas interesantes:
+
+- Es de gran importancia explorar las reglas de evolución de la expansión urbana de Huizhou y simular su posible desarrollo en el futuro.
+- El desequilibrio del crecimiento espacial urbano se manifiesta primero en la inconsistencia de la intensidad del crecimiento. Es decir, algunas regiones crecen rápidamente, mientras que otras crecen gradualmente. Identificar la intensidad del crecimiento urbano en diferentes regiones ayuda a simular la forma urbana real.
+- Según estudios anteriores, se ha demostrado que un método de muestreo de equilibrio es la mejor estrategia de muestreo para el modelado de AC.
+- Se puede observar que el algoritmo ANN logró la mayor precisión y, por lo tanto, se integró en el modelo CA.
+
+## Paso 3 (Lectura profunda):
+
+> Lectura completa y profunda del artículo
+
+### Metodología
